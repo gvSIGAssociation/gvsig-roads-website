@@ -5,7 +5,7 @@ title: gvSIG Roads, solución libre para gestión de carreteras
 description: "Solución libre e interoperable para la gestión integral de las infraestructuras viarias."
 google_analytics: UA-73596417-1 #Google analytics code in the format XX-nnnnnnnn-n
 #baseurl: "/roads" #important: start with /
-url: "http://gvsigroads.com" #pro url
+url: "http://www.gvsigroads.com/" #pro url
 #url: "http://localhost:4000"
 ASSET_PATH: /assets
 
