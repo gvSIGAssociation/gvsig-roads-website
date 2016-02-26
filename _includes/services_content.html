@@ -1,0 +1,52 @@
+<section id="services">
+<!-- Page Content -->
+{% for post in site.categories['service'] limit:include.limit %}
+  {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+    {% if thecycle == 'odd' %}
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row wow fadeInUp" data-wow-delay=".6s">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-6">
+                    <div class="clearfix"></div>
+                    <h6>{{ post.description}}</h6>
+                    <h3 class="section-heading">{{ post.title }}</h3>
+                    <div class="lead">{{ post.content }}</div>
+                </div>
+                <div class="col-lg-5 col-lg-offset-1 col-sm-6">
+                    <img class="img-responsive" src="{{ site.url }}{{ site.ASSET_PATH  | prepend: site.baseurl }}/img/services/{{ post.img }}" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+    {% else %}
+
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row wow fadeInUp" data-wow-delay=".6s">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-6">
+                    <div class="clearfix"></div>
+                    <h6>{{ post.description}}</h6>
+                    <h3 class="section-heading">{{ post.title }}</h3>
+                    <div class="lead">{{ post.content }}</div>
+                </div>
+                <div class="col-lg-5 col-lg-offset-1 col-sm-6">
+                  <img class="img-responsive" src="{{ site.url }}{{ site.ASSET_PATH  | prepend: site.baseurl }}/img/services/{{ post.img }}" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+    {% endif %}
+{% endfor %}
+</section>

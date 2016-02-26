@@ -1,0 +1,22 @@
+---
+layout: project
+img: edit-gvsigroads.jpg
+title: Ágil gestión de la aplicación
+description: Gestiona fácilmente todos los módulos
+categories:
+- service
+---
+
+La aplicación gvSIG Roads está desglosada en diferentes módulos con una estructura
+clara y repetitiva que facilita la gestión de cada apartado al usuario de la herramienta.
+
+<ul class="list-unstyled">
+<li><i class="fa fa-angle-right"></i> La pantalla de acceso al módulo siempre es un listado que permite un rápido vistazo a todos los datos;</li>
+<li><i class="fa fa-angle-right"></i> al pulsar sobre uno de los elementos se muestra su detalle;</li>
+<li><i class="fa fa-angle-right"></i> los formularios de creación y edición se integran en el propio listado;</li>
+<li><i class="fa fa-angle-right"></i> filtra con el buscador integrado;</li>
+<li><i class="fa fa-angle-right"></i> genera informes fácilmente con la exportación a PDF, CSV o formato de hoja de cálculo;</li>
+<li><i class="fa fa-angle-right"></i> herramientas integradas en el propio listado: paginación, borrado y edición múltiple;</li>
+<li><i class="fa fa-angle-right"></i> adjunta ficheros: imágenes, planos, etc. relacionados con la incidencia.</li>
+</ul>
+

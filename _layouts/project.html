@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+  {% include head.html %}
+
+  <body data-spy="scroll">
+    {% include nav-project.html %}
+
+    {% include wrap.html %}
+
+    <div class="container mt">
+        <div class="row">
+
+            {% if page.video != null %}
+               {% include video_project.html %}
+
+            {% else %}
+
+               {% include carousel.html %}
+
+            {% endif %}
+       </div><!--/row -->
+
+       <div class="row">
+            <div class="col-sm-5 col-sm-offset-1">
+                <div class="spacing"></div>
+
+                {{ content }}
+
+            </div>
+
+            <div class="col-sm-4 col-sm-offset-1">
+                <div class="spacing"></div>
+                <h4>Detalles</h4>
+                <div class="hline"></div>
+                {% if page.date != null %}<p><b>Fecha:</b> {{ page.date | date: "%b %-d, %Y" }}</p>{% endif %}
+                {% if page.author != null %}<p><b>Empresa:</b> {{ page.author }}</p>{% endif %}
+                {% if page.tagged != null %}<p><b>Etiquetas:</b> {{ page.tagged }}</p>{% endif %}
+                {% if page.client != null %}<p><b>Cliente:</b> {{ page.client }}</p>{% endif %}
+                {% if page.website != null %}<p><b>Web:</b> <a href="{{ page.website }}" target="_blank">{{ page.website }}</a></p>{% endif %}
+            </div>
+        </div><!--/row -->
+    </div><!--/container -->
+
+    {% include portfolio.html title="OTRAS REFERENCIAS" description="Proyectos y presentaciones de la solución gvSIG Roads" limit=8 %}
+
+    {% include contact.html %}
+
+    {% include footer.html %}
+    {% include js.html %}
+    </body>
+</html>

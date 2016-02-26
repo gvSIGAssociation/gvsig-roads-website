@@ -1,0 +1,29 @@
+<!-- Fixed navbar -->
+<nav id="main-nav" class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="{{ "/"  {{| prepend: site.baseurl }}">
+      <img src= "{{ site.url }}{{ site.ASSET_PATH  | prepend: site.baseurl }}/img/logo-gvsigroads-negativo.png" class="img-responsive">
+      </a>
+    </div>
+    <div class="navbar-collapse collapse navbar-right">
+      <ul class="nav navbar-nav">
+        <li class="active nav-item sr-only" style="float:none"><a href="{{ site.url }}{{ prepend: site.baseurl }}#promo">HOME</a></li>
+        <li class="active nav-item sr-only"><a href="{{ site.url }}{{ site.baseurl }}#about">QUÉ ES gvSIG Roads</a></li>
+        <li class="nav-item"><a href="{{ site.url }}{{ site.baseurl }}#how-works">Cómo funciona</a></li>
+        <li class="nav-item"><a href="{{ site.url }}{{ site.baseurl }}#services">CARACTERÍSTICAS</a></li>
+        <li class="nav-item"><a href="{{ site.url }}{{ site.baseurl }}#features">TECNOLOGÍA</a></li>
+        <li class="nav-item"><a href="{{ site.url }}{{ site.baseurl }}#portfoliowrap">REFERENCIAS</a></li>
+        <li class="nav-item"><a href="#contact">CONTACTO</a></li>
+        <li class="nav-item featured"><a href="{{ site.url }}{{ prepend: site.baseurl }}#demo">DEMO</a></li>
+      </ul>
+
+    </div><!--/.nav-collapse -->
+  </div>
+</nav>

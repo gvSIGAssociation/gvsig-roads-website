@@ -1,0 +1,17 @@
+---
+layout: project
+title:  "Video gvSIG Roads: control económico"
+date:   2016-02-01
+author: Asociación gvSIG/ DISID Corporation
+categories:
+- project
+img: video-gvsigroads-control-economico.jpg
+thumb: video-gvsigroads-control-economico.jpg
+video: EnC1lNYgBcc
+tagged: Control económico
+client: Asociación gvSIG
+website: http://www.gvsig.com
+---
+###Aplicación gvSIG Roads
+
+Vídeo demo de la aplicación que muestra la gestión del control económico de la conservación.

@@ -1,0 +1,21 @@
+<section id="portfoliowrap">
+        <div class="center">
+        {% if include.title %}<h2 class="section-heading">{{ include.title }}</h2>{% endif %}
+        {% if include.description %}<p>{{ include.description }}</p>{% endif %}
+        </div>
+        <div class="recentitems portfolio">
+            {% for project in site.categories['project'] limit:include.limit %}
+                <div class="portfolio-item graphic-design">
+                    <div class="he-wrap tpl6">
+                    <img src="{{ site.url }}{{ site.ASSET_PATH | prepend: site.baseurl }}/img/project/{{ project.img }}" alt="">
+                        <div class="he-view">
+                            <div class="bg a0" data-animate="fadeIn">
+                                <h3 class="a1" data-animate="fadeInDown">{{ project.title }}</h3>
+                                <a href="{{  project.url {{| prepend: site.baseurl }}" class="a2" data-animate="fadeInDown"><i class="fa fa-plus fa-3x"></i></a>
+                            </div><!-- he bg -->
+                        </div><!-- he view -->
+                    </div><!-- he wrap -->
+                </div><!-- end col-12 -->
+            {% endfor %}
+        </div><!-- portfolio -->
+</section><!--/Portfoliowrap -->

@@ -1,0 +1,18 @@
+---
+layout: project
+img: roles.png
+title: Diferentes roles de usuario
+description: Una aplicación, múltiples posibilidades
+categories:
+- service
+---
+
+Permite la interacción de diferentes usuarios: administración, contratista,
+departamentos, ciudadanos...
+
+Con una potente gestión de usuarios por roles gvSIG Roads permite
+personalizar su interfaz para cada tipo de usuario.
+
+De este modo gvSIG Roads ofrece una homogeneidad de procedimientos de trabajo,
+documentación, coordinación con las empresas contratistas y
+acceso a la información.

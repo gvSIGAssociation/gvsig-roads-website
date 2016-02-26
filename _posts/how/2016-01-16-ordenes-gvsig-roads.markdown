@@ -1,0 +1,22 @@
+---
+layout: project
+img: how-ordenes.png
+title: Órdenes de trabajo
+href: ordenes
+description: Órdenes de trabajo
+categories:
+- how
+---
+
+El responsable genera y asigna la orden de trabajo.
+
+Están clasificadas en estados y es posible editar, generar informes,
+generar los partes de trabajo añadiendo fotografías de la incidencia
+y detallando las instrucciones de trabajo de campo.
+
+Añade su correspondiente medición y valoración de costes.
+Coste que se trasladará al apartado de mediciones.
+
+
+
+

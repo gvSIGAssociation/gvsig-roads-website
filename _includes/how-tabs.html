@@ -1,0 +1,75 @@
+<section id="how-works" class="bg-dark">
+  <div class="container">
+    <div class="row text-center center">
+        <div class="col-sm-10 col-sm-offset-1">
+          <h2 class="title">Flujo de trabajo con gvSIG Roads</h2>
+          <p>
+           Incorpora funcionalidades de carácter gráfico que aportan el concepto GEO así como herramientas de análisis y toma de decisiones.
+          </p>
+        </div>
+    </div>
+
+    <!-- SELECTOR TABS DESKTOP -->
+    <div class="row hidden-xs">
+      <div class="col-sm-12 col-md-10 col-md-offset-1">
+      <ul class="list-unstyled tabs-nav">
+        {% for post in site.categories['how'] limit:include.limit %}
+        <li class="col-xs-{{ forloop.length | minus:1 }} col-sm-{{ forloop.length | minus:1 }} col-md-{{ forloop.length | minus:1 }} col-lg-{{ forloop.length | minus:1 }} {% if forloop.first %}active{% endif %}">
+          <a class="{% if forloop.first %}active{% endif %}" href="#{{ post.href }}" data-toggle="tab">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+      </div>
+      <div class="clearfix"></div>
+    </div><!-- row -->
+
+    <div class="row">
+    <div class="col-sm-12 col-md-10 col-md-offset-1">
+
+      <!-- TABS desktop -->
+      <div class="tab-content">
+        {% for post in site.categories['how'] limit:include.limit %}
+        <div class="hidden-xs tab-pane fade {% if forloop.first %}in active{% endif %}" id="{{ post.href }}">
+         <div class="row">
+          <div class="col-sm-6 col-md-4">
+            <div class="lead">{{ post.content }}</div>
+          </div>
+          <div class="col-sm-6 col-md-8">
+            <img class="img-responsive" src="{{ site.url }}{{ site.ASSET_PATH  | prepend: site.baseurl }}/img/how/{{ post.img }}" alt="">
+          </div>
+         </div>
+        </div><!-- tab pane -->
+        {% endfor %}
+      </div><!-- tab content -->
+
+      <!-- TABS ACCORDION TABLET&MOBILE -->
+      <div class="panel-group hidden-sm hidden-md hidden-lg" role="tablist" aria-multiselectable="true">
+        {% for post in site.categories['how'] limit:include.limit %}
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab">
+            <h4 class="panel-title">
+              <a role="button" data-toggle="collapse" href="#collapse{{ post.href }}">
+                {{ post.description}} <i class="pull-right fa fa-plus"></i>
+              </a>
+            </h4>
+          </div>
+          <div id="collapse{{ post.href }}" class="panel-collapse collapse" role="tabpanel">
+            <div class="panel-body">
+             <div class="row">
+              <div class="col-xs-12">
+                <div class="lead">{{ post.content }}</div>
+              </div>
+              <div class="col-xs-12">
+                <img class="img-responsive" src="{{ site.url }}{{ site.ASSET_PATH  | prepend: site.baseurl }}/img/how/{{ post.img }}" alt="">
+              </div>
+             </div>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+    </div><!-- panel group -->
+
+    </div><!-- col -->
+    </div><!-- row -->
+ </div><!-- container -->
+</section>

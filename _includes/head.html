@@ -1,0 +1,69 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Icons -->
+    <!-- all formats -->
+    <link rel="shortcut icon" href="{{ site.url }}/favicon.ico">
+    <link rel="apple short icon" href="{{ site.url }}{{ site.ASSET_PATH | prepend: site.baseurl }}/ico/favicon.ico" />
+    <link rel="apple-touch-icon" href="{{ site.url }}{{ site.ASSET_PATH | prepend: site.baseurl }}/ico/apple-touch-icon.png" >
+
+    <title>{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{ site.url }}{{ site.ASSET_PATH | prepend: site.baseurl }}/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="{{ site.url }}{{ site.ASSET_PATH | prepend: site.baseurl }}/css/style.css" rel="stylesheet">
+
+     <!-- Animate -->
+     <link rel="stylesheet" href="{{ site.url }}{{ site.ASSET_PATH | prepend: site.baseurl }}/css/animate.css">
+
+    <link href="{{ site.url }}{{ site.ASSET_PATH | prepend: site.baseurl }}/css/font-awesome.min.css" rel="stylesheet">
+
+     <!-- cookies  -->
+    <link href="{{ site.url }}{{ site.ASSET_PATH | prepend: site.baseurl }}/css/cookiecuttr.css" rel="stylesheet" type="text/css">
+
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="{{ site.url }}{{ site.ASSET_PATH }}/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- init Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    {% if site.google_analytics %}
+      <!-- jQuery CookieCuttr -->
+      <script type="text/javascript" src="{{ site.url }}{{ site.ASSET_PATH | prepend: site.baseurl }}//js/jquery.cookie.js"></script>
+      {% if page.lang == 'es' %}
+        <script type="text/javascript" src="{{ site.url }}{{ site.ASSET_PATH | prepend: site.baseurl }}/js/jquery.cookiecuttr-es.js"></script>
+      {% endif %}
+      {% if page.lang == 'en' %}
+        <script type="text/javascript" src="{{ site.url }}{{ site.ASSET_PATH | prepend: site.baseurl }}/js/jquery.cookiecuttr.js"></script>
+      {% endif %}
+
+      <script type="text/javascript">
+      if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
+        // insert the code you do not want to run UNTIL cookies are accepted here
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', '{{ site.google_analytics }}']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document. getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+        }
+      </script>
+    {% endif %}
+
+</head>

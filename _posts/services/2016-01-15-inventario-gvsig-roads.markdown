@@ -1,0 +1,23 @@
+---
+layout: project
+img: graphic-inventario.png
+title: Gestión de inventario
+description: Clasifica y visualiza el inventario de carreteras
+categories:
+- service
+---
+
+gvSIG Roads dispone de una agenda con los elementos de inventario clasificados
+según su estado de conservación: incompleto, afectado por una incidencia, pendiente de actualización y estable.
+
+La solución ofrece todas las herramientas para editar y crear incidencias,
+realizar búsquedas, filtrar y visualizar sobre el SIG los elementos del inventario.
+
+Ventajas del flujo de actualización de inventario:
+
+<ul class="list-unstyled">
+<li><i class="fa fa-check"></i> Inventario tomado, inventario actualizado.</li>
+<li><i class="fa fa-check"></i> Desaparecen las campañas de tomas de datos.</li>
+<li><i class="fa fa-check"></i> Validación a través de la agenda de inventario.</li>
+<li><i class="fa fa-check"></i> Interacción con dispositivos móviles y GPS.</li>
+</ul>

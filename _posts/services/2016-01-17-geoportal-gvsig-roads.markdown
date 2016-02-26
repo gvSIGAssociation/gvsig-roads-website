@@ -1,0 +1,18 @@
+---
+layout: project
+img: geoportal.png
+title: Geoportal integrado
+description: Gestiona las carreteras desde una vista global
+categories:
+- service
+---
+
+Gestiona y edita los datos de la aplicación ganto desde el listado como desde el geoportal.
+Todo integrado en la misma aplicación.
+
+Dispone de una leyenda interactiva y herramientas como zoom, distancias y áreas, buscador de
+carreteras por población, carretera y PK.
+
+Toda la cartografía se encuentra en el sistema ETRS 89 y
+la cartografía de ejes de carretera cumple con la normativa Inspire
+de obligado cumplimiento para el 2017.

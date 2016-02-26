@@ -1,0 +1,26 @@
+---
+layout: project
+title:  "Video gvSIG Roads: gestión integral de carreteras para la Diputación de Valencia"
+date:   2015-06-25 16:54:46
+author: DISID Corporation
+categories:
+- project
+img: video-gvsigroads-dival.jpg
+thumb:
+video: FLol7hkThiA
+tagged: App, Carreteras, Inventario, Conservación
+client: Área de Carreteras de la Diputación de Valencia
+website: http://www.dival.es/es/carreteras/
+---
+####Herramienta gvSIG Roads: gestión integral de carreteras para la Diputación de Valencia
+
+Aplicación de gestión de la conservación de carreteras para mantener una homogeneidad
+entre las demarcaciones en la forma de trabajar, en la presentación de documentación,
+coordinación con las empresas contratistas, así como el acceso a la información desde
+los órganos directores.
+
+Un proyecto de cartografía y gestión de datos sobre gvNIX y gvSIG Desktop
+implentado para el Área de Carreteras de la Diputación de Valencia.
+
+Material audiovisual concedido por el área de Carreteras
+de la Diputación de Valencia.

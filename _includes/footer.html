@@ -1,0 +1,33 @@
+<a class="page-scroll scrollup" href="#promo" rel="tooltip" data-original-title="Volver arriba" data-placement="left"></a>
+
+
+<div id="footerwrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <h4>gvSIG Roads</h4>
+                <div class="hline-w"></div>
+                <p>{{ site.about }}</p>
+                <p><a href="{{ site.url | prepend: site.baseurl }}/{{ page.lang }}/legal-notice/" title="Aviso legal">Aviso legal</a></p>
+            </div>
+            <div class="col-sm-4">
+                <h4>Social Links</h4>
+                <div class="hline-w"></div>
+                <p>
+                    {% for network in site.social %}
+                        <a href="{{ network.url }}" class="btn-social btn-outline" target="_blank"><i class="fa fa-{{ network.title }}"></i></a>
+                    {% endfor %}
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h4>Nuestras oficinas</h4>
+                <div class="hline-w"></div>
+                <p>
+                    {% for line in site.address.first.lines %}
+                        {{ line }} <br>
+                    {% endfor %}
+                </p>
+            </div>
+        </div><! --/row -->
+    </div><! --/container -->
+</div><! --/footerwrap -->
