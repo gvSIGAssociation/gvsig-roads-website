@@ -1035,7 +1035,7 @@ section#how-works .panel-title a{
 
 @media (min-width: 360px) and (max-width: 600px) {
     section#how-works  {
-    height: 520px;
+    min-height: 520px;
     }
     #how-works.bg-dark .center p {
     margin: 2em auto;
@@ -1047,7 +1047,7 @@ section#how-works .panel-title a{
 
 @media (min-width: 600px) and (max-width: 768px){
   section#how-works {
-    height: 600px;
+    min-height: 600px;
     padding-top: 5em;
   }
   section#how-works .tabs-nav {
