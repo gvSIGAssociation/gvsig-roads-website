@@ -17,7 +17,6 @@ para:
 <div class="row">
 <div class="col-sm-6">
 <ul class="list-unstyled">
-<li><i class="fa fa-plus"></i> Inventario</li>
 <li><i class="fa fa-plus"></i> Seguridad Vial</li>
 <li><i class="fa fa-plus"></i> Explotación</li>
 <li><i class="fa fa-plus"></i> Expropiaciones</li>
