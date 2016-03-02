@@ -1309,3 +1309,42 @@ a.scrollup:after{
     content:"^";
     }
 
+/*error page */
+
+.post-list {
+    list-style-type: none;
+}
+
+.post-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    *zoom: 1;
+}
+
+.post-list li:after,.post-list li:before {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+.post-list li:after {
+    clear: both;
+}
+
+.post-list a>span {
+    float: right;
+}
+
+.post-list .entry-date {
+    display: none;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+@media only screen and (min-width:48em) {
+    .post-list .entry-date {
+        display: inline;
+    }
+}
+
