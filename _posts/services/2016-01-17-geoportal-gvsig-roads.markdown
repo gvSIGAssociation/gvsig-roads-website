@@ -7,7 +7,7 @@ categories:
 - service
 ---
 
-Gestiona y edita los datos de la aplicación ganto desde el listado como desde el geoportal.
+Gestiona y edita los datos de la aplicación tanto desde el listado como desde el geoportal.
 Todo integrado en la misma aplicación.
 
 Dispone de una leyenda interactiva y herramientas como zoom, distancias y áreas, buscador de
