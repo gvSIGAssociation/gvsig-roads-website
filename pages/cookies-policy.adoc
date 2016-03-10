@@ -61,4 +61,4 @@ For more information on each browser, use the following options:
 Finally, you can go to the website
 http://www.youronlinechoices.com/es/[Your Online Choices, role="external", window="_blank"]
 besides where to find useful information, you can configure, provider by provider,
-your preferences on third party advertising cookies.</p>
+your preferences on third party advertising cookies.
