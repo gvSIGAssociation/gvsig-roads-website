@@ -45,6 +45,7 @@ You can allow, block or delete cookies installed on your computer by setting
 your browser options installed on your computer or device.
 For more information on each browser, use the following options:
 
++++
 <ul>
         <li>
           Google Chrome <a href="https://support.google.com/chrome/answer/95647?hl=es" target="_blank" title="See in Google Chrome">click here</a></li>
@@ -55,8 +56,9 @@ For more information on each browser, use the following options:
         <li>
           Safari para iOS <a href="http://support.apple.com/kb/HT1677?viewlocale=es_ES" target="_blank" title="See in Safari">click here</a></li>
 </ul>
++++
 
 Finally, you can go to the website
-<a href="http://www.youronlinechoices.com/es/" target="_blank">Your Online Choices</a>
+http://www.youronlinechoices.com/es/[Your Online Choices, role="external", window="_blank"]
 besides where to find useful information, you can configure, provider by provider,
 your preferences on third party advertising cookies.</p>
