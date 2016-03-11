@@ -10,6 +10,26 @@
 
     
     <url>
+        <loc>http://www.gvsigroads.com/es/about/gestion-web</loc>
+    </url>
+    
+    <url>
+        <loc>http://www.gvsigroads.com/es/features/features</loc>
+    </url>
+    
+    <url>
+        <loc>http://www.gvsigroads.com/es/about/sig-escritorio</loc>
+    </url>
+    
+    <url>
+        <loc>http://www.gvsigroads.com/es/about/geoportal</loc>
+    </url>
+    
+    <url>
+        <loc>http://www.gvsigroads.com/es/about/aplicacion-movil</loc>
+    </url>
+    
+    <url>
         <loc>http://www.gvsigroads.com/project/video-gvsig-roads-gestion-inventario</loc>
     </url>
     
@@ -22,55 +42,55 @@
     </url>
     
     <url>
-        <loc>http://www.gvsigroads.com/service/solucion-extensible</loc>
+        <loc>http://www.gvsigroads.com/es/service/solucion-extensible</loc>
     </url>
     
     <url>
-        <loc>http://www.gvsigroads.com/service/usabilidad-multiplataforma</loc>
+        <loc>http://www.gvsigroads.com/es/service/usabilidad-multiplataforma</loc>
     </url>
     
     <url>
-        <loc>http://www.gvsigroads.com/service/roles-usuario</loc>
+        <loc>http://www.gvsigroads.com/es/service/roles-usuario</loc>
     </url>
     
     <url>
-        <loc>http://www.gvsigroads.com/service/entorno-cartografico</loc>
+        <loc>http://www.gvsigroads.com/es/service/entorno-cartografico</loc>
     </url>
     
     <url>
-        <loc>http://www.gvsigroads.com/service/google-street-view</loc>
+        <loc>http://www.gvsigroads.com/es/service/google-street-view</loc>
     </url>
     
     <url>
-        <loc>http://www.gvsigroads.com/service/gestion-con-gvsig-roads</loc>
+        <loc>http://www.gvsigroads.com/es/service/gestion-con-gvsig-roads</loc>
     </url>
     
     <url>
-        <loc>http://www.gvsigroads.com/how/vigilancias-gvsig-roads</loc>
+        <loc>http://www.gvsigroads.com/es/how/vigilancias-gvsig-roads</loc>
     </url>
     
     <url>
-        <loc>http://www.gvsigroads.com/how/incidencias-gvsig-roads</loc>
+        <loc>http://www.gvsigroads.com/es/how/incidencias-gvsig-roads</loc>
     </url>
     
     <url>
-        <loc>http://www.gvsigroads.com/service/geoportal-gvsig-roads</loc>
+        <loc>http://www.gvsigroads.com/es/service/geoportal-gvsig-roads</loc>
     </url>
     
     <url>
-        <loc>http://www.gvsigroads.com/service/puntos-kilometricos</loc>
+        <loc>http://www.gvsigroads.com/es/service/puntos-kilometricos</loc>
     </url>
     
     <url>
-        <loc>http://www.gvsigroads.com/how/ordenes-gvsig-roads</loc>
+        <loc>http://www.gvsigroads.com/es/how/ordenes-gvsig-roads</loc>
     </url>
     
     <url>
-        <loc>http://www.gvsigroads.com/how/mediciones-gvsig-roads</loc>
+        <loc>http://www.gvsigroads.com/es/how/mediciones-gvsig-roads</loc>
     </url>
     
     <url>
-        <loc>http://www.gvsigroads.com/service/inventario-gvsig-roads</loc>
+        <loc>http://www.gvsigroads.com/es/service/inventario-gvsig-roads</loc>
     </url>
     
     <url>

@@ -5,9 +5,114 @@
     <description>Solución libre e interoperable para la gestión integral de las infraestructuras viarias.</description>
     <link>http://www.gvsigroads.com/</link>
     <atom:link href="http://www.gvsigroads.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 11 Mar 2016 09:27:38 +0000</pubDate>
-    <lastBuildDate>Fri, 11 Mar 2016 09:27:38 +0000</lastBuildDate>
+    <pubDate>Fri, 11 Mar 2016 14:07:05 +0000</pubDate>
+    <lastBuildDate>Fri, 11 Mar 2016 14:07:05 +0000</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Es: Gestión web</title>
+        <description>&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Integra componentes como aplicación de gestión web
+que permite a las empresas un control rápido y sencillo
+de la administración del proyecto.&lt;/p&gt;
+&lt;/div&gt;</description>
+        <pubDate>Fri, 11 Mar 2016 00:00:00 +0000</pubDate>
+        <link>http://www.gvsigroads.com/es/about/gestion-web</link>
+        <guid isPermaLink="true">http://www.gvsigroads.com/es/about/gestion-web</guid>
+        
+        
+        <category>es</category>
+        
+        <category>about</category>
+        
+      </item>
+    
+      <item>
+        <title>Es: Mediciones</title>
+        <description>&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;
+&lt;ul class=&quot;col-sm-5 feature-list list-unstyled&quot;&gt;
+  &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;Aplicación web desarrollado con tecnología Java que cumple el estándar JEE 6.&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;Framework de desarrollo Spring Framework.&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;Herramienta de desarrollo rápido gvNIX, addon de SpringRoo Suite.&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;Compatible con las bases de datos Oracle 11g y PostgreSQL 9.&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;Software ORM para la base de datos: Hibernate.&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;Seguridad de la aplicación con Spring Security.&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;Frameworks para mejorar la experiencia del usuario: jQuery, DandelionDatatables.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class=&quot;col-sm-5 col-sm-offset-1 feature-list list-unstyled&quot;&gt;
+  &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;Framework para diseño adaptativo (aplicación visible y usable en todo tipo de dispositivos): Bootstrap.&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;Soporte para datos cartográficos con Oracle Spatial (para Oracle) y PostGIS 2.2 (para PostgreSQL).&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;Visualización de datos geográficos con Leaflet.&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;Soporte para servicios web externos (SOAP, REST, etc.) con Spring Web Services.&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;Aplicación móvil para el sistema operativo Android 5.&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;Sincronización de datos con gvSIG Roads mediante servicios REST.&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;Plug-in para la gestión de los ejes con gvSIG Desktop.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/div&gt;</description>
+        <pubDate>Fri, 11 Mar 2016 00:00:00 +0000</pubDate>
+        <link>http://www.gvsigroads.com/es/features/features</link>
+        <guid isPermaLink="true">http://www.gvsigroads.com/es/features/features</guid>
+        
+        
+        <category>es</category>
+        
+        <category>features</category>
+        
+      </item>
+    
+      <item>
+        <title>Es: SIG de escritorio</title>
+        <description>&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Un SIG potente, fácil de usar, interoperable para la edición y mantenimiento de
+cartografía con todo tipo de herramientas para analizar y gestionar información
+geográfica.&lt;/p&gt;
+&lt;/div&gt;</description>
+        <pubDate>Thu, 10 Mar 2016 00:00:00 +0000</pubDate>
+        <link>http://www.gvsigroads.com/es/about/sig-escritorio</link>
+        <guid isPermaLink="true">http://www.gvsigroads.com/es/about/sig-escritorio</guid>
+        
+        
+        <category>es</category>
+        
+        <category>about</category>
+        
+      </item>
+    
+      <item>
+        <title>Es: Geoportal</title>
+        <description>&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Ofrece acceso a recursos y servicios basados en la información geográfica.
+Permite la gestión, edición y la visualización de los datos geoespaciales de carreteras.&lt;/p&gt;
+&lt;/div&gt;</description>
+        <pubDate>Wed, 09 Mar 2016 00:00:00 +0000</pubDate>
+        <link>http://www.gvsigroads.com/es/about/geoportal</link>
+        <guid isPermaLink="true">http://www.gvsigroads.com/es/about/geoportal</guid>
+        
+        
+        <category>es</category>
+        
+        <category>about</category>
+        
+      </item>
+    
+      <item>
+        <title>Es: Aplicación móvil</title>
+        <description>&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Herramienta de fácil manejo, muy intuitiva y con interfaz amigable.
+Optimizada para dispositivos móviles para tareas de trabajo de campo.&lt;/p&gt;
+&lt;/div&gt;</description>
+        <pubDate>Tue, 08 Mar 2016 00:00:00 +0000</pubDate>
+        <link>http://www.gvsigroads.com/es/about/aplicacion-movil</link>
+        <guid isPermaLink="true">http://www.gvsigroads.com/es/about/aplicacion-movil</guid>
+        
+        
+        <category>es</category>
+        
+        <category>about</category>
+        
+      </item>
     
       <item>
         <title>Project: Video gvSIG Roads: creación de inventario</title>
@@ -61,7 +166,7 @@
       </item>
     
       <item>
-        <title>Service: Solución extensible</title>
+        <title>Es: Solución extensible</title>
         <description>&lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;Permite una mejora continua de la aplicación, ampliando sus capacidades a otros
 ámbitos así como su adaptación a medida de las necesidades de cada organización.&lt;/p&gt;
@@ -90,16 +195,18 @@ para&lt;/p&gt;
 &lt;/ul&gt;
 &lt;/div&gt;</description>
         <pubDate>Tue, 26 Jan 2016 00:00:00 +0000</pubDate>
-        <link>http://www.gvsigroads.com/service/solucion-extensible</link>
-        <guid isPermaLink="true">http://www.gvsigroads.com/service/solucion-extensible</guid>
+        <link>http://www.gvsigroads.com/es/service/solucion-extensible</link>
+        <guid isPermaLink="true">http://www.gvsigroads.com/es/service/solucion-extensible</guid>
         
+        
+        <category>es</category>
         
         <category>service</category>
         
       </item>
     
       <item>
-        <title>Service: Herramienta multiplataforma centrada en el usuario</title>
+        <title>Es: Herramienta multiplataforma centrada en el usuario</title>
         <description>&lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;Sin instalaciones en cliente de la aplicación principal, todo desde un entorno web.
 Esto además permite que sea multiplataforma e independiente de sistema operativo
@@ -115,127 +222,13 @@ muy corta, convirtiendo gestión de las infraestructuras viarias en una tarea
 intuitiva y con interfaz amigable.&lt;/p&gt;
 &lt;/div&gt;</description>
         <pubDate>Mon, 25 Jan 2016 00:00:00 +0000</pubDate>
-        <link>http://www.gvsigroads.com/service/usabilidad-multiplataforma</link>
-        <guid isPermaLink="true">http://www.gvsigroads.com/service/usabilidad-multiplataforma</guid>
+        <link>http://www.gvsigroads.com/es/service/usabilidad-multiplataforma</link>
+        <guid isPermaLink="true">http://www.gvsigroads.com/es/service/usabilidad-multiplataforma</guid>
         
         
-        <category>service</category>
-        
-      </item>
-    
-      <item>
-        <title>Service: Diferentes roles de usuario</title>
-        <description>&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Permite la interacción de diferentes usuarios: administración, contratista,
-departamentos, ciudadanos&amp;#8230;&amp;#8203;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Con una potente gestión de usuarios por roles gvSIG Roads permite
-personalizar su interfaz para cada tipo de usuario.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;De este modo gvSIG Roads ofrece una homogeneidad de procedimientos de trabajo,
-documentación, coordinación con las empresas contratistas y
-acceso a la información.&lt;/p&gt;
-&lt;/div&gt;</description>
-        <pubDate>Sun, 24 Jan 2016 00:00:00 +0000</pubDate>
-        <link>http://www.gvsigroads.com/service/roles-usuario</link>
-        <guid isPermaLink="true">http://www.gvsigroads.com/service/roles-usuario</guid>
-        
+        <category>es</category>
         
         <category>service</category>
-        
-      </item>
-    
-      <item>
-        <title>Service: Entorno cartográfico integrado</title>
-        <description>&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Actualmente gvSIG Roads es el único software que ofrece un entorno cartográfico
-integrado en el entorno de gestión, sin duplicidad de herramientas en un entorno SIG.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Cartografía de fondo vía WMS (&lt;em&gt;Web Map Service&lt;/em&gt;), sin necesidad de servidores de mapas.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Utiliza estándares internacionales lo que permite su interoperabilidad con otros sistemas
-y datos con facilidad, es posible añadir servicios cartográficos e integrar bases de datos espaciales.&lt;/p&gt;
-&lt;/div&gt;</description>
-        <pubDate>Sat, 23 Jan 2016 00:00:00 +0000</pubDate>
-        <link>http://www.gvsigroads.com/service/entorno-cartografico</link>
-        <guid isPermaLink="true">http://www.gvsigroads.com/service/entorno-cartografico</guid>
-        
-        
-        <category>service</category>
-        
-      </item>
-    
-      <item>
-        <title>Service: Datos actualizados con Google Street View</title>
-        <description>&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Empleamos Google Maps con Street View para ofrecer al usuario información actualizada.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;gvSIG Roads ofrece información en tiempo real para la gestión de carreteras.
-Esto supone un importante ahorro de coste, ya no es necesario realizar grabaciones
-de las infraestructuras, además ofrece actualizaciones de forma continuada.&lt;/p&gt;
-&lt;/div&gt;</description>
-        <pubDate>Fri, 22 Jan 2016 00:00:00 +0000</pubDate>
-        <link>http://www.gvsigroads.com/service/google-street-view</link>
-        <guid isPermaLink="true">http://www.gvsigroads.com/service/google-street-view</guid>
-        
-        
-        <category>service</category>
-        
-      </item>
-    
-      <item>
-        <title>Service: Ágil gestión de la aplicación</title>
-        <description>&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;La aplicación gvSIG Roads está desglosada en diferentes módulos con una estructura
-clara y repetitiva que facilita la gestión de cada apartado al usuario de la herramienta.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;
-&lt;ul class=&quot;list-unstyled&quot;&gt;
-&lt;li&gt;&lt;i class=&quot;fa fa-angle-right&quot;&gt;&lt;/i&gt; La pantalla de acceso al módulo siempre es un listado que permite un rápido vistazo a todos los datos;&lt;/li&gt;
-&lt;li&gt;&lt;i class=&quot;fa fa-angle-right&quot;&gt;&lt;/i&gt; al pulsar sobre uno de los elementos se muestra su detalle;&lt;/li&gt;
-&lt;li&gt;&lt;i class=&quot;fa fa-angle-right&quot;&gt;&lt;/i&gt; los formularios de creación y edición se integran en el propio listado;&lt;/li&gt;
-&lt;li&gt;&lt;i class=&quot;fa fa-angle-right&quot;&gt;&lt;/i&gt; filtra con el buscador integrado;&lt;/li&gt;
-&lt;li&gt;&lt;i class=&quot;fa fa-angle-right&quot;&gt;&lt;/i&gt; genera informes fácilmente con la exportación a PDF, CSV o formato de hoja de cálculo;&lt;/li&gt;
-&lt;li&gt;&lt;i class=&quot;fa fa-angle-right&quot;&gt;&lt;/i&gt; herramientas integradas en el propio listado: paginación, borrado y edición múltiple;&lt;/li&gt;
-&lt;li&gt;&lt;i class=&quot;fa fa-angle-right&quot;&gt;&lt;/i&gt; adjunta ficheros: imágenes, planos, etc. relacionados con la incidencia.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-&lt;/div&gt;</description>
-        <pubDate>Tue, 19 Jan 2016 00:00:00 +0000</pubDate>
-        <link>http://www.gvsigroads.com/service/gestion-con-gvsig-roads</link>
-        <guid isPermaLink="true">http://www.gvsigroads.com/service/gestion-con-gvsig-roads</guid>
-        
-        
-        <category>service</category>
-        
-      </item>
-    
-      <item>
-        <title>How: Vigilancias</title>
-        <description>&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Iniciamos el proceso con un parte de vigilancia,
-que genera una serie de recorridos en los que se
-pueden encontrar diferentes incidencias.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Emplea el buscador integrado para aplicar filtros o exporta
-los partes a Excel, CSV o PDF generando informes.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Además cuenta con el buscador avanzado para realizar búsquedas en más detalle.&lt;/p&gt;
-&lt;/div&gt;</description>
-        <pubDate>Mon, 18 Jan 2016 00:00:00 +0000</pubDate>
-        <link>http://www.gvsigroads.com/how/vigilancias-gvsig-roads</link>
-        <guid isPermaLink="true">http://www.gvsigroads.com/how/vigilancias-gvsig-roads</guid>
-        
-        
-        <category>how</category>
         
       </item>
     
