@@ -4,7 +4,9 @@ img: responsive.png
 title: Herramienta multiplataforma centrada en el usuario
 description: Desde cualquier lugar, desde cualquier dispositivo
 categories:
-- service
+  - es
+  - service
+lang: es
 ---
 
 Sin instalaciones en cliente de la aplicación principal, todo desde un entorno web.

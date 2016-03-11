@@ -1,6 +1,9 @@
 <section id="services">
 <!-- Page Content -->
-{% for post in site.categories['service'] limit:include.limit %}
+{% assign collection=site.posts | where:"lang", page.lang %}
+{% for post in collection %}
+{% if post.categories contains 'service' limit:include.limit %}
+
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
     {% if thecycle == 'odd' %}
     <div class="content-section-a">
@@ -48,5 +51,7 @@
     </div>
     <!-- /.content-section-b -->
     {% endif %}
+
+{% endif %}
 {% endfor %}
 </section>

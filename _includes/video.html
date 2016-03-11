@@ -3,8 +3,12 @@
         <div class="container">
             <div class="row wow fadeInUp" data-wow-delay=".6s">
                 <div class="col-md-12 center">
-                    <h2 class="section-heading">La mejor solución para la gestión <br> de la conservación de carreteras</h2>
-                    <p>Gestión de incidencias, inventario y flujo de trabajo con gvSIG Roads</p>
+                    <h2 class="section-heading">
+                    {% for line in site.t[page.lang].video.title.first.lines %}
+                        {{ line }} <br>
+                    {% endfor %}
+                    </h2>
+                    <p>{{ site.t[page.lang].video.headline }}</p>
                 </div>
                 <div class="col-md-8 col-md-offset-2">
                   <div class="video-show">

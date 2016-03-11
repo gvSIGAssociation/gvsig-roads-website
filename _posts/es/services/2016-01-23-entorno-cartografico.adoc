@@ -4,7 +4,9 @@ img: gps-map-mobile.png
 title: Entorno cartográfico integrado
 description: Una solución interoperable
 categories:
-- service
+  - es
+  - service
+lang: es
 ---
 
 Actualmente gvSIG Roads es el único software que ofrece un entorno cartográfico

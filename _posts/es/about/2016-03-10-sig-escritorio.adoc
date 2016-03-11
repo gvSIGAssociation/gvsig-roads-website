@@ -1,0 +1,14 @@
+---
+layout: project
+title: SIG de escritorio
+icon: fa-map-marker
+icon-delay: 19s
+categories:
+  - es
+  - about
+lang: es
+---
+
+Un SIG potente, fácil de usar, interoperable para la edición y mantenimiento de
+cartografía con todo tipo de herramientas para analizar y gestionar información
+geográfica.

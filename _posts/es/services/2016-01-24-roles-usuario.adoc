@@ -4,7 +4,9 @@ img: roles.png
 title: Diferentes roles de usuario
 description: Una aplicación, múltiples posibilidades
 categories:
-- service
+  - es
+  - service
+lang: es
 ---
 
 Permite la interacción de diferentes usuarios: administración, contratista,

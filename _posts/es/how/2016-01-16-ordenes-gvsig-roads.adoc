@@ -5,7 +5,9 @@ title: Órdenes de trabajo
 href: ordenes
 description: Órdenes de trabajo
 categories:
-- how
+  - es
+  - how
+lang: es
 ---
 
 El responsable genera y asigna la orden de trabajo.

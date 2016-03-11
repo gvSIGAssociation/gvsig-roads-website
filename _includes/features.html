@@ -2,29 +2,16 @@
     <section id="features" class="bg-dark features">
         <div class="container text-center center">
           <div class="row-fluid">
-            <h2 class="title"> Plataforma tecnológica</h2>
-            <p>Se utilizan tecnologías contrastadas, con amplio soporte a nivel internacional, y con una curva evolutiva constante
-            </p>
+            <h2 class="title">{{ site.t[page.lang].features.title }}</h2>
+            <p>{{ site.t[page.lang].features.description }}</p>
           </div>
           <div class="row-fluid">
-            <ul class="col-sm-5 feature-list list-unstyled">
-              <li><i class="fa fa-check"></i>Aplicación web desarrollado con tecnología Java que cumple el estándar JEE 6.</li>
-              <li><i class="fa fa-check"></i>Framework de desarrollo Spring Framework.</li>
-              <li><i class="fa fa-check"></i>Herramienta de desarrollo rápido gvNIX, addon de SpringRoo Suite.</li>
-              <li><i class="fa fa-check"></i>Compatible con las bases de datos Oracle 11g y PostgreSQL 9.</li>
-              <li><i class="fa fa-check"></i>Software ORM para la base de datos: Hibernate.</li>
-              <li><i class="fa fa-check"></i>Seguridad de la aplicación con Spring Security.</li>
-              <li><i class="fa fa-check"></i>Frameworks para mejorar la experiencia del usuario: jQuery, DandelionDatatables.</li>
-            </ul>
-            <ul class="col-sm-5 col-sm-offset-1 feature-list list-unstyled">
-              <li><i class="fa fa-check"></i>Framework para diseño adaptativo (aplicación visible y usable en todo tipo de dispositivos): Bootstrap.</li>
-              <li><i class="fa fa-check"></i>Soporte para datos cartográficos con Oracle Spatial (para Oracle) y PostGIS 2.2 (para PostgreSQL).</li>
-              <li><i class="fa fa-check"></i>Visualización de datos geográficos con Leaflet.</li>
-              <li><i class="fa fa-check"></i>Soporte para servicios web externos (SOAP, REST, etc.) con Spring Web Services.</li>
-              <li><i class="fa fa-check"></i>Aplicación móvil para el sistema operativo Android 5.</li>
-              <li><i class="fa fa-check"></i>Sincronización de datos con gvSIG Roads mediante servicios REST.</li>
-              <li><i class="fa fa-check"></i>Plug-in para la gestión de los ejes con gvSIG Desktop.</li>
-            </ul>
+            {% assign collection=site.posts | where:"lang", page.lang %}
+            {% for post in collection %}
+              {% if post.categories contains 'features' %}
+                {{ post.content }}
+              {% endif %}
+            {% endfor %}
          </div>
         </div><!--//container-->
     </section><!--//features-->

@@ -1,0 +1,13 @@
+---
+layout: project
+title: Geoportal
+icon: fa-globe
+icon-delay: 35s
+categories:
+  - es
+  - about
+lang: es
+---
+
+Ofrece acceso a recursos y servicios basados en la información geográfica.
+Permite la gestión, edición y la visualización de los datos geoespaciales de carreteras.

@@ -5,11 +5,14 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-8">
-                <h1 class="title">gvSIG<span class="highlight">Roads</span></h1>
+                <h1 class="title">{{ site.t[page.lang].header.title }}<span class="highlight">{{ site.t[page.lang].header.title-highlight }}</span></h1>
 
-                <p class="intro">Solución libre e interoperable <br> para la gestión integral de las infraestructuras viarias
+                <p class="intro">
+                 {% for line in site.t[page.lang].header.description.first.lines %}
+                        {{ line }} <br>
+                 {% endfor %}
                 </p>
-                <p><a href="#about" class="btn dmbutton wow pulse">Más info</a></p>
+                <p><a href="#about" class="btn dmbutton wow pulse">{{ site.t[page.lang].more }}</a></p>
             </div>
         </div><!-- /row -->
     </div> <!-- /container -->

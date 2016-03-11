@@ -1,0 +1,13 @@
+---
+layout: project
+title: Aplicación móvil
+icon: fa-tablet
+icon-delay: 51s
+categories:
+  - es
+  - about
+lang: es
+---
+
+Herramienta de fácil manejo, muy intuitiva y con interfaz amigable.
+Optimizada para dispositivos móviles para tareas de trabajo de campo.

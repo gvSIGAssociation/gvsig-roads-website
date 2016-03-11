@@ -4,8 +4,11 @@ img: how-vigilancias.png
 title: Vigilancias
 href: vigilancias
 description: Vigilancias
+active: true
 categories:
-- how
+  - es
+  - how
+lang: es
 ---
 
 Iniciamos el proceso con un parte de vigilancia,

@@ -4,7 +4,9 @@ img: pk-android.png
 title: Gestión de puntos kilométricos
 description: Una solución con segmentación dinámica mejorada
 categories:
-- service
+  - es
+  - service
+lang: es
 ---
 
 gvSIG Roads es la única solución software que resuelve el problema de tramos

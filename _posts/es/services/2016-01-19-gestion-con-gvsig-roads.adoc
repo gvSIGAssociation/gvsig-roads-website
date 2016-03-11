@@ -4,7 +4,9 @@ img: edit-gvsigroads.jpg
 title: Ágil gestión de la aplicación
 description: Gestiona fácilmente todos los módulos
 categories:
-- service
+  - es
+  - service
+lang: es
 ---
 
 La aplicación gvSIG Roads está desglosada en diferentes módulos con una estructura

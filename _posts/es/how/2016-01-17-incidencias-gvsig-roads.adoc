@@ -5,7 +5,9 @@ title: Incidencias
 href: incidencias
 description: Incidencias
 categories:
-- how
+  - es
+  - how
+lang: es
 ---
 
 La agenda es la herramienta de uso diario para el ingeniero o responsable de la conservación.

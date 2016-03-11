@@ -5,7 +5,9 @@ title: Mediciones
 href: mediciones
 description: Mediciones
 categories:
-- how
+  - es
+  - how
+lang: es
 ---
 
 Registra mediciones y realiza presupuestos, gestionando tanto los precios por unidad de obra

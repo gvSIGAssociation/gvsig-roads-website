@@ -11,6 +11,7 @@ ASSET_PATH: /assets
 
 # Build settings
 markdown: kramdown
+#permalink: /:title/
 permalink: /:categories/:title
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
 highlighter: rouge
@@ -67,9 +68,6 @@ clients:
     url: http://www.dival.es/
     title: Diputación de Valencia website
 
-# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Gestión integral del mantenimiento y conservación de carreteras utilizando software libre con información cartográfica integrada."
-
 # jekyll configuration
 
 gems:
@@ -106,19 +104,79 @@ defaults:
 
 t:
   en:
-    description: Tool for rapid web application development
-    headline: Higher productivity thanks to its components with high functional value for corporate applications
+    more: "More info"
+    # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
+    legal-notice: "Legal Notice"
+    office: "Our office"
+    header:
+      title: "gvSIG"
+      title-highlight: "Roads"
+      description:
+      - lines:
+        - Open source and interoperable solution
+        - for the management of roads
+    about:
+      title: "What is gvSIG Roads?"
+      description:
+      - lines:
+        - gvSIG Roads ...
+        - Implantar gvSIG Roads ...
+      # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
+      headline: "Comprehensive maintenance management and maintenance of roads using free software with integrated mapping information."
+    how:
+      title: ""
+      description: ""
+    features:
+      title: ""
+      description: ""
+    video:
+      title:
+      - lines:
+        -
+        -
+      headline: ""
     portfolio:
       title: "REFERENCES"
       description: "Projects and presentations of gvSIG Roads solution"
+
+# Cambio idioma
+
   es:
-    description: Herramienta de desarrollo rápido de aplicaciones web
-    headline: Mayor productividad gracias a sus componentes de alto valor funcional para aplicaciones corporativas
+    more: "Más info"
+    legal-notice: Aviso legal
+    office: "Nuestras oficinas"
+    header:
+      title: "gvSIG"
+      title-highlight: "Roads"
+      description:
+      - lines:
+        - Solución libre e interoperable
+        - para la gestión integral de las infraestructuras viarias
+    about:
+      title: "¿Qué es gvSIG Roads?"
+      description:
+      - lines:
+        - gvSIG Roads es una solución integral, que permite la gestión de las infraestructuras viarias tanto desde su componente alfanumérica como geográfica, basada en estándares y software libre.
+        - Implantar gvSIG Roads permite implantar un completo sistema de gestión para la conservación y el inventario de carreteras integrado con la potencia de las Infraestructuras de Datos Espaciales.
+      # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
+      headline: "Gestión integral del mantenimiento y conservación de carreteras utilizando software libre con información cartográfica integrada."
+    how:
+      title: "Flujo de trabajo con gvSIG Roads"
+      description: "Incorpora funcionalidades de carácter gráfico que aportan el concepto GEO así como herramientas de análisis y toma de decisiones."
+    features:
+      title: "Plataforma tecnológica"
+      description: "Se utilizan tecnologías contrastadas, con amplio soporte a nivel internacional, y con una curva evolutiva constante"
+    video:
+      title:
+      - lines:
+        - "La mejor solución para la gestión"
+        - "de la conservación de carreteras"
+      headline: "Gestión de incidencias, inventario y flujo de trabajo con gvSIG Roads"
     portfolio:
       title: "REFERENCIAS"
       description: "Proyectos y presentaciones de la solución gvSIG Roads"
 
-# To include variable in liquid: {{ site.t[page.lang].grid-title }}
+# To include variable in liquid: {{ site.t[page.lang].header.title }}
 # You can add translations group
 
 # Links to include in top navigation

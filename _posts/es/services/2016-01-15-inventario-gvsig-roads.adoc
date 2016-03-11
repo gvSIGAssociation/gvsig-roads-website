@@ -4,7 +4,9 @@ img: graphic-inventario.png
 title: Gestión de inventario
 description: Clasifica y visualiza el inventario de carreteras
 categories:
-- service
+  - es
+  - service
+lang: es
 ---
 
 gvSIG Roads dispone de una agenda con los elementos de inventario clasificados

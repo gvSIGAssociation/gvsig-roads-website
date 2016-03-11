@@ -4,7 +4,9 @@ img: geoportal.png
 title: Geoportal integrado
 description: Gestiona las carreteras desde una vista global
 categories:
-- service
+  - es
+  - service
+lang: es
 ---
 
 Gestiona y edita los datos de la aplicación tanto desde el listado como desde el geoportal.

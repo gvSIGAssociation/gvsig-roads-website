@@ -4,7 +4,9 @@ img: road-arrow-solucion-extensible.png
 title: Solución extensible
 description: SE ADAPTA A LOS REQUERIMIENTOS DE TU PROYECTO
 categories:
-- service
+  - es
+  - service
+lang: es
 ---
 
 Permite una mejora continua de la aplicación, ampliando sus capacidades a otros

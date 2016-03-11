@@ -1,0 +1,14 @@
+---
+layout: project
+title: Gestión web
+icon: fa-desktop
+icon-delay: 3s
+categories:
+  - es
+  - about
+lang: es
+---
+
+Integra componentes como aplicación de gestión web
+que permite a las empresas un control rápido y sencillo
+de la administración del proyecto.
