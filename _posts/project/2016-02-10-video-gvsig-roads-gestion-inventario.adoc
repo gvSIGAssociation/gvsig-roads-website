@@ -12,6 +12,7 @@ tagged: Inventario
 client: Asociación gvSIG
 website: http://www.gvsig.com
 ---
-###Aplicación gvSIG Roads
+
+### Aplicación gvSIG Roads
 
 Vídeo demo de la aplicación que muestra la creación de inventario en gvSIG Roads.

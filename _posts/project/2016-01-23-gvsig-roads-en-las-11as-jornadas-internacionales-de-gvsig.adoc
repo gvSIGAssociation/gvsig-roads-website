@@ -12,8 +12,8 @@ tagged: App, Carreteras, gvSIG, Software Libre
 client: Asociación gvSIG
 ---
 
-###gvSIG Roads: gestión de la conservación e inventario de carreteras con software libre
+### gvSIG Roads: gestión de la conservación e inventario de carreteras con software libre
 
 Presentación de la solución en las 11as Jornadas Internacionales de gvSIG
 celebradas el pasado mes de diciembre de 2015 en Valencia
-por parte de Ricardo Rueda de la empresa [DISID Corporation](http://www.disid.com).
+por parte de Ricardo Rueda de la empresa http://www.disid.com[DISID Corporation].

@@ -7,7 +7,6 @@ categories:
 - service
 ---
 
-
 Sin instalaciones en cliente de la aplicación principal, todo desde un entorno web.
 Esto además permite que sea multiplataforma e independiente de sistema operativo
 utilizado (Window, Mac, Linux).
