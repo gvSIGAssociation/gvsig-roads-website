@@ -1,7 +1,10 @@
 <section id="portfoliowrap">
         <div class="center">
-        {% if include.title %}<h2 class="section-heading">{{ include.title }}</h2>{% endif %}
-        {% if include.description %}<p>{{ include.description }}</p>{% endif %}
+        <!-- % if include.title % <h2 class="section-heading">{{ include.title }}</h2>% endif %
+        % if include.description %<p>{{ include.description }}</p>% endif % -->
+
+        <h2 class="section-heading">{{ site.t[page.lang].portfolio.title }}</h2>
+        <p>{{ site.t[page.lang].portfolio.description }}</p>
         </div>
         <div class="recentitems portfolio">
             {% for project in site.categories['project'] limit:include.limit %}
