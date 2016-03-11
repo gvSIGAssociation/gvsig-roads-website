@@ -5,7 +5,7 @@ title: gvSIG Roads, solución libre para gestión de carreteras
 description: "Solución libre e interoperable para la gestión integral de las infraestructuras viarias."
 google_analytics: UA-73596417-1 #Google analytics code in the format XX-nnnnnnnn-n
 #baseurl: "/roads" #important: start with /
-url: "http://www.gvsigroads.com/" #pro url
+url: "http://www.gvsigroads.com" #pro url
 #url: "http://localhost:4000"
 ASSET_PATH: /assets
 
@@ -72,11 +72,19 @@ about: "Gestión integral del mantenimiento y conservación de carreteras utiliz
 
 # jekyll configuration
 
+gems:
+  - jekyll-asciidoc
+
+asciidoc: asciidoctor
+asciidoc_ext: asciidoc,adoc,ad
+
 asciidoctor:
   attributes:
     - idseparator=_
-    - source-highlighter=coderay
     - icons=font-awesome
+    - hardbreaks!
+    - source-highlighter=pygments
+    - pygments-css=style
 
 #
 # Multilanguage
@@ -100,9 +108,15 @@ t:
   en:
     description: Tool for rapid web application development
     headline: Higher productivity thanks to its components with high functional value for corporate applications
+    portfolio:
+      title: "REFERENCES"
+      description: "Projects and presentations of gvSIG Roads solution"
   es:
     description: Herramienta de desarrollo rápido de aplicaciones web
     headline: Mayor productividad gracias a sus componentes de alto valor funcional para aplicaciones corporativas
+    portfolio:
+      title: "REFERENCIAS"
+      description: "Proyectos y presentaciones de la solución gvSIG Roads"
 
 # To include variable in liquid: {{ site.t[page.lang].grid-title }}
 # You can add translations group
