@@ -2,8 +2,8 @@
 <div id="cwrap">
     <div class="container">
         <div class="row-fluid centered center">
-          <h2 class="section-heading">DESARROLLADO POR</h2>
-          <p>Organizaciones involucradas en el proyecto</p>
+          <h2 class="section-heading">{{ site.t[page.lang].clients.title }}</h2>
+          <p>{{ site.t[page.lang].clients.description }}</p>
         </div>
             {% for client in site.clients %}
                 <div class="col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1">

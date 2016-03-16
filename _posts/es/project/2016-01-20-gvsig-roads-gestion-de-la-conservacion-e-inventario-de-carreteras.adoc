@@ -3,8 +3,6 @@ layout: project
 title:  "Caso de éxito: gvSIG Roads para la Diputación de Valencia"
 date:   2015-06-20 16:54:46
 author: DISID Corporation
-categories:
-- project
 img: gvsigroads-dival.jpg
 thumb:
 carousel:
@@ -13,6 +11,10 @@ carousel:
 tagged: App, Carreteras, Inventario, Conservación
 client: Área de Carreteras de la Diputación de Valencia
 website: http://www.dival.es/es/carreteras/
+categories:
+  - es
+  - project
+lang: es
 ---
 
 #### gvSIG Roads: gestión de la conservación e inventario de carreteras

@@ -135,9 +135,27 @@ t:
         -
         -
       headline: ""
+    software:
+      title: ""
+      description:
+      - lines:
+        - ""
+        - ""
+      tools:
+        - name: gvSIG Desktop
+          img: logo_gvsigdesktop.png
+          url: http://www.gvsig.com
+          description: ""
+        - name: gvNIX
+          img: logo-gvnix-negativo.png
+          url: http://www.gvnix.com
+          description: ""
     portfolio:
       title: "REFERENCES"
       description: "Projects and presentations of gvSIG Roads solution"
+    clients:
+      title: ""
+      description: ""
 
 # Cambio idioma
 
@@ -172,9 +190,27 @@ t:
         - "La mejor solución para la gestión"
         - "de la conservación de carreteras"
       headline: "Gestión de incidencias, inventario y flujo de trabajo con gvSIG Roads"
+    software:
+      title: "Solución basada en una suite de aplicaciones libres"
+      description:
+      - lines:
+        - "Libre e interoperable."
+        - "Dispone de todo el código fuente de las aplicaciones, el acceso a todos los datos que se generen es completo y se basa en el uso de estándares y formatos abiertos, sin coste alguno de licencia."
+      tools:
+        - name: gvSIG Desktop
+          img: logo_gvsigdesktop.png
+          url: http://www.gvsig.com
+          description: "Software para el manejo de información geográfica con precisión cartográfica"
+        - name: gvNIX
+          img: logo-gvnix-negativo.png
+          url: http://www.gvnix.com
+          description: "Herramienta de desarrollo rápido de aplicaciones web Java"
     portfolio:
       title: "REFERENCIAS"
       description: "Proyectos y presentaciones de la solución gvSIG Roads"
+    clients:
+      title: "DESARROLLADO POR"
+      description: "Organizaciones involucradas en el proyecto"
 
 # To include variable in liquid: {{ site.t[page.lang].header.title }}
 # You can add translations group

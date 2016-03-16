@@ -3,8 +3,6 @@ layout: project
 title:  "Producto avalado por la Asociación gvSIG"
 date:   2014-04-21 16:54:46
 author: Asociación gvSIG
-categories:
-- project
 img: gvsigroads-producto-gvsig.jpg
 thumb:
 carousel:
@@ -13,6 +11,10 @@ carousel:
 - inicio_web_11as_jornadas_int_gvsig_es.png #1280x600px
 tagged: Soporte, Software Libre, Asociación
 website: http://www.gvsig.com
+categories:
+  - es
+  - project
+lang: es
 ---
 
 #### PRODUCTO DE LA ASOCIACIÓN GVSIG

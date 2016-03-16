@@ -3,13 +3,15 @@ layout: project
 title:  "Video presentación gvSIG Roads en las 11as Jornadas Internacionales de gvSIG"
 date:   2015-12-03 16:54:46
 author: DISID Corporation
-categories:
-- project
 img: gvsigroads-11-gvsig.jpg
 thumb: gvsigroads-11-gvsig.jpg
 video: ZXxbBHfLE1A
 tagged: App, Carreteras, gvSIG, Software Libre
 client: Asociación gvSIG
+categories:
+  - es
+  - project
+lang: es
 ---
 
 ### gvSIG Roads: gestión de la conservación e inventario de carreteras con software libre

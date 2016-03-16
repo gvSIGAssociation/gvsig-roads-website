@@ -1,16 +1,18 @@
 ---
 layout: project
-title:  "Video gvSIG Roads: plugin actualización de los ejes de carretera"
-date:   2015-12-16 16:54:46
+title: "Video gvSIG Roads: plugin actualización de los ejes de carretera"
+date: 2015-12-16 16:54:46
 author: DISID Corporation
-categories:
-- project
 img: plugin-gvsigroads.jpg
 thumb: plugin-gvsigroads.jpg
 video: LbuqkEYMnS0
 tagged: Plugin, gvSIG Desktop
 client: Asociación gvSIG
 website: http://www.gvsig.com
+categories:
+  - es
+  - project
+lang: es
 ---
 
 ### Plugin gvSIG Roads: actualización de ejes de la cartografía
