@@ -32,11 +32,11 @@
                 <div class="spacing"></div>
                 <h4>Detalles</h4>
                 <div class="hline"></div>
-                {% if page.date != null %}<p><b>Fecha:</b> {{ page.date | date: "%b %-d, %Y" }}</p>{% endif %}
-                {% if page.author != null %}<p><b>Empresa:</b> {{ page.author }}</p>{% endif %}
-                {% if page.tagged != null %}<p><b>Etiquetas:</b> {{ page.tagged }}</p>{% endif %}
-                {% if page.client != null %}<p><b>Cliente:</b> {{ page.client }}</p>{% endif %}
-                {% if page.website != null %}<p><b>Web:</b> <a href="{{ page.website }}" target="_blank">{{ page.website }}</a></p>{% endif %}
+                {% if page.date != null %}<p><b>{{ site.t[page.lang].project.date }}:</b> {{ page.date | date: "%b %-d, %Y" }}</p>{% endif %}
+                {% if page.author != null %}<p><b>{{ site.t[page.lang].project.company }}:</b> {{ page.author }}</p>{% endif %}
+                {% if page.tagged != null %}<p><b>{{ site.t[page.lang].project.tags }}:</b> {{ page.tagged }}</p>{% endif %}
+                {% if page.client != null %}<p><b>{{ site.t[page.lang].project.client }}:</b> {{ page.client }}</p>{% endif %}
+                {% if page.website != null %}<p><b>{{ site.t[page.lang].project.website }}:</b> <a href="{{ page.website }}" target="_blank">{{ page.website }}</a></p>{% endif %}
             </div>
         </div><!--/row -->
     </div><!--/container -->

@@ -101,6 +101,85 @@ defaults:
       layout:
 
 t:
+  es:
+    title: "gvSIG Roads, solución libre para gestión de carreteras"
+    more: "Más info"
+    legal-notice: "Aviso legal"
+    office: "Nuestras oficinas"
+    header:
+      title: "gvSIG"
+      title-highlight: "Roads"
+      description:
+      - lines:
+        - "Solución libre e interoperable"
+        - "para la gestión integral de las infraestructuras viarias"
+    about:
+      title: "¿Qué es gvSIG Roads?"
+      description:
+      - lines:
+        - "gvSIG Roads es una solución integral, que permite la gestión de las infraestructuras viarias tanto desde su componente alfanumérica como geográfica, basada en estándares y software libre."
+        - "Implantar gvSIG Roads permite implantar un completo sistema de gestión para la conservación y el inventario de carreteras integrado con la potencia de las Infraestructuras de Datos Espaciales."
+      # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
+      headline: "Gestión integral del mantenimiento y conservación de carreteras utilizando software libre con información cartográfica integrada."
+    how:
+      title: "Flujo de trabajo con gvSIG Roads"
+      description: "Incorpora funcionalidades de carácter gráfico que aportan el concepto GEO así como herramientas de análisis y toma de decisiones."
+    features:
+      title: "Plataforma tecnológica"
+      description: "Se utilizan tecnologías contrastadas, con amplio soporte a nivel internacional, y con una curva evolutiva constante"
+    video:
+      title:
+      - lines:
+        - "La mejor solución para la gestión"
+        - "de la conservación de carreteras"
+      headline: "Gestión de incidencias, inventario y flujo de trabajo con gvSIG Roads"
+    software:
+      title: "Solución basada en una suite de aplicaciones libres"
+      description:
+      - lines:
+        - "Libre e interoperable."
+        - "Dispone de todo el código fuente de las aplicaciones, el acceso a todos los datos que se generen es completo y se basa en el uso de estándares y formatos abiertos, sin coste alguno de licencia."
+      tools:
+        - name: gvSIG Desktop
+          img: logo_gvsigdesktop.png
+          url: http://www.gvsig.com
+          description: "Software para el manejo de información geográfica con precisión cartográfica"
+        - name: gvNIX
+          img: logo-gvnix-negativo.png
+          url: http://www.gvnix.com
+          description: "Herramienta de desarrollo rápido de aplicaciones web Java"
+    portfolio:
+      title: "REFERENCIAS"
+      description: "Proyectos y presentaciones de la solución gvSIG Roads"
+    clients:
+      title: "DESARROLLADO POR"
+      description: "Organizaciones involucradas en el proyecto"
+    banner:
+      title: "gvSIG Roads"
+      description: "Plataforma integral de gestión de carreteras"
+      call-to-action: "¡Quiero recibir más información!"
+    contact:
+      title: "¿Quieres utilizar gvSIG Roads en tus proyectos?"
+      description:
+      - lines:
+        - "¡Genial, buena elección!"
+        - "Llámanos o envía un email, como prefieras, y nos pondremos en contacto contigo lo antes posible."
+    suscribe:
+      title: "¿Quieres ver una demo de gvSIG Roads?"
+      email: "Tu email *"
+      email-message: "Por favor, escribe tu dirección de correo electrónico."
+      button: "¡Quiero tener acceso a la demo!"
+      description:
+      - lines:
+        - "Recibe en tu correo tu acceso personal a la aplicación de forma gratuita."
+        - "Además te mantendremos informado de la últimas noticias, actualizaciones y mejoras sobre la herramienta para la gestión integral de carreteras."
+    project:
+      date: "Fecha"
+      company: "Empresa"
+      tags: "Etiquetas"
+      client: "Cliente"
+      website: "Web"
+
   en:
     title: ""
     more: "More info"
@@ -174,83 +253,12 @@ t:
       - lines:
         - ""
         - ""
-
-
-# Cambio idioma
-
-  es:
-    title: "gvSIG Roads, solución libre para gestión de carreteras"
-    more: "Más info"
-    legal-notice: "Aviso legal"
-    office: "Nuestras oficinas"
-    header:
-      title: "gvSIG"
-      title-highlight: "Roads"
-      description:
-      - lines:
-        - "Solución libre e interoperable"
-        - "para la gestión integral de las infraestructuras viarias"
-    about:
-      title: "¿Qué es gvSIG Roads?"
-      description:
-      - lines:
-        - "gvSIG Roads es una solución integral, que permite la gestión de las infraestructuras viarias tanto desde su componente alfanumérica como geográfica, basada en estándares y software libre."
-        - "Implantar gvSIG Roads permite implantar un completo sistema de gestión para la conservación y el inventario de carreteras integrado con la potencia de las Infraestructuras de Datos Espaciales."
-      # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-      headline: "Gestión integral del mantenimiento y conservación de carreteras utilizando software libre con información cartográfica integrada."
-    how:
-      title: "Flujo de trabajo con gvSIG Roads"
-      description: "Incorpora funcionalidades de carácter gráfico que aportan el concepto GEO así como herramientas de análisis y toma de decisiones."
-    features:
-      title: "Plataforma tecnológica"
-      description: "Se utilizan tecnologías contrastadas, con amplio soporte a nivel internacional, y con una curva evolutiva constante"
-    video:
-      title:
-      - lines:
-        - "La mejor solución para la gestión"
-        - "de la conservación de carreteras"
-      headline: "Gestión de incidencias, inventario y flujo de trabajo con gvSIG Roads"
-    software:
-      title: "Solución basada en una suite de aplicaciones libres"
-      description:
-      - lines:
-        - "Libre e interoperable."
-        - "Dispone de todo el código fuente de las aplicaciones, el acceso a todos los datos que se generen es completo y se basa en el uso de estándares y formatos abiertos, sin coste alguno de licencia."
-      tools:
-        - name: gvSIG Desktop
-          img: logo_gvsigdesktop.png
-          url: http://www.gvsig.com
-          description: "Software para el manejo de información geográfica con precisión cartográfica"
-        - name: gvNIX
-          img: logo-gvnix-negativo.png
-          url: http://www.gvnix.com
-          description: "Herramienta de desarrollo rápido de aplicaciones web Java"
-    portfolio:
-      title: "REFERENCIAS"
-      description: "Proyectos y presentaciones de la solución gvSIG Roads"
-    clients:
-      title: "DESARROLLADO POR"
-      description: "Organizaciones involucradas en el proyecto"
-    banner:
-      title: "gvSIG Roads"
-      description: "Plataforma integral de gestión de carreteras"
-      call-to-action: "¡Quiero recibir más información!"
-    contact:
-      title: "¿Quieres utilizar gvSIG Roads en tus proyectos?"
-      description:
-      - lines:
-        - "¡Genial, buena elección!"
-        - "Llámanos o envía un email, como prefieras, y nos pondremos en contacto contigo lo antes posible."
-    suscribe:
-      title: "¿Quieres ver una demo de gvSIG Roads?"
-      email: "Tu email *"
-      email-message: "Por favor, escribe tu dirección de correo electrónico."
-      button: "¡Quiero tener acceso a la demo!"
-      description:
-      - lines:
-        - "Recibe en tu correo tu acceso personal a la aplicación de forma gratuita."
-        - "Además te mantendremos informado de la últimas noticias, actualizaciones y mejoras sobre la herramienta para la gestión integral de carreteras."
-
+    project:
+      date: "Date"
+      company: "Company"
+      tags: "Tags"
+      client: "Client"
+      website: "Website"
 
 # To include variable in liquid: {{ site.t[page.lang].header.title }}
 # You can add translations group
