@@ -1,8 +1,6 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: gvSIG Roads, solución libre para gestión de carreteras
-description: "Solución libre e interoperable para la gestión integral de las infraestructuras viarias."
 google_analytics: UA-73596417-1 #Google analytics code in the format XX-nnnnnnnn-n
 #baseurl: "/roads" #important: start with /
 url: "http://www.gvsigroads.com" #pro url
@@ -104,6 +102,7 @@ defaults:
 
 t:
   en:
+    title: ""
     more: "More info"
     # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
     legal-notice: "Legal Notice"
@@ -156,26 +155,47 @@ t:
     clients:
       title: ""
       description: ""
+    banner:
+      title: ""
+      description: ""
+      call-to-action: ""
+    contact:
+      title: ""
+      description:
+      - lines:
+        - ""
+        - ""
+    suscribe:
+      title: ""
+      email: ""
+      email-message: ""
+      button: ""
+      description:
+      - lines:
+        - ""
+        - ""
+
 
 # Cambio idioma
 
   es:
+    title: "gvSIG Roads, solución libre para gestión de carreteras"
     more: "Más info"
-    legal-notice: Aviso legal
+    legal-notice: "Aviso legal"
     office: "Nuestras oficinas"
     header:
       title: "gvSIG"
       title-highlight: "Roads"
       description:
       - lines:
-        - Solución libre e interoperable
-        - para la gestión integral de las infraestructuras viarias
+        - "Solución libre e interoperable"
+        - "para la gestión integral de las infraestructuras viarias"
     about:
       title: "¿Qué es gvSIG Roads?"
       description:
       - lines:
-        - gvSIG Roads es una solución integral, que permite la gestión de las infraestructuras viarias tanto desde su componente alfanumérica como geográfica, basada en estándares y software libre.
-        - Implantar gvSIG Roads permite implantar un completo sistema de gestión para la conservación y el inventario de carreteras integrado con la potencia de las Infraestructuras de Datos Espaciales.
+        - "gvSIG Roads es una solución integral, que permite la gestión de las infraestructuras viarias tanto desde su componente alfanumérica como geográfica, basada en estándares y software libre."
+        - "Implantar gvSIG Roads permite implantar un completo sistema de gestión para la conservación y el inventario de carreteras integrado con la potencia de las Infraestructuras de Datos Espaciales."
       # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
       headline: "Gestión integral del mantenimiento y conservación de carreteras utilizando software libre con información cartográfica integrada."
     how:
@@ -211,6 +231,26 @@ t:
     clients:
       title: "DESARROLLADO POR"
       description: "Organizaciones involucradas en el proyecto"
+    banner:
+      title: "gvSIG Roads"
+      description: "Plataforma integral de gestión de carreteras"
+      call-to-action: "¡Quiero recibir más información!"
+    contact:
+      title: "¿Quieres utilizar gvSIG Roads en tus proyectos?"
+      description:
+      - lines:
+        - "¡Genial, buena elección!"
+        - "Llámanos o envía un email, como prefieras, y nos pondremos en contacto contigo lo antes posible."
+    suscribe:
+      title: "¿Quieres ver una demo de gvSIG Roads?"
+      email: "Tu email *"
+      email-message: "Por favor, escribe tu dirección de correo electrónico."
+      button: "¡Quiero tener acceso a la demo!"
+      description:
+      - lines:
+        - "Recibe en tu correo tu acceso personal a la aplicación de forma gratuita."
+        - "Además te mantendremos informado de la últimas noticias, actualizaciones y mejoras sobre la herramienta para la gestión integral de carreteras."
+
 
 # To include variable in liquid: {{ site.t[page.lang].header.title }}
 # You can add translations group

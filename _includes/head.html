@@ -11,7 +11,7 @@
     <link rel="apple short icon" href="{{ site.url }}{{ site.ASSET_PATH | prepend: site.baseurl }}/ico/favicon.ico" />
     <link rel="apple-touch-icon" href="{{ site.url }}{{ site.ASSET_PATH | prepend: site.baseurl }}/ico/apple-touch-icon.png" >
 
-    <title>{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}</title>
+    <title>{{ site.t[page.lang].title }}{% if page.title %} - {{ page.title }}{% endif %}</title>
 
     <!-- Bootstrap core CSS -->
     <link href="{{ site.url }}{{ site.ASSET_PATH | prepend: site.baseurl }}/css/bootstrap.css" rel="stylesheet">
