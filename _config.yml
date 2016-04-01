@@ -137,8 +137,8 @@ t:
       title: "Solución basada en una suite de aplicaciones libres"
       description:
       - lines:
-        - "Libre e interoperable."
-        - "Dispone de todo el código fuente de las aplicaciones, el acceso a todos los datos que se generen es completo y se basa en el uso de estándares y formatos abiertos, sin coste alguno de licencia."
+        - "Libre e interoperable"
+        - ""
       tools:
         - name: gvSIG Desktop
           img: logo_gvsigdesktop.png
