@@ -430,6 +430,15 @@ clara y repetitiva que facilita la gestión de cada apartado al usuario de la he
 <!-- custom -->
 <script src="http://www.gvsigroads.com/assets/js/custom.js"></script>
 
+<!-- mailchimp popup -->
+<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+<script>
+function showMailingPopUp() {
+    require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us11.list-manage.com","uuid":"6c8ebdf66f7cedc23b4c8e986","lid":"9616808aa7"}) })
+    document.cookie = "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+};
+document.getElementById("open-popup").onclick = function() {showMailingPopUp()};
+</script>
 
 <script>
 // Portfolio
