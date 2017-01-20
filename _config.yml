@@ -16,7 +16,6 @@ highlighter: rouge
 paginate:    2
 paginate_path: "blog/page:num"
 
-
 colors:  #in hex code if not noted else
   primary: "#3b8bba" #azul claro apagado
   primary_rgb: "59,139,186" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.
