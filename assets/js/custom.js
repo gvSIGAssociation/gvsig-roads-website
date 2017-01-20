@@ -55,3 +55,22 @@ jQuery(window).scroll(function(){
        	jQuery('.scrollup').fadeOut();
        }
 });
+
+//Banner sidebar contact
+jQuery(window).scroll(function(){
+      var $this = jQuery(this);
+     if ($this.scrollTop() > 300) {
+      jQuery('.ad-contact').fadeIn();
+      jQuery('.ad-contact').removeClass('hidden');
+     } else {
+      jQuery('.ad-contact').fadeOut();
+     }
+});
+$('a.close-banner').on('click', function(e){
+  //store hash
+  var target = this.hash;
+  e.preventDefault();
+
+  $('.ad-contact').addClass('hidden');
+
+});

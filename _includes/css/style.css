@@ -1348,3 +1348,113 @@ a.scrollup:after{
     }
 }
 
+/******************************************************************************
+ ** Sidebar contact **
+******************************************************************************/
+.ad-contact{
+}
+
+ #fm-quick-call {
+    position: fixed;
+    top: 30%;
+    right: 0;
+    z-index: 100;
+    width: 130px;
+    transition: right ease-in-out 0.4s;
+    -webkit-transition: right ease-in-out 0.4s;
+    -moz-transition: right ease-in-out 0.4s;
+    -o-transition: right ease-in-out 0.4s;
+  }
+  #fm-quick-call.hidden {
+    right: -130px;
+  }
+    .square {
+      padding: 20px 0;
+      text-align: center;
+    }
+    .square.first {
+      background-color: #E2AD2A;
+      color: #fff;
+    }
+    .square.second {
+      background-color: #2a3038;
+      padding: 30px 20px;
+      cursor: pointer;
+    }
+      .square .fa {
+        color: #fff;
+      }
+      .square a .fa{
+        text-align: right;
+        float: right;
+        margin: -15px 5px 1em;
+        color: rgba(255, 255, 255, 0.5);
+        cursor: pointer;
+      }
+      .square a:focus .fa,
+      .square a:hover .fa{
+        color: rgba(255, 255, 255, 1);
+      }
+      .square>p {
+        text-align: center;
+        text-transform: uppercase;
+        color: #fff;
+        margin: 0;
+      }
+      .square>p a {
+        color: #fff;
+      }
+      .square>p a:hover, .square>p a:focus {
+        text-decoration: none;
+        color: #01b2fe;
+        outline: 0;
+      }
+      .square.first>p{
+        font-weight: bold;
+        text-align: right;
+        padding: 0 1em;
+      }
+      .square>ul {
+        text-align: right;
+        text-transform: uppercase;
+        color: #fff;
+        margin: 0;
+        font-size: 0.85em;
+        list-style: none;
+        padding: 0 1em;
+      }
+@media ( max-width: 767px ) {
+  #fm-quick-call {
+    display: none;
+  }
+}
+@media ( max-width: 1280px ) {
+  #fm-quick-call {
+    top: unset;
+    bottom: 0;
+    left: 50%;
+    margin-left: -140px;
+    width: 280px;
+    transition: bottom ease-in-out 0.4s;
+    -webkit-transition: bottom ease-in-out 0.4s;
+    -moz-transition: bottom ease-in-out 0.4s;
+    -o-transition: bottom ease-in-out 0.4s;
+  }
+  .square {
+    float: left;
+    width: 130px;
+    box-sizing: border-box;
+    vertical-align: bottom;
+    display: inline-block;
+  }
+  .square.second {
+    width: 150px;
+    padding: 41px 20px 34px;
+  }
+  #fm-quick-call.hidden {
+    right: unset;
+    bottom: -135px;
+  }
+}
+
+
