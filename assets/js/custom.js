@@ -57,6 +57,7 @@ jQuery(window).scroll(function(){
 });
 
 //Banner sidebar contact
+
 jQuery(window).scroll(function(){
       var $this = jQuery(this);
      if ($this.scrollTop() > 300) {
@@ -66,6 +67,7 @@ jQuery(window).scroll(function(){
       jQuery('.ad-contact').fadeOut();
      }
 });
+
 $('a.close-banner').on('click', function(e){
   //store hash
   var target = this.hash;
