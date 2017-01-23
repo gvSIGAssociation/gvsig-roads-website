@@ -54,5 +54,7 @@ Rake::Jekyll::GitDeployTask.new(:deploy) do |t|
       %w[yes y true 1].include?(ENV['SKIP_DEPLOY'].to_s.downcase) ||
       (ENV['SOURCE_BRANCH'] && ENV['SOURCE_BRANCH'] != ENV['TRAVIS_BRANCH'])
   }
-
+  # Path of the private SSH key to be used for communication with the
+  # repository defined by remote_url.
+  t.ssh_key_file = '.deploy_key'
 end
