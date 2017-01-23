@@ -22,6 +22,7 @@ Rake::Jekyll::GitDeployTask.new(:deploy) do |t|
   # Use 'Jekyll' as the default *committer* name (with empty email) when the
   # user.name is not set in git config.
   t.committer = 'Pilar Argudo'
+  t.email = 'pargudo@disid.com'
 
   # Use the default committer (configured in git) when available.
   t.override_committer = false
