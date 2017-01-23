@@ -5,22 +5,25 @@ require 'rake-jekyll'
 # See http://github.com/jirutka/rake-jekyll for more options.
 Rake::Jekyll::GitDeployTask.new(:deploy) do |t|
 
-# Description of the rake task.
-t.description = 'Generate the site and push changes to remote repository'
+  # Description of the rake task.
+  t.description = 'Generate the site and push changes to remote repository'
 
-# Overrides the *author* of the commit being created with author of the
+  # Description of the rake task.
+  t.description = 'Generate the site and push changes to remote repository'
+
+  # Overrides the *author* of the commit being created with author of the
   # source commit (i.e. HEAD in the current branch).
   t.author = -> {
     `git log -n 1 --format='%aN <%aE>'`.strip
   }
 
-# Use 'Jekyll' as the default *committer* name (with empty email) when the
-# user.name is not set in git config.
-t.committer = 'pilarargudo'
-t.email = 'pargudo@disid.com'
+  # Use 'Jekyll' as the default *committer* name (with empty email) when the
+  # user.name is not set in git config.
+  t.committer = 'pilarargudo'
+  t.email = 'pargudo@disid.com'
 
-# Use the default committer (configured in git) when available.
-t.override_committer = true
+  # Use the default committer (configured in git) when available.
+  t.override_committer = true
 
 # adapted from https://github.com/imathis/octopress/blob/master/Rakefile
 # usage rake new_post['My New Post'] or rake new_post (defaults to "My New Post")
