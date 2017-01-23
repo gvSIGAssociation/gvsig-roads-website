@@ -23,18 +23,6 @@ Rake::Jekyll::GitDeployTask.new(:deploy) do |t|
   # user.name is not set in git config.
   t.committer = 'Jekyll'
 
-  # Deploy the built site into remote branch named 'gh-pages', or 'master' if
-  # the remote repository URL matches `#{gh_user}.github.io.git`.
-  # It will be automatically created if not exist yet.
-  t.deploy_branch = -> {
-    gh_user = ENV['TRAVIS_REPO_SLUG'].to_s.split('/').first
-    remote_url.match(/[:\/]#{gh_user}\.github\.io\.git$/) ? 'master' : 'gh-pages'
-  }
-  # Run this command to build the site.
-  t.build_script = ->(dest_dir) {
-    puts "\nRunning Jekyll..."
-    sh "bundle exec jekyll build --destination #{dest_dir}"
-  }
   # Use the default committer (configured in git) when available.
   t.override_committer = false
 
