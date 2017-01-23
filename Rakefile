@@ -1,29 +1,29 @@
-require 'rake-jekyll'
+require 'rubygems'
 
-Rake::Jekyll::GitDeployTask.new(:deploy) do |t|
+desc 'Generate site from Travis CI and publish site to GitHub Pages'
+task :travis do
+  # if this is a pull request, do a simple build of the site and stop
+  if ENV['TRAVIS_PULL_REQUEST'].to_s.to_i > 0
+    puts 'Pull request detected. Executing build only.'
+    system 'bundle exec awestruct -P production -g'
+    next
+  end
 
-  # Description of the rake task.
-  t.description = 'Generate the site and push changes to remote repository'
-
-  # Overrides the *author* of the commit being created with author of the
-  # source commit (i.e. HEAD in the current branch).
-  t.author = -> {
-    `git log -n 1 --format='%aN <%aE>'`.strip
-  }
-  # Overrides the *author date* of the commit being created with date of the
-  # source commit.
-  t.author_date = -> {
-    `git log -n 1 --format='%aD'`.strip
-  }
-  # The commit message will contain hash of the source commit.
-  t.commit_message = -> {
-    "Built from #{`git rev-parse --short HEAD`.strip}"
-  }
-  # Use 'Jekyll' as the default *committer* name (with empty email) when the
-  # user.name is not set in git config.
-  t.committer = 'Pilar Argudo'
-
-  # Use the default committer (configured in git) when available.
-  t.override_committer = true
-
+  repo = %x(git config remote.origin.url).gsub(/^git:/, 'https:')
+  deploy_branch = 'gh-pages'
+  if repo.match(/github\.com\.git$/)
+    deploy_branch = 'master'
+  end
+  system "git remote set-url --push origin #{repo}"
+  system "git remote set-branches --add origin #{deploy_branch}"
+  system 'git fetch -q'
+  system "git config user.name '#{ENV['GIT_NAME']}'"
+  system "git config user.email '#{ENV['GIT_EMAIL']}'"
+  system 'git config credential.helper "store --file=.git/credentials"'
+  File.open('.git/credentials', 'w') do |f|
+    f.write("https://#{ENV['GH_TOKEN']}:@github.com")
+  end
+  system "git branch #{deploy_branch} origin/#{deploy_branch}"
+  system 'bundle exec awestruct -P production -g --deploy'
+  File.delete '.git/credentials'
 end
