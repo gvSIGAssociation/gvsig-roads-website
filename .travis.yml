@@ -4,7 +4,7 @@ rvm:
 - 2.2.0
 sudo: false
 #script: bundle exec rake deploy
-script: travisbuild.sh
+script: sh travisbuild.sh
 #after_success:
 #  - .travis/push.sh
 #env:
