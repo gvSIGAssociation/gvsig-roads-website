@@ -1,0 +1,20 @@
+---
+layout: project
+title:  "gvSIG Roads video: creation of inventory"
+date:   2016-02-01
+author: gvSIG Association / DISID Corporation
+img: video-gvsigroads-inventario.jpg
+thumb: video-gvsigroads-inventario.jpg
+video: 3T5kn4QPd9k
+tagged: Inventory
+client: gvSIG Association
+website: http://www.gvsig.com
+categories:
+  - en
+  - project
+lang: en
+---
+
+### gvSIG Roads Application
+
+Demo video of the application that shows the inventory creation on gvSIG Roads.

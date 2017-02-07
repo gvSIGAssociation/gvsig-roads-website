@@ -1,0 +1,22 @@
+---
+layout: project
+title:  "gvSIG Roads video: financial control"
+date:   2016-02-01
+author: gvSIG Association / DISID Corporation
+img: video-gvsigroads-control-economico.jpg
+thumb: video-gvsigroads-control-economico.jpg
+video: EnC1lNYgBcc
+tagged: Financial
+client: gvSIG Association
+website: http://www.gvsig.com
+categories:
+  - en
+  - project
+lang: en
+---
+
+### gvSIG Roads Application
+
+Demo video of the application that shows the management of economic control of
+conservation on gvSIG Roads.
+

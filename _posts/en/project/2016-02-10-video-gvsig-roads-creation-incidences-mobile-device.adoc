@@ -1,0 +1,21 @@
+---
+layout: project
+title:  "gvSIG Roads video: creation of incidences on in mobile device"
+date:   2016-02-01
+author: gvSIG Association / DISID Corporation
+img: video-gvsigroads-creacion-incidencias-movil.jpg
+thumb: video-gvsigroads-creacion-incidencias-movil.jpg
+video: a2lw6T6eKgM
+tagged: Incidences, Mobile
+client: gvSIG Association
+website: http://www.gvsig.com
+categories:
+  - en
+  - project
+lang: en
+---
+
+### gvSIG Roads Application
+
+Demo video of the application that shows the creation of incidences on mobile device.
+
