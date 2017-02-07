@@ -1,0 +1,13 @@
+---
+layout: project
+title: WEB MANAGEMENT
+icon: fa-desktop
+icon-delay: 3s
+categories:
+  - en
+  - about
+lang: en
+---
+
+It integrates its components as a web management application that allows
+companies a quick and easy control of project management.

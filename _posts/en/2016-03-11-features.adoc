@@ -1,0 +1,40 @@
+---
+layout: project
+img: how-mediciones.png
+title: Mediciones
+href: mediciones
+description: Mediciones
+categories:
+  - en
+  - features
+lang: en
+---
+
+
++++
+<ul class="col-sm-5 feature-list list-unstyled">
+  <li><i class="fa fa-check"></i>Open source software. It guarantees the technological independence at no licensing costs.</li>
+  <li><i class="fa fa-check"></i>Solution created by a multidisciplinary team composed by computer science engineers and road engineers.</li>
+  <li><i class="fa fa-check"></i>Integrated with spatial databases such as Postgis and Oracle Spatial. As a consequence, graphic and alphanumeric information can be exploited from any another GIS platform, making a guarantee of interoperability.</li>
+  <li><i class="fa fa-check"></i>Intelligent algorithms for the resolution of eternal problems, like positioning elements in PKs of more or less thousand meters, or representation by dynamic segmentation.</li>
+  <li><i class="fa fa-check"></i>Data model and topology of axes of the platform adapted to the INSPIRE standard.</li>
+  <li><i class="fa fa-check"></i>User-centric multiplatform tool. From anywhere, from any device.</li>
+  <li><i class="fa fa-check"></i>Different user roles. One application, multiple possibilities.</li>
+</ul>
+<ul class="col-sm-5 col-sm-offset-1 feature-list list-unstyled">
+  <li><i class="fa fa-check"></i>Interoperability with any GIS platform.</li>
+  <li><i class="fa fa-check"></i>The only software for the comprehensive roads managemente that offers a cartographic viewer integrated with the management environment.</li>
+  <li><i class="fa fa-check"></i>Free cartographic viewer, without cost for commercial use.</li>
+  <li><i class="fa fa-check"></i>Free direct map servers. Cartography composed from web mapping services and from the inner spatial databases.</li>
+  <li><i class="fa fa-check"></i>Loading and modification of cartography through open source tools. The gvSIG desktop plugin to create and edit the project axes model.</li>
+</ul>
++++
+
+
+
+
+
+
+
+
+

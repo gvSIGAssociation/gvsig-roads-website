@@ -1,0 +1,14 @@
+---
+layout: project
+title: DESKTOP GIS
+icon: fa-map-marker
+icon-delay: 19s
+categories:
+  - en
+  - about
+lang: en
+---
+
+A powerful, easy-to-use, interoperable GIS for both editing and maintenance
+of cartography with all sorts of tools for analyzing and managing
+geographic information.

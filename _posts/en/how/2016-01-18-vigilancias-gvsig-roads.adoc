@@ -1,0 +1,18 @@
+---
+layout: project
+img: how-vigilancias.png
+title: Surveillances
+href: surveillances
+description: Surveillances
+active: true
+categories:
+  - en
+  - how
+lang: en
+---
+
+The process starts with a surveillance order, which generates a series of routes
+and annotations in which several incidences may be found.
+
+It also has an advanced search engine to perform more detailed searches.
+

@@ -1,0 +1,25 @@
+---
+layout: project
+img: how-ordenes.png
+title: Work orders
+href: orders
+description: Work orders
+categories:
+  - en
+  - how
+lang: en
+---
+
+The responsible person generates and assigns the work order and keeps track of
+the incidence.
+
+The incidences are classified in states and it is possible to edit, generate
+reports, generate the work orders by adding pictures of the incident and
+detailed field work instructions.
+
+Add to the incidence its corresponding measurement and cost estimation.
+Additionally, this cost is moved to the section of measurements for easier
+budgeting.
+
+
+

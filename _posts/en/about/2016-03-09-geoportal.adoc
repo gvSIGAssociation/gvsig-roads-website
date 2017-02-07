@@ -1,0 +1,13 @@
+---
+layout: project
+title: Geoportal
+icon: fa-globe
+icon-delay: 35s
+categories:
+  - en
+  - about
+lang: en
+---
+
+It provides access to resources and services based on geographic information.
+It allows management, editing and visualization of the roads geospatial data.

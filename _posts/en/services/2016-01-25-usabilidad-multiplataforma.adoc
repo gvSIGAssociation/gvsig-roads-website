@@ -1,0 +1,22 @@
+---
+layout: project
+img: responsive_en_web.png
+title: A multiplatform tool user-centered
+description: FROM ANYWHERE, FROM ANY DEVICE
+categories:
+  - en
+  - service
+lang: en
+---
+
+No client installations of the main application, all from a web environment.
+
+This also allows it to be multiplatform and independent of operating system used
+(Window, Mac, Linux).
+
+Use the GPS on your mobile device, gvSIG Roads lets to work offline in areas
+without internet coverage.
+
+gvSIG Roads is an easy-to-use tool with a very short learning curve, turning the
+roads infrastructure management into an intuitive task with thanks to its friendly
+interface.

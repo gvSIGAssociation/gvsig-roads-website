@@ -1,0 +1,21 @@
+---
+layout: project
+img: roles_en_web.png
+title: Different user roles
+description: ONE APPLICATION, MULTIPLE POSSIBILITIES
+categories:
+  - en
+  - service
+lang: en
+---
+
+
+It allows the interaction of different users: administration, contractor,
+departments, citizens ...
+
+With powerful user management by role, gvSIG Roads allows to customize its
+interface for each type of user.
+
+In this way, gvSIG Roads offers homogeneus working procedures, coherent
+documentation, coordination with the contractor corporations and easy access to
+information.

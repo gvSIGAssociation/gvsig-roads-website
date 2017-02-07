@@ -1,0 +1,25 @@
+---
+layout: project
+img: graphic-inventario.png
+title: Inventory management
+description: CLASSIFY AND VISUALIZE THE ROAD INVENTORY
+categories:
+  - en
+  - service
+lang: en
+---
+
+gvSIG Roads has an agenda containing the elements of inventory classified
+according to their state of conservation: incomplete, affected by an incident,
+pending update and stable.
+
+Advantages of inventory update flow:
+
++++
+<ul class="list-unstyled">
+<li><i class="fa fa-check"></i> The taken inventory is updated.</li>
+<li><i class="fa fa-check"></i> The data collection campaigns disappear.</li>
+<li><i class="fa fa-check"></i> Validation through the inventory agenda.</li>
+<li><i class="fa fa-check"></i> Interaction with mobile devices and GPS.</li>
+</ul>
++++

@@ -1,0 +1,25 @@
+---
+layout: project
+img: how-mediciones.png
+title: Measurements
+href: measurements
+description: Measurements
+categories:
+  - en
+  - how
+lang: en
+---
+
+Register measurements and make budgets, managing both the prices per unit of
+work and management and thus generate the corresponding certifications.
+
+The following graphical reports are available:
++++
+<ul class="list-unstyled">
+<li><i class="fa fa-file-o"></i> Maximum annual outgoings.</li>
+<li><i class="fa fa-file-o"></i> Monthly costs.</li>
+<li><i class="fa fa-file-o"></i> Costs grouped by operations.</li>
+</ul>
++++
+
+

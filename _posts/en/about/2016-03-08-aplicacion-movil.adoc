@@ -1,0 +1,13 @@
+---
+layout: project
+title: MOBILE APP
+icon: fa-tablet
+icon-delay: 51s
+categories:
+  - en
+  - about
+lang: en
+---
+
+Easy and intuitive to use tool with a friendly interface. Optimized for mobile
+devices for field work tasks.

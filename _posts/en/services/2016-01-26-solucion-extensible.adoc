@@ -1,0 +1,38 @@
+---
+layout: project
+img: road-arrow-solucion-extensible.png
+title: Extendable platform
+description: CUSTOMIZE IT TO YOUR PROJECT NEEDS
+categories:
+  - en
+  - service
+lang: en
+---
+
+It allows for continuous improvement of the platform, adding capacities to
+manage other areas as well as tailor-made adaptation to the needs of each
+organization.
+
+gvSIG Roads is an easily scalable solution to new functionalities, not only with
+tools for the conservation of roads but with utilities to:
+
+++++
+<div class="col-sm-6">
+<ul class="list-unstyled">
+<li><i class="fa fa-plus"></i> Expropriations</li>
+<li><i class="fa fa-plus"></i> Projects and works</li>
+<li><i class="fa fa-plus"></i> Heritage of roads</li>
+<li><i class="fa fa-plus"></i> Status Indicators</li>
+</ul>
+</div>
+++++
+
+++++
+<div class="col-sm-6">
+<ul class="list-unstyled">
+<li><i class="fa fa-plus"></i> Citizen issues</li>
+<li><i class="fa fa-plus"></i> Public Geoportal</li>
+<li><i class="fa fa-plus"></i> Cadastral update</li>
+</ul>
+</div>
+++++

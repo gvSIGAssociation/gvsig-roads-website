@@ -1,0 +1,17 @@
+---
+layout: project
+img: how-incidencias.png
+title: Incidences
+href: incidences
+description: Incidences
+categories:
+  - en
+  - how
+lang: en
+---
+
+The incidences diary is the tool that the engineer or person in charge of the
+conservation use daily to access quickly to the incidences.
+
+Manually create different types of incidences classified by class, type and
+subtype, differentiated by color according to resolution and urgency status.
