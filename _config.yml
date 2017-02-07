@@ -44,8 +44,8 @@ social:
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
   - lines:
-    - C/ San Vicente Mártir, 84 - 5A Valencia
-    - CP 46002, Spain
+    - Avinguda de Menéndez y Pelayo, 5 Valencia
+    - CP 46010, Spain
     - +34 963 516 309
 email: gvsigroads@disid.com
 tel: (+34) 963 516 309
@@ -180,7 +180,7 @@ t:
       website: "Web"
 
   en:
-    title: ""
+    title: "gvSIG Roads, free solution for the management of roads"
     more: "More info"
     # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
     legal-notice: "Legal Notice"
@@ -196,62 +196,65 @@ t:
       title: "What is gvSIG Roads?"
       description:
       - lines:
-        - gvSIG Roads ...
-        - Implantar gvSIG Roads ...
+        - "gvSIG Roads is a full solution, which allows the management of the roads infrastructures both from its alphanumeric and geographical component, based on standards and free software."
+        - "Deploying gvSIG Roads gives you a complete management system for the conservation and inventory of roads integrated with the features of the Spatial Data Infrastructures."
       # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
       headline: "Comprehensive maintenance management and maintenance of roads using free software with integrated mapping information."
     how:
-      title: ""
-      description: ""
+      title: "gvSIG Roads Workflow"
+      description: "It incorporates functionalities of graphic character that contribute the GEO concept as well as analysis tools and decision-making."
     features:
       title: ""
       description: ""
+    features:
+      title: "Technology platform"
+      description: "Using the most widespread and contrasting technologies, with broad international support, and with a constant evolutionary curve."
     video:
       title:
       - lines:
-        -
-        -
-      headline: ""
+        - "The best solution for the comprehensive"
+        - "management of roads"
+      headline: "Management of incidents, inventory and  workflow with gvSIG Roads"
     software:
-      title: ""
+      title: "Solution based on a suite of free applications"
       description:
       - lines:
-        - ""
+        - "Free and interoperable"
         - ""
       tools:
         - name: gvSIG Desktop
           img: logo_gvsigdesktop.png
           url: http://www.gvsig.com
-          description: ""
+          description: "Software for the management of geographic information with cartographic precision"
         - name: gvNIX
           img: logo-gvnix-negativo.png
           url: http://www.gvnix.com
-          description: ""
+          description: "Tool for rapid Java web application development"
     portfolio:
       title: "REFERENCES"
       description: "Projects and presentations of gvSIG Roads solution"
     clients:
-      title: ""
-      description: ""
+      title: "DEVELOPED BY"
+      description: "Organizations involved in the project"
     banner:
-      title: ""
-      description: ""
-      call-to-action: ""
+      title: "gvSIG Roads"
+      description: "Full solution for the comprehensive management of roads"
+      call-to-action: "I want to receive more information!"
     contact:
-      title: ""
+      title: "Do you want to use gvSIG Roads in your projects?"
       description:
       - lines:
-        - ""
-        - ""
+        - "Great, good choice!"
+        - "Just call or send us an email, as you wish, and we will get in touch with you as soon as possible."
     suscribe:
-      title: ""
-      email: ""
-      email-message: ""
-      button: ""
+      title: "Do you want to see an gvSIG Roads demo?"
+      email: "Your email *"
+      email-message: "Please, enter your email address."
+      button: " I want to access to the demo!"
       description:
       - lines:
-        - ""
-        - ""
+        - "Subscribe and get your personal access to the application for free."
+        - "Moreover, if you register we will keep you informed as to any novelties and special promotions on the tool for the comprehensive management of roads."
     project:
       date: "Date"
       company: "Company"
