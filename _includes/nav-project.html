@@ -8,21 +8,60 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="{{ "/"  {{| prepend: site.baseurl }}">
+      {% if page.lang != "es" %}
+        <a class="navbar-brand" href="{{ "/"  {{| prepend: site.baseurl}}{{ page.lang }}/">
+      {% else %}
+        <a class="navbar-brand" href="{{ "/"  {{| prepend: site.baseurl}}">
+      {% endif %}
       <img src= "{{ site.url }}{{ site.ASSET_PATH  | prepend: site.baseurl }}/img/logo-gvsigroads-negativo.png" class="img-responsive">
       </a>
     </div>
     <div class="navbar-collapse collapse navbar-right">
       <ul class="nav navbar-nav">
         <li class="active nav-item sr-only" style="float:none"><a href="{{ site.url }}{{ prepend: site.baseurl }}#promo">HOME</a></li>
-        <li class="active nav-item sr-only"><a href="{{ site.url }}{{ site.baseurl }}#about">QUÉ ES gvSIG Roads</a></li>
-        <li class="nav-item"><a href="{{ site.url }}{{ site.baseurl }}#how-works">Cómo funciona</a></li>
-        <li class="nav-item"><a href="{{ site.url }}{{ site.baseurl }}#services">CARACTERÍSTICAS</a></li>
-        <li class="nav-item"><a href="{{ site.url }}{{ site.baseurl }}#features">TECNOLOGÍA</a></li>
-        <li class="nav-item"><a href="{{ site.url }}{{ site.baseurl }}#portfoliowrap">REFERENCIAS</a></li>
-        <li class="nav-item"><a href="#contact">CONTACTO</a></li>
+        <li class="active nav-item sr-only"><a href="{{ site.url }}{{ site.baseurl }}#about">gvSIG Roads</a></li>
+        <!-- LINKS in config.yml -->
+         {% if page.layout == 'default' %}
+         {% for link in site.links[page.lang] %}
+              <li class="nav-item">
+              {% if link.external %}
+                <a href="{{ link.url }}">{{ link.title }}</a>
+                {% else %}
+                <a href="{{ link[1].url | replace: 'http://www.gvsigroads.com','' }}">{{ link[1].title }}</a>
+                {% endif %}
+              </li>
+          {% endfor %}
+         {% else %}
+           {% for link in site.links[page.lang] %}
+                <li class="nav-item">
+                  {% if link.external %}
+                  <a href="{{ link.url }}">{{ link.title }}</a>
+                  {% else %}
+                  <a href="{{ link[1].url }}">{{ link[1].title }}</a>
+                  {% endif %}
+                </li>
+          {% endfor %}
+        {% endif %}
         <li class="nav-item featured"><a href="{{ site.url }}{{ prepend: site.baseurl }}#demo">DEMO</a></li>
       </ul>
+      <!-- for posts languages -->
+
+       {% if page.layout == 'project' or page.layout == 'page' %}
+        <ul class="nav navbar-nav">
+        {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+        {% for post in posts %}
+          <li class="lang">
+            <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
+          </li>
+        {% endfor %}
+        {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+        {% for page in pages %}
+          <li class="lang">
+            <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
+          </li>
+        {% endfor %}
+        </ul>
+       {% endif %}
 
     </div><!--/.nav-collapse -->
   </div>
