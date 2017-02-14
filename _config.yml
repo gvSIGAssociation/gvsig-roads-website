@@ -178,6 +178,12 @@ t:
       tags: "Etiquetas"
       client: "Cliente"
       website: "Web"
+    sidebar-contact:
+      title: "LICITACIONES"
+      item1: "Conservación Viales"
+      item2: "Zonas Verdes"
+      item3: "Señalización Carreteras"
+      call-to-action: "Pincha aquí y te llamamos"
 
   en:
     title: "gvSIG Roads, free solution for the management of roads"
@@ -261,6 +267,12 @@ t:
       tags: "Tags"
       client: "Client"
       website: "Website"
+    sidebar-contact:
+      title: "BIDDING"
+      item1: "Conservation Vials"
+      item2: "Green Areas"
+      item3: "Road Signs"
+      call-to-action: "Click here and we'll call you"
 
 # To include variable in liquid: {{ site.t[page.lang].header.title }}
 # You can add translations group
@@ -269,15 +281,39 @@ t:
 # For external links add external: true
 links:
   en:
-    doc:
-#      title: Changelog
-#      url: /en/documentation
-#      external: false
+    solutions:
+      title: How works
+      url: "http://www.gvsigroads.com/en/#how-works"
+    projects:
+      title: Features
+      url: "http://www.gvsigroads.com/en/#services"
+    technologies:
+      title: Technology
+      url: "http://www.gvsigroads.com/en/#features"
+    blog:
+      title: References
+      url: "http://www.gvsigroads.com/en/#portfoliowrap"
+      external: true
+    contact:
+      title: Contact
+      url: "http://www.gvsigroads.com/en/#contact"
   es:
-    doc:
-#      title: Control de cambios
-#      url: /es/documentation
-#      external: false
+    solutions:
+      title: Cómo funciona
+      url: "http://www.gvsigroads.com#how-works"
+    projects:
+      title: Características
+      url: "http://www.gvsigroads.com#services"
+    technologies:
+      title: Tecnología
+      url: "http://www.gvsigroads.com#features"
+    blog:
+      title: Referencias
+      url: "http://www.gvsigroads.com#portfoliowrap"
+      external: true
+    contact:
+      title: Contacto
+      url: "http://www.gvsigroads.com#contact"
 
 include: [".htaccess"]
 exclude: ["vendor", "lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
