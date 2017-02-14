@@ -1,6 +1,7 @@
 ---
 layout: project
 title:  "Video gvSIG Roads: Creación de incidencias en dispositivo móvil"
+ref: mobile-incidences
 date:   2016-02-01
 author: Asociación gvSIG/ DISID Corporation
 img: video-gvsigroads-creacion-incidencias-movil.jpg

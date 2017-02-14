@@ -1,6 +1,7 @@
 ---
 layout: project
 title:  "Video gvSIG Roads: creación de inventario"
+ref: video-inventory
 date:   2016-02-01
 author: Asociación gvSIG/ DISID Corporation
 img: video-gvsigroads-inventario.jpg

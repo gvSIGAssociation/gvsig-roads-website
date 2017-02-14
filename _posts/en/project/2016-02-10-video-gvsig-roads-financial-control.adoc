@@ -1,6 +1,7 @@
 ---
 layout: project
 title:  "gvSIG Roads video: financial control"
+ref: financial-control
 date:   2016-02-01
 author: gvSIG Association / DISID Corporation
 img: video-gvsigroads-control-economico.jpg

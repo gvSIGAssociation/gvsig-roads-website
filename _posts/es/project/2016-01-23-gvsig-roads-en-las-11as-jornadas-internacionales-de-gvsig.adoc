@@ -1,7 +1,8 @@
 ---
 layout: project
 title:  "Video presentación gvSIG Roads en las 11as Jornadas Internacionales de gvSIG"
-date:   2015-12-03 16:54:46
+ref: 11-gvsig
+date: 2015-12-03 16:54:46
 author: DISID Corporation
 img: gvsigroads-11-gvsig.jpg
 thumb: gvsigroads-11-gvsig.jpg

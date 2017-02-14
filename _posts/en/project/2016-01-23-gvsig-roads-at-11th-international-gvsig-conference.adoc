@@ -1,7 +1,8 @@
 ---
 layout: project
 title:  "gvSIG Roads at the 11th International gvSIG Conference"
-date:   2015-12-03 16:54:46
+ref: 11-gvsig
+date: 2015-12-03 16:54:46
 author: DISID Corporation
 img: gvsigroads-11-gvsig.jpg
 thumb: gvsigroads-11-gvsig.jpg
