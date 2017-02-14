@@ -162,11 +162,17 @@ hr {
 	padding: 10px 5px;
 	text-transform: uppercase;
 }
-
+.navbar-default .navbar-nav > li.lang:last-child > a:before {
+  content: "|";
+  opacity: 0.7;
+  padding: 0 5px;
+}
+.navbar-default .navbar-nav > li.lang:last-child > a:after {
+  content: "";
+}
 .navbar-default .navbar-nav > li > a:hover {
 	color: {{ site.colors.yellow_gvsig }};;
 }
-
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	color: white;
 	background-color: transparent;
@@ -247,6 +253,12 @@ li.nav-item{
   @media (min-width: 992px) {
     .navbar-default .navbar-nav > li > a {
       padding: 10px 15px;
+    }
+    .navbar-default .navbar-nav > li.lang > a {
+      padding: 10px 0px 10px 15px;
+    }
+    .navbar-default .navbar-nav > li.lang:last-child > a {
+      padding: 10px 0px 10px 0px;
     }
     li.nav-item{
 
@@ -1348,12 +1360,19 @@ a.scrollup:after{
     }
 }
 
+
+@media ( max-width: 767px ) {
+  #fm-quick-call {
+    display: none;
+  }
+}
+
+
+@media ( min-width: 768px ) {
+
 /******************************************************************************
  ** Sidebar contact **
 ******************************************************************************/
-.ad-contact{
-}
-
  #fm-quick-call {
     position: fixed;
     top: 30%;
@@ -1423,38 +1442,6 @@ a.scrollup:after{
         list-style: none;
         padding: 0 1em;
       }
-@media ( max-width: 767px ) {
-  #fm-quick-call {
-    display: none;
-  }
-}
-@media ( max-width: 1280px ) {
-  #fm-quick-call {
-    top: unset;
-    bottom: 0;
-    left: 50%;
-    margin-left: -140px;
-    width: 280px;
-    transition: bottom ease-in-out 0.4s;
-    -webkit-transition: bottom ease-in-out 0.4s;
-    -moz-transition: bottom ease-in-out 0.4s;
-    -o-transition: bottom ease-in-out 0.4s;
-  }
-  .square {
-    float: left;
-    width: 130px;
-    box-sizing: border-box;
-    vertical-align: bottom;
-    display: inline-block;
-  }
-  .square.second {
-    width: 150px;
-    padding: 41px 20px 34px;
-  }
-  #fm-quick-call.hidden {
-    right: unset;
-    bottom: -135px;
-  }
 }
 
 
