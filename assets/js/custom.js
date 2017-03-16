@@ -56,23 +56,34 @@ jQuery(window).scroll(function(){
        }
 });
 
-//Banner sidebar contact
-//Banner
-jQuery(window).scroll(function(){
-      var $this = jQuery(this);
-     if ($this.scrollTop() > 300) {
-      jQuery('.ad-contact').fadeIn();
-      jQuery('.ad-contact').removeClass('hidden');
-     } else {
-      jQuery('.ad-contact').fadeOut();
-     }
-});
-//Button
-$('a.close-banner').on('click', function(e){
-  //store hash
-  var target = this.hash;
-  e.preventDefault();
+//Banner pop-up contact
 
-  $('.ad-contact').addClass('hidden');
+var amountScrolled2 = 300;
+var bannerClosed = false;
+var banner = $('div.banner-popup');
+var close = $("a.close-banner");
 
+$(window).scroll(function() {
+    if (!bannerClosed && !banner.hasClass('popout') && $(window).scrollTop() > amountScrolled2) {
+        banner.addClass('popout');
+        banner.animate({
+            right: 0
+        }, {
+            duration: 'slow',
+            complete: function() {
+                close.click(function() {
+                    bannerClosed = true;
+                    closeBanner();
+                });
+            }
+        });
+    } else if (banner.hasClass('popout') && $(window).scrollTop() < amountScrolled2) {
+        closeBanner();
+    }
 });
+
+function closeBanner() {
+    banner.animate({ right: -140 }, 'fast');
+    $(this).unbind("click");
+    banner.removeClass('popout');
+}

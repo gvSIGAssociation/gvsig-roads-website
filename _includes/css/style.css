@@ -1374,18 +1374,15 @@ a.scrollup:after{
  ** Sidebar contact **
 ******************************************************************************/
  #fm-quick-call {
+    /* display: none; */
     position: fixed;
-    top: 30%;
+    bottom: 20%;
     right: 0;
-    z-index: 100;
+    z-index: 999;
     width: 130px;
-    transition: right ease-in-out 0.4s;
-    -webkit-transition: right ease-in-out 0.4s;
-    -moz-transition: right ease-in-out 0.4s;
-    -o-transition: right ease-in-out 0.4s;
-  }
-  #fm-quick-call.hidden {
-    right: -130px;
+    right: -140px;
+    bottom: 120px;
+    text-align: center;
   }
     .square {
       padding: 20px 0;
@@ -1396,9 +1393,20 @@ a.scrollup:after{
       color: #fff;
     }
     .square.second {
-      background-color: #2a3038;
-      padding: 30px 20px;
+      /* background-color: #2a3038; /*blue*/
+      background-color: #E2AD2A;
+      padding: 20px 10px;
       cursor: pointer;
+      border: 0.25em solid white;
+      border-right: 0;
+      border-radius: 4px 0 0 4px;
+      -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.65);
+      -moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.65);
+      box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.65);
+    }
+    .square.second:focus,
+    .square.second:hover{
+      background-color: #cc9a20;
     }
       .square .fa {
         color: #fff;
@@ -1406,13 +1414,16 @@ a.scrollup:after{
       .square a .fa{
         text-align: right;
         float: right;
-        margin: -15px 5px 1em;
+        margin: -15px 0 0.5em;
         color: rgba(255, 255, 255, 0.5);
         cursor: pointer;
       }
+      .square a:hover {
+        color: #fff;
+        }
       .square a:focus .fa,
       .square a:hover .fa{
-        color: rgba(255, 255, 255, 1);
+        color: rgba(255, 255, 255, 0.5);
       }
       .square>p {
         text-align: center;
@@ -1426,6 +1437,7 @@ a.scrollup:after{
       .square>p a:hover, .square>p a:focus {
         text-decoration: none;
         color: #01b2fe;
+        color: #fff;
         outline: 0;
       }
       .square.first>p{
@@ -1443,5 +1455,7 @@ a.scrollup:after{
         padding: 0 1em;
       }
 }
+
+
 
 

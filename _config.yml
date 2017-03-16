@@ -183,7 +183,7 @@ t:
       item1: "Conservación Viales"
       item2: "Zonas Verdes"
       item3: "Señalización Carreteras"
-      call-to-action: "Pincha aquí y te llamamos"
+      call-to-action: "Nosotros te llamamos"
 
   en:
     title: "gvSIG Roads, free solution for the management of roads"
