@@ -367,9 +367,7 @@ li.nav-item{
   }
 
 .promo .bg {
-  background: url(../img/picjumbo.com_HNCK1240.jpg) top right no-repeat;
-   background: url(../img/picjumbo.com_HNCK3558.jpg) top right no-repeat;
-     background: url(../img/picjumbo.com_HNCK4011.jpg) top right no-repeat;
+  background: url(../img/banner-bg.jpg) no-repeat center center;
   background-size: cover;
     position: absolute;
     top: 0;
@@ -1255,7 +1253,7 @@ input#mc-embedded-subscribe {
 .banner {
     padding: 5em 0;
     color: #f8f8f8;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background: url(../img/picjumbo.com_HNCK4011.jpg) top right no-repeat;
     background-size: cover;
 }
 .banner .center h2.section-heading {
