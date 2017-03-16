@@ -80,20 +80,58 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/">
+      
+        <a class="navbar-brand" href="/">
+      
       <img src= "http://www.gvsigroads.com/assets/img/logo-gvsigroads-negativo.png" class="img-responsive">
       </a>
+
     </div>
     <div class="navbar-collapse collapse navbar-right">
       <ul class="nav navbar-nav">
+        <li class="hidden"><a href="#page-top"></a></li>
         <li class="active nav-item sr-only" style="float:none"><a class="scrollto" href="#promo">HOME</a></li>
-        <li class="active nav-item sr-only"><a class="scrollto" href="#about">QUÉ ES gvSIG Roads</a></li>
-        <li class="nav-item"><a class="scrollto" href="#how-works">Cómo funciona</a></li>
-        <li class="nav-item"><a class="scrollto" href="#services">CARACTERÍSTICAS</a></li>
-        <li class="nav-item"><a class="scrollto" href="#features">TECNOLOGÍA</a></li>
-        <li class="nav-item"><a class="scrollto" href="#portfoliowrap">REFERENCIAS</a></li>
-        <li class="nav-item"><a class="scrollto" href="#contact">CONTACTO</a></li>
+        <li class="active nav-item sr-only"><a class="scrollto" href="#about">gvSIG Roads</a></li>
+        <!-- LINKS in config.yml -->
+         
+         
+              <li class="nav-item">
+              
+                <a class="scrollto" href="#how-works">Cómo funciona</a>
+                
+              </li>
+          
+              <li class="nav-item">
+              
+                <a class="scrollto" href="#services">Características</a>
+                
+              </li>
+          
+              <li class="nav-item">
+              
+                <a class="scrollto" href="#features">Tecnología</a>
+                
+              </li>
+          
+              <li class="nav-item">
+              
+                <a class="scrollto" href="#portfoliowrap">Referencias</a>
+                
+              </li>
+          
+              <li class="nav-item">
+              
+                <a class="scrollto" href="#contact">Contacto</a>
+                
+              </li>
+          
+         
         <li class="nav-item featured"><a class="scrollto" href="#demo">DEMO</a></li>
+      </ul>
+      <ul class="nav navbar-nav">
+      <!-- for home -->
+        <li class="lang"><a href="http://www.gvsigroads.com/en/404.html">EN</a></li>
+        <li class="lang"><a href="http://www.gvsigroads.com/" class="es">ES</a></li>
       </ul>
 
     </div><!--/.nav-collapse -->
@@ -445,9 +483,9 @@ Esta página no está disponible, disculpa las molestias. Puede que alguno de lo
                     <h2 class="title text-center">¿Quieres ver una demo de gvSIG Roads?</h2>
                     <p class="text-muted">
                     
-                        ¡Genial, buena elección! <br>
+                        Recibe en tu correo tu acceso personal a la aplicación de forma gratuita. <br>
                     
-                        Llámanos o envía un email, como prefieras, y nos pondremos en contacto contigo lo antes posible. <br>
+                        Además te mantendremos informado de la últimas noticias, actualizaciones y mejoras sobre la herramienta para la gestión integral de carreteras. <br>
                     
                     </p>
                 </div>
@@ -494,9 +532,9 @@ Esta página no está disponible, disculpa las molestias. Puede que alguno de lo
                 <div class="hline-w"></div>
                 <p>
                     
-                        C/ San Vicente Mártir, 84 - 5A Valencia <br>
+                        Avinguda de Menéndez y Pelayo, 5 Valencia <br>
                     
-                        CP 46002, Spain <br>
+                        CP 46010, Spain <br>
                     
                         +34 963 516 309 <br>
                     
@@ -523,14 +561,22 @@ Esta página no está disponible, disculpa las molestias. Puede que alguno de lo
 <!-- custom -->
 <script src="http://www.gvsigroads.com/assets/js/custom.js"></script>
 
-<!-- mailchimp popup -->
+<!-- mailchimp popup Signup demo -->
 <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
-<script>
-function showMailingPopUp() {
-    require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us11.list-manage.com","uuid":"6c8ebdf66f7cedc23b4c8e986","lid":"9616808aa7"}) })
+<script type="text/javascript">
+  function showMailingPopUp() {
+      require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us11.list-manage.com","uuid":"6c8ebdf66f7cedc23b4c8e986","lid":"9616808aa7"}) })
+      document.cookie = "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+  };
+  document.getElementById("open-popup").onclick = function() {showMailingPopUp()};
+</script>
+
+<script type="text/javascript">
+  function showMailingPopUpPhone() {
+    require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us11.list-manage.com","uuid":"6c8ebdf66f7cedc23b4c8e986","lid":"703f45b6ac"}) })
     document.cookie = "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
-};
-document.getElementById("open-popup").onclick = function() {showMailingPopUp()};
+  };
+  document.getElementById("open-popup-phone").onclick = function() {showMailingPopUpPhone()};
 </script>
 
 <script>

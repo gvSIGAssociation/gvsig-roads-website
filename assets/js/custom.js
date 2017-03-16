@@ -55,3 +55,35 @@ jQuery(window).scroll(function(){
        	jQuery('.scrollup').fadeOut();
        }
 });
+
+//Banner pop-up contact
+
+var amountScrolled2 = 300;
+var bannerClosed = false;
+var banner = $('div.banner-popup');
+var close = $("a.close-banner");
+
+$(window).scroll(function() {
+    if (!bannerClosed && !banner.hasClass('popout') && $(window).scrollTop() > amountScrolled2) {
+        banner.addClass('popout');
+        banner.animate({
+            right: 0
+        }, {
+            duration: 'slow',
+            complete: function() {
+                close.click(function() {
+                    bannerClosed = true;
+                    closeBanner();
+                });
+            }
+        });
+    } else if (banner.hasClass('popout') && $(window).scrollTop() < amountScrolled2) {
+        closeBanner();
+    }
+});
+
+function closeBanner() {
+    banner.animate({ right: -140 }, 'fast');
+    $(this).unbind("click");
+    banner.removeClass('popout');
+}
