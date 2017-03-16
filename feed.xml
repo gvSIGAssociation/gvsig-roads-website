@@ -5,8 +5,8 @@
     <description></description>
     <link>http://www.gvsigroads.com/</link>
     <atom:link href="http://www.gvsigroads.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 16 Mar 2017 14:01:37 +0100</pubDate>
-    <lastBuildDate>Thu, 16 Mar 2017 14:01:37 +0100</lastBuildDate>
+    <pubDate>Thu, 16 Mar 2017 17:44:38 +0100</pubDate>
+    <lastBuildDate>Thu, 16 Mar 2017 17:44:38 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -94,7 +94,7 @@ companies a quick and easy control of project management.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;ul class=&quot;col-sm-5 col-sm-offset-1 feature-list list-unstyled&quot;&gt;
   &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;Interoperability with any GIS platform.&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;The only software for the comprehensive roads managemente that offers a cartographic viewer integrated with the management environment.&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;The only software for the comprehensive roads management that offers a cartographic viewer integrated with the management environment.&lt;/li&gt;
   &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;Free cartographic viewer, without cost for commercial use.&lt;/li&gt;
   &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;Free direct map servers. Cartography composed from web mapping services and from the inner spatial databases.&lt;/li&gt;
   &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;Loading and modification of cartography through open source tools. The gvSIG desktop plugin to create and edit the project axes model.&lt;/li&gt;
