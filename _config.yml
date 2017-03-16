@@ -272,7 +272,7 @@ t:
       item1: "Conservation Vials"
       item2: "Green Areas"
       item3: "Road Signs"
-      call-to-action: "Click here and we'll call you"
+      call-to-action: "Let us call you"
 
 # To include variable in liquid: {{ site.t[page.lang].header.title }}
 # You can add translations group
