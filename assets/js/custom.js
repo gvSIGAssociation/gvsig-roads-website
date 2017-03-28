@@ -77,19 +77,18 @@ $(window).scroll(function() {
                     closeBanner();
                 });
             }
-
-
         });
     } else if (banner.hasClass('popout') && $(window).scrollTop() < amountScrolled) {
-        closeBanner();
+      //closeBanner();
     }
 });
 
 function closeBanner() {
     banner.animate({ right: -100 }, 'fast');
-    //$(this).unbind("click");
+    $(this).unbind("click");
     banner.removeClass('popout');
     banner.find('a.open-banner').removeClass('hidden');
+
     banner.find('a.close-banner').addClass('hidden');
     banner.find('p').addClass('hidden');
 
