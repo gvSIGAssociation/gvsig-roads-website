@@ -58,13 +58,14 @@ jQuery(window).scroll(function(){
 
 //Banner pop-up contact
 
-var amountScrolled2 = 700;
+var amountScrolled = 700;
 var bannerClosed = false;
 var banner = $('div.banner-popup');
 var close = $("a.close-banner");
+var open = $("a.open-banner");
 
 $(window).scroll(function() {
-    if (!bannerClosed && !banner.hasClass('popout') && $(window).scrollTop() > amountScrolled2) {
+    if (!bannerClosed && !banner.hasClass('popout') && $(window).scrollTop() > amountScrolled) {
         banner.addClass('popout');
         banner.animate({
             right: 0
@@ -76,14 +77,33 @@ $(window).scroll(function() {
                     closeBanner();
                 });
             }
+
+
         });
-    } else if (banner.hasClass('popout') && $(window).scrollTop() < amountScrolled2) {
+    } else if (banner.hasClass('popout') && $(window).scrollTop() < amountScrolled) {
         closeBanner();
     }
 });
 
 function closeBanner() {
-    banner.animate({ right: -140 }, 'fast');
-    $(this).unbind("click");
+    banner.animate({ right: -100 }, 'fast');
+    //$(this).unbind("click");
     banner.removeClass('popout');
+    banner.find('a.open-banner').removeClass('hidden');
+    banner.find('a.close-banner').addClass('hidden');
+    banner.find('p').addClass('hidden');
+
+    open.click(function() {
+      bannerClosed = false;
+      openBanner();
+    });
+}
+
+function openBanner() {
+  banner.animate({ right: 0 }, 'fast');
+  $(this).unbind("click");
+  banner.addClass('popout');
+  banner.find('a.open-banner').addClass('hidden');
+  banner.find('a.close-banner').removeClass('hidden');
+  banner.find('p').removeClass('hidden');
 }

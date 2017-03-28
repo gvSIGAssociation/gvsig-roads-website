@@ -1416,6 +1416,18 @@ a.scrollup:after{
         color: rgba(255, 255, 255, 0.5);
         cursor: pointer;
       }
+      .square a.open-banner{
+          display: block;
+          height: 80px;
+          margin: -20px 0px 0 -10px;
+          padding: 20px 0 0 5px;
+          width: 25px;
+      }
+      .square a.open-banner .fa{
+        margin: 10px 0 0;
+        color: rgba(255, 255, 255, 0.5);
+        cursor: pointer;
+      }
       .square a:hover {
         color: #fff;
         }
