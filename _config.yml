@@ -184,6 +184,8 @@ t:
       item2: "Zonas Verdes"
       item3: "Señalización Carreteras"
       call-to-action: "Nosotros te llamamos"
+      open: "Abrir"
+      close: "Cerrar"
 
   en:
     title: "gvSIG Roads, free solution for the management of roads"
@@ -273,6 +275,8 @@ t:
       item2: "Green Areas"
       item3: "Road Signs"
       call-to-action: "Let us call you"
+      open: "Open"
+      close: "Close"
 
 # To include variable in liquid: {{ site.t[page.lang].header.title }}
 # You can add translations group
