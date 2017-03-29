@@ -248,6 +248,9 @@ li.nav-item{
       font-size: 0.9em;
       font-weight: 400;
     }
+    .navbar-default .navbar-nav > li.lang > a {
+      padding: 10px 0px 10px 5px;
+    }
   }
 
   @media (min-width: 992px) {
@@ -397,22 +400,27 @@ li.nav-item{
 }
 @media (min-width: 768px) {
     .promo .title {
-     font-size: 4em;
-     margin-top: 3em;
+     font-size: 3em;
+     margin-top: 5em;
     }
     .promo .intro {
-    font-size: 2em;
+    font-size: 1.5em;
     }
 }
 @media (min-width: 992px) {
     .promo .title {
      font-size: 4em;
-     margin-top: 5em;
+     margin-top: 3.5em;
     }
 }
-@media (min-width: 480px) and (max-width: 600px) {
+@media (min-width: 280px) and (max-width: 600px) {
     .promo .title {
-     margin-top: 2em;
+     margin-top: 3em;
+     font-size: 2em;
+    }
+    .promo .intro{
+      font-size:  1.2em;
+      margin-bottom: 0;
     }
 }
 #headerwrap {
@@ -1269,29 +1277,18 @@ section#software h2.section-heading {
 /* ======= Biddings Section ======= */
 
 div#headerwrap div.bg + div.container{
-  /*absolute*/
   position: relative;
-  border: 1px solid red;
   height: 110vh;
 }
 div#carousel-biddings{
-  text-align: right;
+   text-align: right;
    background: rgba(0, 0, 0, 0.2);
-   /* display: table;
-   margin-top: 20em; */
-   /*position*/
    position: absolute;
    bottom: 0;
-   right: 3em;
-   padding-bottom: 9em;
 }
 div#carousel-biddings h3{
     font-weight: 400;
-    font-size: 1.2em;
     text-align: right;
-    margin-top: 12em;
-    /*absolute*/
-    padding-top: 2em;
     margin-top: 0;
 }
 div#carousel-biddings p{
@@ -1316,11 +1313,61 @@ div#carousel-biddings .carousel-indicators li{
 div#carousel-biddings .carousel-indicators li.active{
     background: #fff;
 }
-
 div#carousel-biddings a{
   color: #fff;
 }
 
+/* responsive */
+
+@media (min-width: 280px) and (max-width: 600px) {
+
+  div#carousel-biddings{
+    padding-bottom: 30px;
+    padding-top: 20px;
+  }
+  div#carousel-biddings h3{
+      font-size: 1.1em;
+      padding-top: 0;
+  }
+}
+
+@media (min-width: 768px) {
+
+  div#carousel-biddings{
+     right: 3em;
+     padding-bottom: 10em;
+  }
+  div#carousel-biddings h3{
+      font-size: 1.2em;
+      padding-top: 2em;
+  }
+  div#carousel-biddings .carousel-indicators {
+    width: 80%;
+    margin-left: -40%;
+  }
+  div#carousel-biddings .carousel-indicators li{
+      width: 1.5em;
+  }
+}
+
+@media (min-width: 992px) {
+
+  div#carousel-biddings .carousel-indicators li{
+      width: 2em;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  div#carousel-biddings{
+     right: 3em;
+     padding-bottom: 9em;
+  }
+  div#carousel-biddings h3{
+      font-size: 1.2em;
+      padding-top: 2em;
+  }
+}
 
 
 
