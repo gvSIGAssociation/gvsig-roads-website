@@ -1,0 +1,60 @@
+<section id="carousel-biddings">
+
+{% assign collection=site.posts | where:"lang", page.lang %}
+
+  <div class="container-fluid">
+
+  {% for post in collection %}
+  {% if post.categories contains 'biddings' %}
+    <div class="row-fluid centered">
+        <div class="col-sm-12">
+          <h2 class="title">{{ site.t[page.lang].biddings.title }}</h2>
+          <p>{{ site.t[page.lang].biddings.description }}</p>
+        </div>
+    </div>
+  {% endif %}
+  {% endfor %}
+
+    <div class="row-fluid">
+    <div class="col-sm-12">
+
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+        <div class="carousel-inner">
+
+                <!-- before class="item" -->
+              {% for post in collection limit: 5 %}
+                <div class="item {% if forloop.first %}active{% endif %}">
+                  <ul>
+                   {% if post.categories contains 'biddings' %}
+                    <li>
+                      <strong>{{ post.title }}</strong>
+                      <a href="{{  post.url {{| prepend: site.baseurl }}"><i class="fa fa-plus"></i></a>
+                    </li>
+                   {% endif %}
+                  </ul>
+                </div>
+              {% endfor %}
+        </div>
+
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            {% for post in collection limit: 5 %}
+            {% if post.categories contains 'biddings' %}
+                <li data-target="#carousel-example-generic" data-slide-to="{{ forloop.index }}"
+                {% if forloop.index == 0 %}
+                    class="active"
+                {% endif %}>
+                </li>
+            {% endif %}
+            {% endfor %}
+        </ol>
+
+      </div> <!--/Carousel -->
+
+
+
+    </div><!-- col -->
+    </div><!-- row -->
+ </div><!-- container -->
+</section>
