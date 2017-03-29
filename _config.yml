@@ -186,6 +186,13 @@ t:
       call-to-action: "Nosotros te llamamos"
       open: "Abrir"
       close: "Cerrar"
+    biddings:
+      title: "Nuevas licitaciones"
+      description: "gvSIG Roads tu software de carreteras que acompaña a tu empresa en las licitaciones"
+      term: "Plazo"
+      place: "Lugar"
+    more: "Ver más información"
+    details: "Detalles"
 
   en:
     title: "gvSIG Roads, free solution for the management of roads"
@@ -277,6 +284,13 @@ t:
       call-to-action: "Let us call you"
       open: "Open"
       close: "Close"
+    biddings:
+      title: "New biddings"
+      description: "gvSIG Roads your roads software that help your company in biddings"
+      term: "Term"
+      place: "Place"
+    more: "Show more info"
+    details: "Details"
 
 # To include variable in liquid: {{ site.t[page.lang].header.title }}
 # You can add translations group

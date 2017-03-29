@@ -32,7 +32,7 @@
                 <div class="spacing"></div>
                 <h4>Detalles</h4>
                 <div class="hline"></div>
-                {% if page.date != null %}<p><b>{{ site.t[page.lang].project.date }}:</b> {{ page.date | date: "%b %-d, %Y" }}</p>{% endif %}
+                {% if page.date != null %}<p><b>{{ site.t[page.lang].project.date }}:</b> {{ page.date | date: "%-d %b, %Y" }}</p>{% endif %}
                 {% if page.author != null %}<p><b>{{ site.t[page.lang].project.company }}:</b> {{ page.author }}</p>{% endif %}
                 {% if page.tagged != null %}<p><b>{{ site.t[page.lang].project.tags }}:</b> {{ page.tagged }}</p>{% endif %}
                 {% if page.client != null %}<p><b>{{ site.t[page.lang].project.client }}:</b> {{ page.client }}</p>{% endif %}

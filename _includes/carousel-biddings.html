@@ -17,9 +17,8 @@
               <ul class="list-unstyled">
                {% if post.categories contains 'biddings' %}
                 <li>
-                  <a href="{{  post.url {{| prepend: site.baseurl }}">
-                    <span>{{ post.title }}</span>
-                    <i class="fa fa-angle-right" title="{{ site.t[page.lang].more }}" data-toggle="tooltip"></i>
+                  <a href="{{  post.url {{| prepend: site.baseurl }}" title="{{ site.t[page.lang].more }}" data-toggle="tooltip">
+                    <span>{{ post.title }} <i class="fa fa-angle-right"></i></span>
                   </a>
                 </li>
                {% endif %}

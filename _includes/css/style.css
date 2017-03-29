@@ -255,10 +255,10 @@ li.nav-item{
 
   @media (min-width: 992px) {
     .navbar-default .navbar-nav > li > a {
-      padding: 10px 15px;
+      padding: 10px;
     }
     .navbar-default .navbar-nav > li.lang > a {
-      padding: 10px 0px 10px 15px;
+      padding: 10px 0px 10px 10px;
     }
     .navbar-default .navbar-nav > li.lang:last-child > a {
       padding: 10px 0px 10px 0px;
@@ -629,6 +629,7 @@ section#developedby{
 	padding-bottom: 25px;
 }
 
+#blue h1,
 #blue h3 {
   letter-spacing: .15em;
   color: #bec8ce;
@@ -1274,6 +1275,7 @@ section#software h2.section-heading {
 
 }
 
+
 /* ======= Biddings Section ======= */
 
 div#headerwrap div.bg + div.container{
@@ -1296,6 +1298,10 @@ div#carousel-biddings p{
     line-height: inherit;
     font-weight: 100;
 }
+div#carousel-biddings ul li{
+   padding: 0 5px;
+}
+
 div#carousel-biddings .carousel-indicators{
   bottom: 0px;
   top: 30px;
@@ -1306,7 +1312,6 @@ div#carousel-biddings .carousel-indicators li{
     text-indent: -999px;
     border-radius: 0;
     margin: 0;
-    padding: 0;
     background: rgba(102, 102, 102, 0.5);
     border: 0;
 }
@@ -1315,6 +1320,9 @@ div#carousel-biddings .carousel-indicators li.active{
 }
 div#carousel-biddings a{
   color: #fff;
+}
+div#carousel-biddings span{
+  display: block;
 }
 
 /* responsive */
@@ -1344,6 +1352,8 @@ div#carousel-biddings a{
   div#carousel-biddings .carousel-indicators {
     width: 80%;
     margin-left: -40%;
+    bottom: -50px;
+    top: inherit;
   }
   div#carousel-biddings .carousel-indicators li{
       width: 1.5em;

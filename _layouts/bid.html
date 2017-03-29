@@ -12,26 +12,54 @@
        <div class="row">
             <div class="col-sm-5 col-sm-offset-1">
                 <div class="spacing"></div>
+                <h2>{{ page.title }}</h2>
 
                 {{ content }}
 
             </div>
 
             <div class="col-sm-4 col-sm-offset-1">
+              <div class="row">
                 <div class="spacing"></div>
-                <h4>Detalles</h4>
+                <h4>{{ site.t[page.lang].details }}</h4>
                 <div class="hline"></div>
-                {% if page.date != null %}<p><b>{{ site.t[page.lang].project.date }}:</b> {{ page.date | date: "%b %-d, %Y" }}</p>{% endif %}
-                {% if page.author != null %}<p><b>{{ site.t[page.lang].project.company }}:</b> {{ page.author }}</p>{% endif %}
-                {% if page.tagged != null %}<p><b>{{ site.t[page.lang].project.tags }}:</b> {{ page.tagged }}</p>{% endif %}
-                {% if page.client != null %}<p><b>{{ site.t[page.lang].project.client }}:</b> {{ page.client }}</p>{% endif %}
+                {% if page.date != null %}<p><b>{{ site.t[page.lang].project.date }}:</b> {{ page.date | date: "%-d %b, %Y" }}</p>{% endif %}
+                {% if page.term != null %}<p><b>{{ site.t[page.lang].biddings.term }}:</b> {{ page.author }}</p>{% endif %}
+                {% if page.place != null %}<p><b>{{ site.t[page.lang].biddings.place }}:</b> {{ page.tagged }}</p>{% endif %}
                 {% if page.website != null %}<p><b>{{ site.t[page.lang].project.website }}:</b> <a href="{{ page.website }}" target="_blank">{{ page.website }}</a></p>{% endif %}
+              </div>
+              <div class="row">
+                <!-- All biddings -->
+                {% assign collection=site.posts | where:"lang", page.lang %}
+                  {% for post in collection limit: 1 %}
+                    <h3 class="title">{{ site.t[page.lang].biddings.title }}</h3>
+                  {% endfor %}
+                  <ul class="post-list">
+                  {% for post in collection limit: 25 %}
+                    {% if post.categories contains 'biddings' %}
+                    <li>
+                      <article>
+                      <a href="{{ site.url }}{{ post.url }}" title="{{ site.t[page.lang].more }}" data-toggle="tooltip">
+                      {{ post.title }}
+                      </a>
+                      </article>
+                    </li>
+                    {% endif %}
+                  {% endfor %}
+                  </ul>
+              </div>
             </div>
         </div><!--/row -->
+
+        <div class="spacing"></div>
+
+
+
     </div><!--/container -->
 
-    {% include contact.html %}
 
+
+    {% include contact.html %}
     {% include footer.html %}
     {% include js.html %}
     </body>
