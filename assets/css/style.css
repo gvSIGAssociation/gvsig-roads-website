@@ -1286,7 +1286,7 @@ div#headerwrap div.bg + div.container{
 }
 div#carousel-biddings{
    text-align: right;
-   background: rgba(0, 0, 0, 0.2);
+   /* background: rgba(0, 0, 0, 0.2); */
    position: absolute;
    bottom: 0;
 }
