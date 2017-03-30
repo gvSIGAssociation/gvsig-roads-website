@@ -5,214 +5,249 @@
     <description></description>
     <link>http://www.gvsigroads.com/</link>
     <atom:link href="http://www.gvsigroads.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 28 Mar 2017 16:28:28 +0200</pubDate>
-    <lastBuildDate>Tue, 28 Mar 2017 16:28:28 +0200</lastBuildDate>
+    <pubDate>Thu, 30 Mar 2017 15:09:10 +0200</pubDate>
+    <lastBuildDate>Thu, 30 Mar 2017 15:09:10 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>Es: Gestión web</title>
-        <description>&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Integra componentes como aplicación de gestión web
-que permite a las empresas un control rápido y sencillo
-de la administración del proyecto.&lt;/p&gt;
+        <title>Es: Video gvSIG Roads: creación de inventario</title>
+        <description>&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;aplicación_gvsig_roads&quot;&gt;Aplicación gvSIG Roads&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Vídeo demo de la aplicación que muestra la creación de inventario en gvSIG Roads.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;</description>
-        <pubDate>Fri, 11 Mar 2016 00:00:00 +0100</pubDate>
-        <link>http://www.gvsigroads.com/es/about/gestion-web</link>
-        <guid isPermaLink="true">http://www.gvsigroads.com/es/about/gestion-web</guid>
+        <pubDate>Mon, 01 Feb 2016 00:00:00 +0100</pubDate>
+        <link>http://www.gvsigroads.com/es/project/video-gvsig-roads-gestion-inventario</link>
+        <guid isPermaLink="true">http://www.gvsigroads.com/es/project/video-gvsig-roads-gestion-inventario</guid>
         
         
         <category>es</category>
         
-        <category>about</category>
+        <category>project</category>
         
       </item>
     
       <item>
-        <title>En: WEB MANAGEMENT</title>
-        <description>&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;It integrates its components as a web management application that allows
-companies a quick and easy control of project management.&lt;/p&gt;
+        <title>En: gvSIG Roads video: financial control</title>
+        <description>&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;gvsig_roads_application&quot;&gt;gvSIG Roads Application&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Demo video of the application that shows the management of economic control of
+conservation on gvSIG Roads.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;</description>
-        <pubDate>Fri, 11 Mar 2016 00:00:00 +0100</pubDate>
-        <link>http://www.gvsigroads.com/en/about/gestion-web</link>
-        <guid isPermaLink="true">http://www.gvsigroads.com/en/about/gestion-web</guid>
+        <pubDate>Mon, 01 Feb 2016 00:00:00 +0100</pubDate>
+        <link>http://www.gvsigroads.com/en/project/video-gvsig-roads-financial-control</link>
+        <guid isPermaLink="true">http://www.gvsigroads.com/en/project/video-gvsig-roads-financial-control</guid>
         
         
         <category>en</category>
         
-        <category>about</category>
+        <category>project</category>
         
       </item>
     
       <item>
-        <title>Es: Mediciones</title>
-        <description>&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;
-&lt;ul class=&quot;col-sm-5 feature-list list-unstyled&quot;&gt;
-  &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;Aplicación web desarrollado con tecnología Java que cumple el estándar JEE 6.&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;Framework de desarrollo Spring Framework.&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;Herramienta de desarrollo rápido gvNIX, addon de SpringRoo Suite.&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;Compatible con las bases de datos Oracle 11g y PostgreSQL 9.&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;Software ORM para la base de datos: Hibernate.&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;Seguridad de la aplicación con Spring Security.&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;Frameworks para mejorar la experiencia del usuario: jQuery, DandelionDatatables.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul class=&quot;col-sm-5 col-sm-offset-1 feature-list list-unstyled&quot;&gt;
-  &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;Framework para diseño adaptativo (aplicación visible y usable en todo tipo de dispositivos): Bootstrap.&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;Soporte para datos cartográficos con Oracle Spatial (para Oracle) y PostGIS 2.2 (para PostgreSQL).&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;Visualización de datos geográficos con Leaflet.&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;Soporte para servicios web externos (SOAP, REST, etc.) con Spring Web Services.&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;Aplicación móvil para el sistema operativo Android 5.&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;Sincronización de datos con gvSIG Roads mediante servicios REST.&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;Plug-in para la gestión de los ejes con gvSIG Desktop.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
+        <title>En: gvSIG Roads video: creation of incidences on in mobile device</title>
+        <description>&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;gvsig_roads_application&quot;&gt;gvSIG Roads Application&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Demo video of the application that shows the creation of incidences on mobile device.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;</description>
-        <pubDate>Fri, 11 Mar 2016 00:00:00 +0100</pubDate>
-        <link>http://www.gvsigroads.com/es/features/features</link>
-        <guid isPermaLink="true">http://www.gvsigroads.com/es/features/features</guid>
+        <pubDate>Mon, 01 Feb 2016 00:00:00 +0100</pubDate>
+        <link>http://www.gvsigroads.com/en/project/video-gvsig-roads-creation-incidences-mobile-device</link>
+        <guid isPermaLink="true">http://www.gvsigroads.com/en/project/video-gvsig-roads-creation-incidences-mobile-device</guid>
+        
+        
+        <category>en</category>
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>Es: Video gvSIG Roads: Creación de incidencias en dispositivo móvil</title>
+        <description>&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;aplicación_gvsig_roads&quot;&gt;Aplicación gvSIG Roads&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Vídeo demo de la aplicación que muestra la creación de incidencias en dispositivo móvil.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+        <pubDate>Mon, 01 Feb 2016 00:00:00 +0100</pubDate>
+        <link>http://www.gvsigroads.com/es/project/video-gvsig-roads-creacion-incidencias-dispositivo-movil</link>
+        <guid isPermaLink="true">http://www.gvsigroads.com/es/project/video-gvsig-roads-creacion-incidencias-dispositivo-movil</guid>
         
         
         <category>es</category>
         
-        <category>features</category>
+        <category>project</category>
         
       </item>
     
       <item>
-        <title>En: Mediciones</title>
-        <description>&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;
-&lt;ul class=&quot;col-sm-5 feature-list list-unstyled&quot;&gt;
-  &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;Open source software. It guarantees the technological independence at no licensing costs.&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;Solution created by a multidisciplinary team composed by computer science engineers and road engineers.&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;Integrated with spatial databases such as Postgis and Oracle Spatial. As a consequence, graphic and alphanumeric information can be exploited from any another GIS platform, making a guarantee of interoperability.&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;Intelligent algorithms for the resolution of eternal problems, like positioning elements in PKs of more or less thousand meters, or representation by dynamic segmentation.&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;Data model and topology of axes of the platform adapted to the INSPIRE standard.&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;User-centric multiplatform tool. From anywhere, from any device.&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;Different user roles. One application, multiple possibilities.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul class=&quot;col-sm-5 col-sm-offset-1 feature-list list-unstyled&quot;&gt;
-  &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;Interoperability with any GIS platform.&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;The only software for the comprehensive roads management that offers a cartographic viewer integrated with the management environment.&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;Free cartographic viewer, without cost for commercial use.&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;Free direct map servers. Cartography composed from web mapping services and from the inner spatial databases.&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;Loading and modification of cartography through open source tools. The gvSIG desktop plugin to create and edit the project axes model.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
+        <title>Es: Video gvSIG Roads: control económico</title>
+        <description>&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;aplicación_gvsig_roads&quot;&gt;Aplicación gvSIG Roads&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Vídeo demo de la aplicación que muestra la gestión del control económico de la conservación.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;</description>
-        <pubDate>Fri, 11 Mar 2016 00:00:00 +0100</pubDate>
-        <link>http://www.gvsigroads.com/en/features/features</link>
-        <guid isPermaLink="true">http://www.gvsigroads.com/en/features/features</guid>
-        
-        
-        <category>en</category>
-        
-        <category>features</category>
-        
-      </item>
-    
-      <item>
-        <title>Es: SIG de escritorio</title>
-        <description>&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Un SIG potente, fácil de usar, interoperable para la edición y mantenimiento de
-cartografía con todo tipo de herramientas para analizar y gestionar información
-geográfica.&lt;/p&gt;
-&lt;/div&gt;</description>
-        <pubDate>Thu, 10 Mar 2016 00:00:00 +0100</pubDate>
-        <link>http://www.gvsigroads.com/es/about/sig-escritorio</link>
-        <guid isPermaLink="true">http://www.gvsigroads.com/es/about/sig-escritorio</guid>
+        <pubDate>Mon, 01 Feb 2016 00:00:00 +0100</pubDate>
+        <link>http://www.gvsigroads.com/es/project/video-gvsig-roads-control-economico</link>
+        <guid isPermaLink="true">http://www.gvsigroads.com/es/project/video-gvsig-roads-control-economico</guid>
         
         
         <category>es</category>
         
-        <category>about</category>
+        <category>project</category>
         
       </item>
     
       <item>
-        <title>En: DESKTOP GIS</title>
-        <description>&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;A powerful, easy-to-use, interoperable GIS for both editing and maintenance
-of cartography with all sorts of tools for analyzing and managing
-geographic information.&lt;/p&gt;
+        <title>En: gvSIG Roads video: creation of inventory</title>
+        <description>&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;gvsig_roads_application&quot;&gt;gvSIG Roads Application&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Demo video of the application that shows the inventory creation on gvSIG Roads.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;</description>
-        <pubDate>Thu, 10 Mar 2016 00:00:00 +0100</pubDate>
-        <link>http://www.gvsigroads.com/en/about/sig-escritorio</link>
-        <guid isPermaLink="true">http://www.gvsigroads.com/en/about/sig-escritorio</guid>
+        <pubDate>Mon, 01 Feb 2016 00:00:00 +0100</pubDate>
+        <link>http://www.gvsigroads.com/en/project/gvsig-roads-video-inventory-managament</link>
+        <guid isPermaLink="true">http://www.gvsigroads.com/en/project/gvsig-roads-video-inventory-managament</guid>
         
         
         <category>en</category>
         
-        <category>about</category>
+        <category>project</category>
         
       </item>
     
       <item>
-        <title>Es: Geoportal</title>
-        <description>&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Ofrece acceso a recursos y servicios basados en la información geográfica.
-Permite la gestión, edición y la visualización de los datos geoespaciales de carreteras.&lt;/p&gt;
+        <title>Es: Video gvSIG Roads: plugin actualización de los ejes de carretera</title>
+        <description>&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;plugin_gvsig_roads_actualización_de_ejes_de_la_cartografía&quot;&gt;Plugin gvSIG Roads: actualización de ejes de la cartografía&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Herramientas de alta y baja de ejes de carreteras con gvSIG Roads sobre
+gvSIG Desktop.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Al ser una solución integral se dispone de un potente
+Sistema de Información Geográfica de escritorio para las tareas
+cartográficas avanzadas.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Permite dar de alta un nuevo eje de carreteras o dar de baja uno existente.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Incluye Vistas 3D.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;</description>
-        <pubDate>Wed, 09 Mar 2016 00:00:00 +0100</pubDate>
-        <link>http://www.gvsigroads.com/es/about/geoportal</link>
-        <guid isPermaLink="true">http://www.gvsigroads.com/es/about/geoportal</guid>
+        <pubDate>Wed, 16 Dec 2015 17:54:46 +0100</pubDate>
+        <link>http://www.gvsigroads.com/es/project/plugin-gvsig-roads-actualizacion-de-los-ejes-de-carretera</link>
+        <guid isPermaLink="true">http://www.gvsigroads.com/es/project/plugin-gvsig-roads-actualizacion-de-los-ejes-de-carretera</guid>
         
         
         <category>es</category>
         
-        <category>about</category>
+        <category>project</category>
         
       </item>
     
       <item>
-        <title>En: Geoportal</title>
-        <description>&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;It provides access to resources and services based on geographic information.
-It allows management, editing and visualization of the roads geospatial data.&lt;/p&gt;
+        <title>En: gvSIG Roads video: plugin to update road axes</title>
+        <description>&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;gvsig_roads_plugin_updating_axes_of_cartography&quot;&gt;gvSIG Roads plugin: Updating axes of cartography&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Tools of high and low axes of roads with gvSIG Roads on gvSIG Desktop.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Al ser una solución integral se dispone de un potente
+Sistema de Información Geográfica de escritorio para las tareas
+cartográficas avanzadas.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Being an integral solution, it has a powerful Geographic Information System desktop
+for advanced cartographic tasks.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;It allows to register a new axis of roads or to retire an existing one.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Includes 3D Views.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;</description>
-        <pubDate>Wed, 09 Mar 2016 00:00:00 +0100</pubDate>
-        <link>http://www.gvsigroads.com/en/about/geoportal</link>
-        <guid isPermaLink="true">http://www.gvsigroads.com/en/about/geoportal</guid>
+        <pubDate>Wed, 16 Dec 2015 17:54:46 +0100</pubDate>
+        <link>http://www.gvsigroads.com/en/project/gvsig-roads-plugin-update-of-road-axes</link>
+        <guid isPermaLink="true">http://www.gvsigroads.com/en/project/gvsig-roads-plugin-update-of-road-axes</guid>
         
         
         <category>en</category>
         
-        <category>about</category>
+        <category>project</category>
         
       </item>
     
       <item>
-        <title>Es: Aplicación móvil</title>
-        <description>&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Herramienta de fácil manejo, muy intuitiva y con interfaz amigable.
-Optimizada para dispositivos móviles para tareas de trabajo de campo.&lt;/p&gt;
+        <title>Es: Video presentación gvSIG Roads en las 11as Jornadas Internacionales de gvSIG</title>
+        <description>&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;gvsig_roads_gestión_de_la_conservación_e_inventario_de_carreteras_con_software_libre&quot;&gt;gvSIG Roads: gestión de la conservación e inventario de carreteras con software libre&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Presentación de la solución en las 11as Jornadas Internacionales de gvSIG
+celebradas el pasado mes de diciembre de 2015 en Valencia
+por parte de Ricardo Rueda de la empresa &lt;a href=&quot;http://www.disid.com&quot;&gt;DISID Corporation&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;</description>
-        <pubDate>Tue, 08 Mar 2016 00:00:00 +0100</pubDate>
-        <link>http://www.gvsigroads.com/es/about/aplicacion-movil</link>
-        <guid isPermaLink="true">http://www.gvsigroads.com/es/about/aplicacion-movil</guid>
+        <pubDate>Thu, 03 Dec 2015 17:54:46 +0100</pubDate>
+        <link>http://www.gvsigroads.com/es/project/gvsig-roads-en-las-11as-jornadas-internacionales-de-gvsig</link>
+        <guid isPermaLink="true">http://www.gvsigroads.com/es/project/gvsig-roads-en-las-11as-jornadas-internacionales-de-gvsig</guid>
         
         
         <category>es</category>
         
-        <category>about</category>
+        <category>project</category>
         
       </item>
     
       <item>
-        <title>En: MOBILE APP</title>
-        <description>&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Easy and intuitive to use tool with a friendly interface. Optimized for mobile
-devices for field work tasks.&lt;/p&gt;
+        <title>En: gvSIG Roads at the 11th International gvSIG Conference</title>
+        <description>&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;gvsig_roads_maintenance_and_conservation_of_roads_management_using_open_source_software&quot;&gt;gvSIG Roads: Maintenance and conservation of roads management using open source software&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Presentation of the solution gvSIG Roads at the 11th International gvSIG Conference
+held last December in Valencia by Ricardo Rueda, functional GIS applications
+responsible at &lt;a href=&quot;http://www.disid.com&quot;&gt;DISID Corporation&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;</description>
-        <pubDate>Tue, 08 Mar 2016 00:00:00 +0100</pubDate>
-        <link>http://www.gvsigroads.com/en/about/aplicacion-movil</link>
-        <guid isPermaLink="true">http://www.gvsigroads.com/en/about/aplicacion-movil</guid>
+        <pubDate>Thu, 03 Dec 2015 17:54:46 +0100</pubDate>
+        <link>http://www.gvsigroads.com/en/project/gvsig-roads-at-11th-international-gvsig-conference</link>
+        <guid isPermaLink="true">http://www.gvsigroads.com/en/project/gvsig-roads-at-11th-international-gvsig-conference</guid>
         
         
         <category>en</category>
         
-        <category>about</category>
+        <category>project</category>
         
       </item>
     

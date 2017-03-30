@@ -42,6 +42,12 @@
     new WOW().init();
 
 
+    /* ======= Boostrap ======= */
+    // Initialize Tooltip
+    $('[data-toggle="tooltip"]').tooltip();
+    jQuery('[data-toggle="tooltip"]').tooltip();
+
+
 })(jQuery);
 
 
