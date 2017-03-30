@@ -1,6 +1,6 @@
 <section id="portfoliowrap">
         <div class="center">
-        <h2 class="section-heading">{{ site.t[page.lang].portfolio.title }}</h2>
+        <h3 class="section-heading">{{ site.t[page.lang].portfolio.title }}</h3>
         <p>{{ site.t[page.lang].portfolio.description }}</p>
         </div>
         <div class="recentitems portfolio">
@@ -12,7 +12,7 @@
                     <img src="{{ site.url }}{{ site.ASSET_PATH | prepend: site.baseurl }}/img/project/{{ post.img }}" alt="{{ post.title }}" />
                         <div class="he-view">
                             <div class="bg a0" data-animate="fadeIn">
-                                <h3 class="a1" data-animate="fadeInDown">{{ post.title }}</h3>
+                                <h4 class="a1" data-animate="fadeInDown">{{ post.title }}</h4>
                                 <a href="{{  post.url {{| prepend: site.baseurl }}" class="a2" data-animate="fadeInDown"><i class="fa fa-plus fa-3x"></i></a>
                             </div><!-- he bg -->
                         </div><!-- he view -->

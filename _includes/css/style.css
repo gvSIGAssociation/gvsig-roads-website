@@ -484,6 +484,7 @@ li.nav-item{
 .portfolio-item p {margin:0px 0 30px;}
 .portfolio-item h3 {margin:-10px 0 10px; font-size:16px; text-transform:uppercase;}
 
+.tpl6 h4,
 .tpl6 h3
 {
 	color:#fff;
@@ -501,6 +502,7 @@ li.nav-item{
 }
 /*responsive*/
 @media (min-width: 600px) and (max-width: 992px) {
+    .tpl6 h4,
     .tpl6 h3
     {
       padding: 1em 0.5em 0;

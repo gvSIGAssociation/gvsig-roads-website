@@ -1,0 +1,36 @@
+---
+layout: project
+title:  "Case study: gvSIG Roads for Valencia Regional Council"
+ref: gvsig-roads-management-of-conservation-and-road-inventory
+date:   2015-06-20 16:54:46
+author: DISID Corporation
+img: gvsigroads-dival.jpg
+thumb:
+carousel:
+  - index-gvsigroads-dival.png
+  - inventario-gvsigroads-dival.png
+tagged: App, Roads, Inventory, Conservation
+client: Highways Department of the Valencia Regional Council
+website: http://www.dival.es/es/carreteras/
+categories:
+  - en
+  - project
+lang: en
+---
+
+## gvSIG Roads: conservation management and roads inventory
+
+Implementation of gvSIG Roads software to serve needs of management systems for the conservation of road
+networks such us task and job orders, guard tours, incidences, measurements and certificates.
+
+The software allows to keep consistent working procedures, documentation,
+coordination with contractors companies and access information.
+
+It allows the interaction and collection of information by all actors involved:
+Citizens, companies and administrations.
+
+
+
+
+
+

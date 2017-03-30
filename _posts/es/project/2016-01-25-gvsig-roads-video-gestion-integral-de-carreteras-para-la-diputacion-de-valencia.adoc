@@ -1,6 +1,7 @@
 ---
 layout: project
 title:  "Video gvSIG Roads: gestión integral de carreteras para la Diputación de Valencia"
+ref: not-available
 date:   2015-06-25 16:54:46
 author: DISID Corporation
 img: video-gvsigroads-dival.jpg
@@ -14,7 +15,7 @@ categories:
   - project
 lang: es
 ---
-#### Herramienta gvSIG Roads: gestión integral de carreteras para la Diputación de Valencia
+## Herramienta gvSIG Roads: gestión integral de carreteras para la Diputación de Valencia
 
 Aplicación de gestión de la conservación de carreteras para mantener una homogeneidad
 entre las demarcaciones en la forma de trabajar, en la presentación de documentación,

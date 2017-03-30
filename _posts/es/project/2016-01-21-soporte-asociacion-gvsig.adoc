@@ -1,6 +1,7 @@
 ---
 layout: project
 title:  "Producto avalado por la Asociación gvSIG"
+ref: gvsig-association-support
 date:   2014-04-21 16:54:46
 author: Asociación gvSIG
 img: gvsigroads-producto-gvsig.jpg
@@ -17,7 +18,7 @@ categories:
 lang: es
 ---
 
-#### PRODUCTO DE LA ASOCIACIÓN GVSIG
+## PRODUCTO DE LA ASOCIACIÓN GVSIG
 
 gvSIG Roads es una de las últimas soluciones en sumarse al catálogo de productos de la Asociación gvSIG.
 

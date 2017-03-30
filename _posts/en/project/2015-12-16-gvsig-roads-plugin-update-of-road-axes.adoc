@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Video gvSIG Roads: plugin actualización de los ejes de carretera"
+title: "gvSIG Roads video: plugin to update road axes"
 ref: gvsig-roads-plugin-update-of-road-axes
 date: 2015-12-16 16:54:46
 author: DISID Corporation
@@ -8,23 +8,25 @@ img: plugin-gvsigroads.jpg
 thumb: plugin-gvsigroads.jpg
 video: LbuqkEYMnS0
 tagged: Plugin, gvSIG Desktop
-client: Asociación gvSIG
+client: gvSIG Association
 website: http://www.gvsig.com
 categories:
-  - es
+  - en
   - project
-lang: es
+lang: en
 ---
 
-## Plugin gvSIG Roads: actualización de ejes de la cartografía
+## gvSIG Roads plugin: Updating axes of cartography
 
-Herramientas de alta y baja de ejes de carreteras con gvSIG Roads sobre
-gvSIG Desktop.
+Tools of high and low axes of roads with gvSIG Roads on gvSIG Desktop.
 
 Al ser una solución integral se dispone de un potente
 Sistema de Información Geográfica de escritorio para las tareas
 cartográficas avanzadas.
 
-Permite dar de alta un nuevo eje de carreteras o dar de baja uno existente.
+Being an integral solution, it has a powerful Geographic Information System desktop
+for advanced cartographic tasks.
 
-Incluye Vistas 3D.
+It allows to register a new axis of roads or to retire an existing one.
+
+Includes 3D Views.

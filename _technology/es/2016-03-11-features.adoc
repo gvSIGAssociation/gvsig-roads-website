@@ -1,9 +1,8 @@
 ---
-layout: project
-img: how-mediciones.png
-title: Mediciones
-href: mediciones
-description: Mediciones
+layout: question
+title: Características
+href: features
+description: Características
 categories:
   - es
   - features

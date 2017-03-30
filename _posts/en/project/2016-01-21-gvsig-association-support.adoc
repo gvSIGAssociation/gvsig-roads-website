@@ -1,0 +1,34 @@
+---
+layout: project
+title:  "Product endorsed by the gvSIG Association"
+ref: gvsig-association-support
+date:   2014-04-21 16:54:46
+author: gvSIG Association
+img: gvsigroads-producto-gvsig.jpg
+thumb:
+carousel:
+- portal-gvsig.png
+- blog-gvsig.png
+- inicio_web_11as_jornadas_int_gvsig_es.png #1280x600px
+tagged: Support, Open Source
+website: http://www.gvsig.com
+categories:
+  - en
+  - project
+lang: en
+---
+
+## A solution of the gvSIG Association
+
+gvSIG Roads recently added to the already rich catalog of gvSIG Association.
+
+This solution can be used for road infrastructure management based on a free
+applications suite such as the outstanding gvSIG Desktop and gvNIX, that are as well open source gvSIG products.
+
+This solution derives from a project realized for the Valencia Province, which
+relied on the gvSIG Association to implement the free solution for road management.
+
+This support of the Association guarantees the coordination, diffusion and sustainability of the gvSIG Roads project.
+
+
+

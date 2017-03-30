@@ -15,7 +15,7 @@ categories:
 lang: es
 ---
 
-### gvSIG Roads: gestión de la conservación e inventario de carreteras con software libre
+## gvSIG Roads: gestión de la conservación e inventario de carreteras con software libre
 
 Presentación de la solución en las 11as Jornadas Internacionales de gvSIG
 celebradas el pasado mes de diciembre de 2015 en Valencia

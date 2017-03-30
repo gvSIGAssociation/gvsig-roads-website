@@ -1,0 +1,19 @@
+---
+layout: project
+title:  "gvSIG Roads video: comprehensive road management platform for Valencia Regional Council"
+ref: not-available
+date: 2015-06-25 16:54:46
+author: DISID Corporation
+img: video-gvsigroads-dival.jpg
+thumb:
+video:
+tagged: App, Roads, Inventory, Conservation
+client: Valencia Regional Council
+website: http://www.dival.es/es/carreteras/
+categories:
+  - en
+  - project
+lang: en
+---
+
+This content is not available in this language.

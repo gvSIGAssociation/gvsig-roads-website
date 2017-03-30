@@ -6,7 +6,7 @@
             <p>{{ site.t[page.lang].features.description }}</p>
           </div>
           <div class="row-fluid">
-            {% assign collection=site.posts | where:"lang", page.lang %}
+            {% assign collection=site.technology | where:"lang", page.lang %}
             {% for post in collection %}
               {% if post.categories contains 'features' %}
                 {{ post.content }}

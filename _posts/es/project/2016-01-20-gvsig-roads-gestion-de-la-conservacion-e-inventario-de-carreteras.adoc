@@ -1,6 +1,7 @@
 ---
 layout: project
 title:  "Caso de éxito: gvSIG Roads para la Diputación de Valencia"
+ref: gvsig-roads-management-of-conservation-and-road-inventory
 date:   2015-06-20 16:54:46
 author: DISID Corporation
 img: gvsigroads-dival.jpg
@@ -17,7 +18,7 @@ categories:
 lang: es
 ---
 
-#### gvSIG Roads: gestión de la conservación e inventario de carreteras
+## gvSIG Roads: gestión de la conservación e inventario de carreteras
 
 Implantación del software gvSIG Roads para cubrir las necesidades de gestión de la conservación de carreteras
 como partes y recorridos de vigilancia, incidencias, tareas y ordenes de trabajo,

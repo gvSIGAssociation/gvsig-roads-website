@@ -1,6 +1,6 @@
 <section id="services">
 <!-- Page Content -->
-{% assign collection=site.posts | where:"lang", page.lang %}
+{% assign collection=site.services | where:"lang", page.lang %}
 {% for post in collection %}
 {% if post.categories contains 'service' limit:include.limit %}
 

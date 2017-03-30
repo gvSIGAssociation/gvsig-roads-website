@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: question
 title: Aplicación móvil
 icon: fa-tablet
 icon-delay: 51s
