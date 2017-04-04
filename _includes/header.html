@@ -15,6 +15,15 @@
                 <p><a href="#about" class="btn dmbutton wow pulse">{{ site.t[page.lang].more }}</a></p>
             </div>
 
+            {% assign collection=site.posts | where:"lang", page.lang %}
+            {% for post in collection limit: 1 %}
+            {% if post.categories contains 'biddings' %}
+            <div class="col-sm-5 col-sm-offset-1" id="carousel-biddings">
+               {% include carousel-biddings.html %}
+            </div>
+            {% endif %}
+            {% endfor %}
+
         </div><!-- /row -->
     </div> <!-- /container -->
 </div><!-- /headerwrap -->
