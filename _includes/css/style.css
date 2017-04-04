@@ -241,15 +241,34 @@ li.nav-item{
 
   @media (max-width: 980px) {
     li.nav-item {
-    margin: 0 5px 0 0;
+      margin: 0;
+    }
+    .navbar-default.navbar-fixed-top .nav-item.featured.active,
+    .navbar-default.navbar-fixed-top .nav-item.featured:hover,
+    .navbar-default .nav-item.featured:hover,
+    .navbar-nav > li.featured {
+      border: none;
+      border-radius: 0;
     }
     .navbar-default .navbar-nav > li > a {
       text-align: center;
-      font-size: 0.9em;
-      font-weight: 400;
+      font-size: 0.8em;
+    }
+    .navbar-default .navbar-nav > li.lang  {
+      display: inline-block;
+      width: 47%;
     }
     .navbar-default .navbar-nav > li.lang > a {
-      padding: 10px 0px 10px 5px;
+      padding: 12px 0 10px 5px;
+    }
+    li.lang a {
+      float: right;
+    }
+    li.lang + li.lang a {
+      float: left;
+    }
+    .navbar-nav + .navbar-nav{
+       margin-left: 5px;
     }
   }
 
@@ -264,7 +283,6 @@ li.nav-item{
       padding: 10px 0px 10px 0px;
     }
     li.nav-item{
-
       margin: 0 10px;
     }
   }
@@ -640,6 +658,9 @@ section#developedby{
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
+}
+#blue h1{
+  font-size: 1.5em;
 }
 
 .carousel-inner > .item > img,
@@ -1329,15 +1350,32 @@ div#carousel-biddings span{
 
 /* responsive */
 
+@media (max-width: 768px) {
+   div#carousel-biddings h3{
+    font-size: 1.3em;
+    padding: 1em 0 0;
+    margin: 0;
+   }
+   div#carousel-biddings ul.list-unstyled{
+    margin-bottom: 3em;
+   }
+   div#carousel-biddings .carousel-indicators {
+    top: 4em;
+    }
+}
+
 @media (min-width: 280px) and (max-width: 600px) {
 
   div#carousel-biddings{
-    padding-bottom: 30px;
-    padding-top: 20px;
+    padding-bottom: 5em;
+    padding-top: 0.5em;
   }
   div#carousel-biddings h3{
       font-size: 1.1em;
       padding-top: 0;
+  }
+  div#carousel-biddings .carousel-indicators {
+    top: 7em;
   }
 }
 
@@ -1345,15 +1383,15 @@ div#carousel-biddings span{
 
   div#carousel-biddings{
      right: 3em;
-     padding-bottom: 10em;
+     padding-bottom: 7em;
   }
   div#carousel-biddings h3{
       font-size: 1.2em;
       padding-top: 2em;
   }
   div#carousel-biddings .carousel-indicators {
-    width: 80%;
-    margin-left: -40%;
+    width: 100%;
+    margin-left: -50%;
     bottom: -50px;
     top: inherit;
   }
@@ -1581,6 +1619,7 @@ a.scrollup:after{
       font-size: 14px;
       line-height: 1.4;
     }
+
 }
 
 
