@@ -64,7 +64,7 @@ jQuery(window).scroll(function(){
 
 //Banner pop-up contact
 
-var amountScrolled = 700;
+var amountScrolled = 1200;
 var bannerClosed = false;
 var banner = $('div.banner-popup');
 var close = $("a.close-banner");
