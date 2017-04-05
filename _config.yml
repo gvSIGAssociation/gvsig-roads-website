@@ -179,6 +179,8 @@ t:
       - lines:
         - "¡Genial, buena elección!"
         - "Llámanos o envía un email, como prefieras, y nos pondremos en contacto contigo lo antes posible."
+      company: Soy una empresa
+      council: Soy un ayuntamiento
     suscribe:
       title: "¿Quieres ver una demo de gvSIG Roads?"
       email: "Tu email *"
@@ -278,6 +280,8 @@ t:
       - lines:
         - "Great, good choice!"
         - "Just call or send us an email, as you wish, and we will get in touch with you as soon as possible."
+      company: I'm a company
+      council: I'm a council
     suscribe:
       title: "Do you want to see an gvSIG Roads demo?"
       email: "Your email *"
