@@ -31,8 +31,8 @@
     <ol class="carousel-indicators square">
         {% for post in collection limit: 5 %}
         {% if post.categories contains 'biddings' %}
-            <li data-target="#carousel-example-generic" data-slide-to="{{ forloop.index }}"
-            {% if forloop.index == 0 %}
+            <li data-target="#carousel-example-generic" data-slide-to="{{ forloop.index0 }}"
+            {% if forloop.index0 == 0 %}
                 class="active"
             {% endif %}>
             </li>
