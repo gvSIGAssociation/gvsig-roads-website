@@ -1,18 +1,13 @@
 <div id="blue">
-    <div class="container">
-        <div class="row">
+  <div class="container">
+    <div class="row-fluid">
 
-              {% if page.categories contains 'biddings' %}
+      {% if page.categories contains 'biddings' %}
+        <h1 class="title">{{ site.t[page.lang].biddings.title }}</h1>
+      {% else %}
+        <h1>{% if page.wrap_title %}{{ page.wrap_title }}{% else %}{{ page.title }}{% endif %}</h1>
+      {% endif %}
 
-                <h1 class="title">{{ site.t[page.lang].biddings.title }}</h1>
-
-              {% else %}
-
-                <h1>{% if page.wrap_title %}{{ page.wrap_title }}{% else %}{{ page.title }}{% endif %}</h1>
-
-
-              {% endif %}
-
-        </div><!-- /row -->
-    </div> <!-- /container -->
+    </div><!-- /row -->
+  </div> <!-- /container -->
 </div><!-- /blue -->
