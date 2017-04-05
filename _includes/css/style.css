@@ -1181,11 +1181,32 @@ section#how-works .panel-title a{
     display: none !important;
 }
 
-/** Creative **/
+/** Contact **/
 
 section#contact .contact {
     padding: 4em 0;
 }
+
+/** Contact comercial **/
+
+section#contact-comercial .dmbutton.bg-light {
+  margin: 1em;
+}
+section#contact-comercial .panel-default > .panel-heading:hover {
+    border-color: #ddd;
+    padding: 1em;
+    background-color: {{ site.colors.secondary }};
+}
+
+section#contact-comercial .panel-default > .panel-heading:hover h4,
+section#contact-comercial .panel-default > .panel-heading:hover a:hover,
+section#contact-comercial .panel-default > .panel-heading:hover .text-secondary {
+    color: #fff;
+}
+section#contact-comercial .panel-default > .panel-heading:hover .fa-inverse {
+    color: {{ site.colors.secondary }};
+}
+
 
 /** headings **/
 
@@ -1304,6 +1325,9 @@ section#software h2.section-heading {
 div#headerwrap div.bg + div.container{
   position: relative;
   height: 110vh;
+}
+div.mt.biddings h2{
+  font-size: 1.3em;
 }
 div#carousel-biddings{
    text-align: right;
