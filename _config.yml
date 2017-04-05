@@ -119,7 +119,6 @@ defaults:
 t:
   es:
     title: "gvSIG Roads, solución libre para gestión de carreteras"
-    more: "Más info"
     legal-notice: "Aviso legal"
     office: "Nuestras oficinas"
     header:
@@ -208,12 +207,13 @@ t:
       description: "gvSIG Roads tu software de carreteras que acompaña a tu empresa en las licitaciones"
       term: "Plazo"
       place: "Lugar"
-    more: "Ver más información"
+      document: "Pliego"
+    more: "Más info"
     details: "Detalles"
+    goback: "Volver"
 
   en:
     title: "gvSIG Roads, free solution for the management of roads"
-    more: "More info"
     # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
     legal-notice: "Legal Notice"
     office: "Our office"
@@ -306,8 +306,10 @@ t:
       description: "gvSIG Roads your roads software that help your company in biddings"
       term: "Term"
       place: "Place"
-    more: "Show more info"
+      document: "Document"
+    more: "More info"
     details: "Details"
+    goback: "Go Back"
 
 # To include variable in liquid: {{ site.t[page.lang].header.title }}
 # You can add translations group
