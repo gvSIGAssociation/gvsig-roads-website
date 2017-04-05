@@ -2,11 +2,10 @@
 
 <section id="contact">
 
-  {% include banner.html %}
         <div class="container contact">
             <div class="row-fluid">
                 <div class="col-sm-8 col-sm-offset-2 text-center">
-                    <h2 class="section-heading">{{ site.t[page.lang].contact.title }}</h2>
+                    <h3 class="section-heading">{{ site.t[page.lang].contact.title }}</h3>
                     <hr class="primary">
                     <p>
                     {% for line in site.t[page.lang].contact.description.first.lines %}
