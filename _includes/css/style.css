@@ -1208,6 +1208,22 @@ section#contact-comercial .panel-default > .panel-heading:hover .fa-inverse {
 }
 
 
+/** Map Case study **/
+#map-wrapper {
+    position: relative;
+}
+#map {
+  position: absolute;
+  top:0; bottom:0; right:0; left:0;
+  border-top: 1px solid #e5eaee;
+  height: 500px;
+  width: 100%;
+  position: relative;
+  left: 0;
+  right: 0;
+}
+
+
 /** headings **/
 
 .subtitle{
