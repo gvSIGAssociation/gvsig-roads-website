@@ -3,6 +3,106 @@
   
     
       <url>
+        <loc>/es/biddings/test-licitacion-5</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/es/biddings/test-licitacion-5" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/es/biddings/test-licitacion-4" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/es/biddings/test-licitacion-3" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/es/biddings/test-licitacion-2" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/es/biddings/test-licitacion" />
+        
+        <lastmod>2017-03-29T00:00:00+02:00</lastmod>
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/es/biddings/test-licitacion-4</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/es/biddings/test-licitacion-5" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/es/biddings/test-licitacion-4" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/es/biddings/test-licitacion-3" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/es/biddings/test-licitacion-2" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/es/biddings/test-licitacion" />
+        
+        <lastmod>2017-03-29T00:00:00+02:00</lastmod>
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/es/biddings/test-licitacion-3</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/es/biddings/test-licitacion-5" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/es/biddings/test-licitacion-4" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/es/biddings/test-licitacion-3" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/es/biddings/test-licitacion-2" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/es/biddings/test-licitacion" />
+        
+        <lastmod>2017-03-29T00:00:00+02:00</lastmod>
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/es/biddings/test-licitacion-2</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/es/biddings/test-licitacion-5" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/es/biddings/test-licitacion-4" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/es/biddings/test-licitacion-3" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/es/biddings/test-licitacion-2" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/es/biddings/test-licitacion" />
+        
+        <lastmod>2017-03-29T00:00:00+02:00</lastmod>
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/es/biddings/test-licitacion</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/es/biddings/test-licitacion-5" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/es/biddings/test-licitacion-4" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/es/biddings/test-licitacion-3" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/es/biddings/test-licitacion-2" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/es/biddings/test-licitacion" />
+        
+        <lastmod>2017-03-29T00:00:00+02:00</lastmod>
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
         <loc>/es/project/video-gvsig-roads-gestion-inventario</loc>
         
         
@@ -239,6 +339,8 @@
         
           <xhtml:link rel="alternate" hreflang="es" href="/feed.xml" />
         
+          <xhtml:link rel="alternate" hreflang="es" href="/gracias/" />
+        
           <xhtml:link rel="alternate" hreflang="en" href="/en/" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
@@ -250,6 +352,14 @@
           <xhtml:link rel="alternate" hreflang="es" href="/sitemaps.xml" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/assets/css/style.css" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/thanks/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
         
@@ -282,6 +392,8 @@
         
           <xhtml:link rel="alternate" hreflang="es" href="/feed.xml" />
         
+          <xhtml:link rel="alternate" hreflang="es" href="/gracias/" />
+        
           <xhtml:link rel="alternate" hreflang="en" href="/en/" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
@@ -293,6 +405,14 @@
           <xhtml:link rel="alternate" hreflang="es" href="/sitemaps.xml" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/assets/css/style.css" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/thanks/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
         
@@ -325,6 +445,8 @@
         
           <xhtml:link rel="alternate" hreflang="es" href="/feed.xml" />
         
+          <xhtml:link rel="alternate" hreflang="es" href="/gracias/" />
+        
           <xhtml:link rel="alternate" hreflang="en" href="/en/" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
@@ -336,6 +458,14 @@
           <xhtml:link rel="alternate" hreflang="es" href="/sitemaps.xml" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/assets/css/style.css" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/thanks/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
         
@@ -368,6 +498,8 @@
         
           <xhtml:link rel="alternate" hreflang="es" href="/feed.xml" />
         
+          <xhtml:link rel="alternate" hreflang="es" href="/gracias/" />
+        
           <xhtml:link rel="alternate" hreflang="en" href="/en/" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
@@ -379,6 +511,67 @@
           <xhtml:link rel="alternate" hreflang="es" href="/sitemaps.xml" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/assets/css/style.css" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/thanks/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/gracias/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/404.html" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/es/cookies-policy/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/en/cookies-policy/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/feed.xml" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/gracias/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/en/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/es/legal-notice/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/en/legal-notice/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/sitemaps.xml" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/assets/css/style.css" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/thanks/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
         
@@ -411,6 +604,8 @@
         
           <xhtml:link rel="alternate" hreflang="es" href="/feed.xml" />
         
+          <xhtml:link rel="alternate" hreflang="es" href="/gracias/" />
+        
           <xhtml:link rel="alternate" hreflang="en" href="/en/" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
@@ -422,6 +617,14 @@
           <xhtml:link rel="alternate" hreflang="es" href="/sitemaps.xml" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/assets/css/style.css" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/thanks/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
         
@@ -454,6 +657,8 @@
         
           <xhtml:link rel="alternate" hreflang="es" href="/feed.xml" />
         
+          <xhtml:link rel="alternate" hreflang="es" href="/gracias/" />
+        
           <xhtml:link rel="alternate" hreflang="en" href="/en/" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
@@ -465,6 +670,14 @@
           <xhtml:link rel="alternate" hreflang="es" href="/sitemaps.xml" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/assets/css/style.css" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/thanks/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
         
@@ -497,6 +710,8 @@
         
           <xhtml:link rel="alternate" hreflang="es" href="/feed.xml" />
         
+          <xhtml:link rel="alternate" hreflang="es" href="/gracias/" />
+        
           <xhtml:link rel="alternate" hreflang="en" href="/en/" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
@@ -508,6 +723,14 @@
           <xhtml:link rel="alternate" hreflang="es" href="/sitemaps.xml" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/assets/css/style.css" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/thanks/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
         
@@ -540,6 +763,8 @@
         
           <xhtml:link rel="alternate" hreflang="es" href="/feed.xml" />
         
+          <xhtml:link rel="alternate" hreflang="es" href="/gracias/" />
+        
           <xhtml:link rel="alternate" hreflang="en" href="/en/" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
@@ -551,6 +776,14 @@
           <xhtml:link rel="alternate" hreflang="es" href="/sitemaps.xml" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/assets/css/style.css" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/thanks/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
         
@@ -583,6 +816,8 @@
         
           <xhtml:link rel="alternate" hreflang="es" href="/feed.xml" />
         
+          <xhtml:link rel="alternate" hreflang="es" href="/gracias/" />
+        
           <xhtml:link rel="alternate" hreflang="en" href="/en/" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
@@ -594,6 +829,14 @@
           <xhtml:link rel="alternate" hreflang="es" href="/sitemaps.xml" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/assets/css/style.css" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/thanks/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
         
@@ -626,6 +869,8 @@
         
           <xhtml:link rel="alternate" hreflang="es" href="/feed.xml" />
         
+          <xhtml:link rel="alternate" hreflang="es" href="/gracias/" />
+        
           <xhtml:link rel="alternate" hreflang="en" href="/en/" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
@@ -637,6 +882,67 @@
           <xhtml:link rel="alternate" hreflang="es" href="/sitemaps.xml" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/assets/css/style.css" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/thanks/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/thanks/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/404.html" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/es/cookies-policy/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/en/cookies-policy/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/feed.xml" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/gracias/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/en/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/es/legal-notice/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/en/legal-notice/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/sitemaps.xml" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/assets/css/style.css" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/thanks/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
         
@@ -669,6 +975,8 @@
         
           <xhtml:link rel="alternate" hreflang="es" href="/feed.xml" />
         
+          <xhtml:link rel="alternate" hreflang="es" href="/gracias/" />
+        
           <xhtml:link rel="alternate" hreflang="en" href="/en/" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
@@ -680,6 +988,14 @@
           <xhtml:link rel="alternate" hreflang="es" href="/sitemaps.xml" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/assets/css/style.css" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/thanks/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
         
@@ -712,6 +1028,8 @@
         
           <xhtml:link rel="alternate" hreflang="es" href="/feed.xml" />
         
+          <xhtml:link rel="alternate" hreflang="es" href="/gracias/" />
+        
           <xhtml:link rel="alternate" hreflang="en" href="/en/" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
@@ -723,6 +1041,14 @@
           <xhtml:link rel="alternate" hreflang="es" href="/sitemaps.xml" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/assets/css/style.css" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/thanks/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
         
@@ -755,6 +1081,8 @@
         
           <xhtml:link rel="alternate" hreflang="es" href="/feed.xml" />
         
+          <xhtml:link rel="alternate" hreflang="es" href="/gracias/" />
+        
           <xhtml:link rel="alternate" hreflang="en" href="/en/" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
@@ -766,6 +1094,14 @@
           <xhtml:link rel="alternate" hreflang="es" href="/sitemaps.xml" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/assets/css/style.css" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/thanks/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
         
@@ -798,6 +1134,8 @@
         
           <xhtml:link rel="alternate" hreflang="es" href="/feed.xml" />
         
+          <xhtml:link rel="alternate" hreflang="es" href="/gracias/" />
+        
           <xhtml:link rel="alternate" hreflang="en" href="/en/" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
@@ -809,6 +1147,14 @@
           <xhtml:link rel="alternate" hreflang="es" href="/sitemaps.xml" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/assets/css/style.css" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/thanks/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
         
@@ -841,6 +1187,8 @@
         
           <xhtml:link rel="alternate" hreflang="es" href="/feed.xml" />
         
+          <xhtml:link rel="alternate" hreflang="es" href="/gracias/" />
+        
           <xhtml:link rel="alternate" hreflang="en" href="/en/" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
@@ -852,6 +1200,14 @@
           <xhtml:link rel="alternate" hreflang="es" href="/sitemaps.xml" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/assets/css/style.css" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/thanks/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
         
@@ -884,6 +1240,8 @@
         
           <xhtml:link rel="alternate" hreflang="es" href="/feed.xml" />
         
+          <xhtml:link rel="alternate" hreflang="es" href="/gracias/" />
+        
           <xhtml:link rel="alternate" hreflang="en" href="/en/" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
@@ -895,6 +1253,14 @@
           <xhtml:link rel="alternate" hreflang="es" href="/sitemaps.xml" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/assets/css/style.css" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/thanks/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
         
@@ -927,6 +1293,8 @@
         
           <xhtml:link rel="alternate" hreflang="es" href="/feed.xml" />
         
+          <xhtml:link rel="alternate" hreflang="es" href="/gracias/" />
+        
           <xhtml:link rel="alternate" hreflang="en" href="/en/" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
@@ -938,6 +1306,173 @@
           <xhtml:link rel="alternate" hreflang="es" href="/sitemaps.xml" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/assets/css/style.css" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/thanks/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/404.html" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/es/cookies-policy/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/en/cookies-policy/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/feed.xml" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/gracias/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/en/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/es/legal-notice/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/en/legal-notice/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/sitemaps.xml" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/assets/css/style.css" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/thanks/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/404.html" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/es/cookies-policy/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/en/cookies-policy/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/feed.xml" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/gracias/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/en/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/es/legal-notice/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/en/legal-notice/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/sitemaps.xml" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/assets/css/style.css" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/thanks/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/404.html" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/es/cookies-policy/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/en/cookies-policy/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/feed.xml" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/gracias/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/en/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/es/legal-notice/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/en/legal-notice/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/sitemaps.xml" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/assets/css/style.css" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/thanks/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
         

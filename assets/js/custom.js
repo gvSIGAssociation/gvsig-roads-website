@@ -10,7 +10,7 @@
 
 
 	/* ======= Scrollspy ======= */
-    $('body').scrollspy({ target: '.navbar', offset: 40});
+    //$('body').scrollspy({ target: '.navbar', offset: 40});
 
     /* ======= Fixed header when scrolled ======= */
     $(window).bind('scroll', function() {
@@ -30,7 +30,7 @@
 
 	    e.preventDefault();
 
-		$('body').scrollTo(target, 800, {offset: -70, 'axis':'y', easing:'easeOutQuad'});
+		$('body').scrollTo(target, 800, {offset: -40, 'axis':'y', easing:'easeOutQuad'});
 		        //Collapse mobile menu after clicking
 		if ($('.navbar-collapse').hasClass('in')){
 		$('.navbar-collapse').removeClass('in').addClass('collapse');
@@ -64,7 +64,7 @@ jQuery(window).scroll(function(){
 
 //Banner pop-up contact
 
-var amountScrolled = 700;
+var amountScrolled = 1200;
 var bannerClosed = false;
 var banner = $('div.banner-popup');
 var close = $("a.close-banner");

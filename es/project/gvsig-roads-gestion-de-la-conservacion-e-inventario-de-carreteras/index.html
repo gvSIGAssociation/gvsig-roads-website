@@ -39,6 +39,12 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <!-- Map: Load Leaflet from CDN-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet-src.js"></script>
+    <!-- Load Esri Leaflet from CDN -->
+    <script src="https://unpkg.com/esri-leaflet@2.0.8"></script>
+
     <!-- init Jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
@@ -112,13 +118,19 @@
           
                 <li class="nav-item">
                   
-                  <a href="http://www.gvsigroads.com#portfoliowrap">Casos de éxito</a>
+                  <a href="http://www.gvsigroads.com#portfoliowrap">Referencias</a>
                   
                 </li>
           
                 <li class="nav-item">
                   
                   <a href="http://www.gvsigroads.com#contact">Contacto</a>
+                  
+                </li>
+          
+                <li class="nav-item">
+                  
+                  <a href="http://www.gvsigroads.com#demo">Demo</a>
                   
                 </li>
           
@@ -149,18 +161,15 @@
 </nav>
 
     <div id="blue">
-    <div class="container">
-        <div class="row">
+  <div class="container">
+    <div class="row-fluid">
 
-              
+      
+        <h1>Caso de éxito: gvSIG Roads para la Diputación de Valencia</h1>
+      
 
-                <h1>Caso de éxito: gvSIG Roads para la Diputación de Valencia</h1>
-
-
-              
-
-        </div><!-- /row -->
-    </div> <!-- /container -->
+    </div><!-- /row -->
+  </div> <!-- /container -->
 </div><!-- /blue -->
 
     <div class="container mt">
@@ -247,10 +256,20 @@ ciudanos, empresas y administraciones.</p>
 
     <section id="portfoliowrap">
         <div class="center">
-        <h3 class="section-heading">CASOS DE ÉXITO</h3>
+        <h3 class="section-heading">REFERENCIAS</h3>
         <p>Proyectos y presentaciones de la solución gvSIG Roads</p>
         </div>
         <div class="recentitems portfolio">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             
             
             
@@ -372,23 +391,10 @@ ciudanos, empresas y administraciones.</p>
 
 <section id="contact">
 
-  <!-- BANNER -->
-<div id="banner">
-  <div class="banner">
-    <div class="container text-center">
-            <div class="row-fluid call-to-action center">
-                <p>Plataforma integral de gestión de carreteras</p>
-                <h2 class="section-heading">gvSIG Roads</h2>
-                <p><a href="mailto:gvsigroads@disid.com" class="btn dmbutton btn-lg wow pulse"> ¡Quiero recibir más información!</a></p>
-            </div>
-        </div>
-  </div>
-</div>
-<!-- /.banner -->
         <div class="container contact">
             <div class="row-fluid">
                 <div class="col-sm-8 col-sm-offset-2 text-center">
-                    <h2 class="section-heading">¿Quieres utilizar gvSIG Roads en tus proyectos?</h2>
+                    <h3 class="section-heading">¿Quieres utilizar gvSIG Roads en tus proyectos?</h3>
                     <hr class="primary">
                     <p>
                     
@@ -452,22 +458,22 @@ ciudanos, empresas y administraciones.</p>
     </div><! --/container -->
 </div><! --/footerwrap -->
     
-<script src="http://www.gvsigroads.com/assets/js/bootstrap.min.js"></script>
-<script src="http://www.gvsigroads.com/assets/js/retina-1.1.0.js"></script>
-<script src="http://www.gvsigroads.com/assets/js/jquery.hoverdir.js"></script>
-<script src="http://www.gvsigroads.com/assets/js/jquery.hoverex.min.js"></script>
-<script src="http://www.gvsigroads.com/assets/js/jquery.prettyPhoto.js"></script>
-<script src="http://www.gvsigroads.com/assets/js/jquery.isotope.min.js"></script>
+<script type="text/javascript" src="http://www.gvsigroads.com/assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://www.gvsigroads.com/assets/js/retina-1.1.0.js"></script>
+<script type="text/javascript" src="http://www.gvsigroads.com/assets/js/jquery.hoverdir.js"></script>
+<script type="text/javascript" src="http://www.gvsigroads.com/assets/js/jquery.hoverex.min.js"></script>
+<script type="text/javascript" src="http://www.gvsigroads.com/assets/js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="http://www.gvsigroads.com/assets/js/jquery.isotope.min.js"></script>
 
 <!-- scrollTo -->
-<script src="http://www.gvsigroads.com/assets/js/jquery.scrollTo.min.js"></script>
-<script src="http://www.gvsigroads.com/assets/js/jquery.easing.min.js"></script>
+<script type="text/javascript" src="http://www.gvsigroads.com/assets/js/jquery.scrollTo.min.js"></script>
+<script type="text/javascript" src="http://www.gvsigroads.com/assets/js/jquery.easing.min.js"></script>
 
 <!-- Animate -->
-<script src="http://www.gvsigroads.com/assets/js/wow.min.js"></script>
+<script type="text/javascript" src="http://www.gvsigroads.com/assets/js/wow.min.js"></script>
 
 <!-- custom -->
-<script src="http://www.gvsigroads.com/assets/js/custom.js"></script>
+<script type="text/javascript" src="http://www.gvsigroads.com/assets/js/custom.js"></script>
 
 <!-- mailchimp popup Signup demo -->
 <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
@@ -482,7 +488,6 @@ ciudanos, empresas y administraciones.</p>
   };
   document.getElementById("open-popup").onclick = function() {showMailingPopUp()};
 </script>
-
 <script type="text/javascript">
   function showMailingPopUpPhone() {
     
@@ -495,7 +500,7 @@ ciudanos, empresas y administraciones.</p>
   document.getElementById("open-popup-phone").onclick = function() {showMailingPopUpPhone()};
 </script>
 
-<script>
+<script type="text/javascript">
 // Portfolio
 (function($) {
 	"use strict";
@@ -580,9 +585,54 @@ ciudanos, empresas y administraciones.</p>
 })(jQuery);
 </script>
 
+<!-- Map case of study -->
+<script type="text/javascript" src="http://www.gvsigroads.com/assets/js/gvsigroads-geojson.js"></script>
+<script type="text/javascript">
+  //map point: spain
+  var map = L.map('map').setView([40.0700000311,5.6], 5);
+  //theme
+  var layer = L.esri.basemapLayer('DarkGray').addTo(map);
+
+  // theme Mapbox
+/*   L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+    maxZoom: 18,
+    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, '+
+      'Imagery © <a href="http://mapbox.com">Mapbox</a>',
+    id: 'mapbox.light'
+  }).addTo(map); */
+
+  var roadsIcon = L.icon({
+    iconUrl: 'http://www.gvsigroads.com/assets/img/roadsIcon.png',
+    iconSize: [32, 32],
+    iconAnchor: [16, 37],
+    popupAnchor: [0, -28]
+  });
+
+  function onEachFeature(feature, layer) {
+    var popupContent = "";
+
+    if (feature.properties && feature.properties.popupContent) {
+      popupContent += feature.properties.popupContent;
+    }
+
+    layer.bindPopup(popupContent);
+  }
+
+
+  var RoadsLayer = L.geoJSON(RoadsCase, {
+
+    pointToLayer: function (feature, latlng) {
+      return L.marker(latlng, {icon: roadsIcon});
+    },
+
+    onEachFeature: onEachFeature
+  }).addTo(map);
+
+</script>
+
 <!-- cookies consent -->
 
-<script>
+<script type="text/javascript">
     $(document).ready(function () {
       console.log("Cookies consent loaded");
       $.cookieCuttr();

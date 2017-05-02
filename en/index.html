@@ -40,6 +40,12 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <!-- Map: Load Leaflet from CDN-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet-src.js"></script>
+    <!-- Load Esri Leaflet from CDN -->
+    <script src="https://unpkg.com/esri-leaflet@2.0.8"></script>
+
     <!-- init Jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
@@ -88,7 +94,7 @@
 
     </div>
     <div class="navbar-collapse collapse navbar-right">
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav menu">
         <li class="hidden"><a href="#page-top"></a></li>
         <li class="active nav-item sr-only" style="float:none"><a class="scrollto" href="#promo">HOME</a></li>
         <li class="active nav-item sr-only"><a class="scrollto" href="#about">gvSIG Roads</a></li>
@@ -125,8 +131,13 @@
                 
               </li>
           
+              <li class="nav-item">
+              
+                <a class="scrollto" href="#demo">Demo</a>
+                
+              </li>
+          
          
-        <li class="nav-item featured"><a class="scrollto" href="#demo">DEMO</a></li>
       </ul>
       <ul class="nav navbar-nav">
       <!-- for home -->
@@ -154,71 +165,13 @@
                         for the management of roads <br>
                  
                 </h2>
-                <p><a href="#about" class="btn dmbutton wow pulse">Show more info</a></p>
+                <p><a href="#about" class="btn dmbutton wow pulse">More info</a></p>
             </div>
 
-            <div class="col-sm-3 col-sm-offset-2" id="carousel-biddings">
-               
-
-  
-  
-  
-
-  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-
-    <div class="carousel-inner">
-          
-            <div class="item active">
-              <ul class="list-unstyled">
-               
-              </ul>
-            </div>
-          
-            <div class="item ">
-              <ul class="list-unstyled">
-               
-              </ul>
-            </div>
-          
-            <div class="item ">
-              <ul class="list-unstyled">
-               
-              </ul>
-            </div>
-          
-            <div class="item ">
-              <ul class="list-unstyled">
-               
-              </ul>
-            </div>
-          
-            <div class="item ">
-              <ul class="list-unstyled">
-               
-              </ul>
-            </div>
-          
-    </div>
-
-    <!-- Indicators -->
-    <ol class="carousel-indicators square">
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-    </ol>
-
-  </div> <!--/Carousel -->
-
-
-            </div>
+            
+            
+            
+            
 
         </div><!-- /row -->
     </div> <!-- /container -->
@@ -909,6 +862,8 @@ tools for the conservation of roads but with utilities to:</p>
      </div><!--/container -->
 </section>
 
+<!-- include map.html -->
+
 <section id="portfoliowrap">
         <div class="center">
         <h3 class="section-heading">CASE OF STUDY</h3>
@@ -1032,70 +987,15 @@ tools for the conservation of roads but with utilities to:</p>
         </div><!-- portfolio -->
 </section><!--/Portfoliowrap -->
 
-<section id="developedby">
-<div id="cwrap">
-    <div class="container">
-        <div class="row-fluid centered center">
-          <h2 class="section-heading">DEVELOPED BY</h2>
-          <p>Organizations involved in the project</p>
-        </div>
-            
-                <div class="col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1">
-                   <a href="http://www.gvsig.com" target="_blank" title="Asociación gvSIG website">
-                    <img src="http://www.gvsigroads.com/assets/img/clients/asociacion-gvsig.png" class="img-responsive">
-                   </a>
-                </div>
-            
-                <div class="col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1">
-                   <a href="http://www.disid.com" target="_blank" title="DISID Corporation website">
-                    <img src="http://www.gvsigroads.com/assets/img/clients/disid.png" class="img-responsive">
-                   </a>
-                </div>
-            
-                <div class="col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1">
-                   <a href="http://www.dival.es/" target="_blank" title="Diputación de Valencia website">
-                    <img src="http://www.gvsigroads.com/assets/img/clients/logo-dival.png" class="img-responsive">
-                   </a>
-                </div>
-            
-    </div><!--/container -->
-</div><!--/cwrap -->
-</section>
-
-<!-- SIDEBAR CONTACT -->
-<div id="fm-quick-call" class="banner-popup">
-  <div class="square second go-to" data-go="capture-phone">
-    <a class="open-banner pull-left hidden" title="Open" rel="tooltip" data-original-title="Open" data-placement="left"><i class="fa fa-phone fa-2x"></i></a>
-    <a class="close-banner" title="Close" rel="tooltip" data-original-title="Close" data-placement="left"><i class="fa fa-times"></i></a>
-    <i class="fa fa-phone fa-3x"></i>
-    <p><a id="open-popup-phone">Let us call you</a></p>
-  </div>
-</div>
-
-<!-- /.sidebar contact -->
-
 
 <!-- CONTACT -->
 
 <section id="contact">
 
-  <!-- BANNER -->
-<div id="banner">
-  <div class="banner">
-    <div class="container text-center">
-            <div class="row-fluid call-to-action center">
-                <p>Full solution for the comprehensive management of roads</p>
-                <h2 class="section-heading">gvSIG Roads</h2>
-                <p><a href="mailto:gvsigroads@disid.com" class="btn dmbutton btn-lg wow pulse"> I want to receive more information!</a></p>
-            </div>
-        </div>
-  </div>
-</div>
-<!-- /.banner -->
         <div class="container contact">
             <div class="row-fluid">
                 <div class="col-sm-8 col-sm-offset-2 text-center">
-                    <h2 class="section-heading">Do you want to use gvSIG Roads in your projects?</h2>
+                    <h3 class="section-heading">Do you want to use gvSIG Roads in your projects?</h3>
                     <hr class="primary">
                     <p>
                     
@@ -1118,6 +1018,10 @@ tools for the conservation of roads but with utilities to:</p>
     </section>
 
 
+
+<!-- include banner.html -->
+
+<!-- include clients.html -->
 
     <!-- SUSCRIBE MAILCHIMP -->
     <section id="demo" class="bg-dark">
@@ -1147,6 +1051,18 @@ tools for the conservation of roads but with utilities to:</p>
             </div>
         </div>
     </section>
+
+<!-- SIDEBAR CONTACT -->
+<div id="fm-quick-call" class="banner-popup">
+  <div class="square second go-to" data-go="capture-phone">
+    <a class="open-banner pull-left hidden" title="Open" rel="tooltip" data-original-title="Open" data-placement="left"><i class="fa fa-phone fa-2x"></i></a>
+    <a class="close-banner" title="Close" rel="tooltip" data-original-title="Close" data-placement="left"><i class="fa fa-times"></i></a>
+    <i class="fa fa-phone fa-3x"></i>
+    <p><a id="open-popup-phone">Let us call you</a></p>
+  </div>
+</div>
+
+<!-- /.sidebar contact -->
 
 
         <a class="page-scroll scrollup" href="#promo" rel="tooltip" data-original-title="Volver arriba" data-placement="left"></a>
@@ -1189,22 +1105,22 @@ tools for the conservation of roads but with utilities to:</p>
     </div><! --/container -->
 </div><! --/footerwrap -->
         
-<script src="http://www.gvsigroads.com/assets/js/bootstrap.min.js"></script>
-<script src="http://www.gvsigroads.com/assets/js/retina-1.1.0.js"></script>
-<script src="http://www.gvsigroads.com/assets/js/jquery.hoverdir.js"></script>
-<script src="http://www.gvsigroads.com/assets/js/jquery.hoverex.min.js"></script>
-<script src="http://www.gvsigroads.com/assets/js/jquery.prettyPhoto.js"></script>
-<script src="http://www.gvsigroads.com/assets/js/jquery.isotope.min.js"></script>
+<script type="text/javascript" src="http://www.gvsigroads.com/assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://www.gvsigroads.com/assets/js/retina-1.1.0.js"></script>
+<script type="text/javascript" src="http://www.gvsigroads.com/assets/js/jquery.hoverdir.js"></script>
+<script type="text/javascript" src="http://www.gvsigroads.com/assets/js/jquery.hoverex.min.js"></script>
+<script type="text/javascript" src="http://www.gvsigroads.com/assets/js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="http://www.gvsigroads.com/assets/js/jquery.isotope.min.js"></script>
 
 <!-- scrollTo -->
-<script src="http://www.gvsigroads.com/assets/js/jquery.scrollTo.min.js"></script>
-<script src="http://www.gvsigroads.com/assets/js/jquery.easing.min.js"></script>
+<script type="text/javascript" src="http://www.gvsigroads.com/assets/js/jquery.scrollTo.min.js"></script>
+<script type="text/javascript" src="http://www.gvsigroads.com/assets/js/jquery.easing.min.js"></script>
 
 <!-- Animate -->
-<script src="http://www.gvsigroads.com/assets/js/wow.min.js"></script>
+<script type="text/javascript" src="http://www.gvsigroads.com/assets/js/wow.min.js"></script>
 
 <!-- custom -->
-<script src="http://www.gvsigroads.com/assets/js/custom.js"></script>
+<script type="text/javascript" src="http://www.gvsigroads.com/assets/js/custom.js"></script>
 
 <!-- mailchimp popup Signup demo -->
 <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
@@ -1218,7 +1134,6 @@ tools for the conservation of roads but with utilities to:</p>
   };
   document.getElementById("open-popup").onclick = function() {showMailingPopUp()};
 </script>
-
 <script type="text/javascript">
   function showMailingPopUpPhone() {
     
@@ -1230,7 +1145,7 @@ tools for the conservation of roads but with utilities to:</p>
   document.getElementById("open-popup-phone").onclick = function() {showMailingPopUpPhone()};
 </script>
 
-<script>
+<script type="text/javascript">
 // Portfolio
 (function($) {
 	"use strict";
@@ -1315,9 +1230,54 @@ tools for the conservation of roads but with utilities to:</p>
 })(jQuery);
 </script>
 
+<!-- Map case of study -->
+<script type="text/javascript" src="http://www.gvsigroads.com/assets/js/gvsigroads-geojson.js"></script>
+<script type="text/javascript">
+  //map point: spain
+  var map = L.map('map').setView([40.0700000311,5.6], 5);
+  //theme
+  var layer = L.esri.basemapLayer('DarkGray').addTo(map);
+
+  // theme Mapbox
+/*   L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+    maxZoom: 18,
+    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, '+
+      'Imagery © <a href="http://mapbox.com">Mapbox</a>',
+    id: 'mapbox.light'
+  }).addTo(map); */
+
+  var roadsIcon = L.icon({
+    iconUrl: 'http://www.gvsigroads.com/assets/img/roadsIcon.png',
+    iconSize: [32, 32],
+    iconAnchor: [16, 37],
+    popupAnchor: [0, -28]
+  });
+
+  function onEachFeature(feature, layer) {
+    var popupContent = "";
+
+    if (feature.properties && feature.properties.popupContent) {
+      popupContent += feature.properties.popupContent;
+    }
+
+    layer.bindPopup(popupContent);
+  }
+
+
+  var RoadsLayer = L.geoJSON(RoadsCase, {
+
+    pointToLayer: function (feature, latlng) {
+      return L.marker(latlng, {icon: roadsIcon});
+    },
+
+    onEachFeature: onEachFeature
+  }).addTo(map);
+
+</script>
+
 <!-- cookies consent -->
 
-<script>
+<script type="text/javascript">
     $(document).ready(function () {
       console.log("Cookies consent loaded");
       $.cookieCuttr();

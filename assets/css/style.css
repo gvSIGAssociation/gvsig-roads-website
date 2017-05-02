@@ -200,15 +200,18 @@ hr {
 li.nav-item{
   margin: 0 7px;
 }
-.navbar-nav > li.featured{
+.navbar-nav > li:last-child{
   border: 1px solid white;
   border-radius: 3px;
 }
-.navbar-default .nav-item.featured:hover{
+.navbar-nav > li.lang:last-child{
+  border: none;
+}
+.navbar-default .navbar-nav > ul.menu li.nav-item:last-child:hover{
   border: 1px solid #E2AD2A;
 }
-.navbar-default.navbar-fixed-top .nav-item.featured.active,
-.navbar-default.navbar-fixed-top .nav-item.featured:hover{
+.navbar-default.navbar-fixed-top ul.menu li.nav-item:last-child.active,
+.navbar-default.navbar-fixed-top ul.menu li.nav-item:last-child:hover{
   border: 1px solid #E2AD2A;
 }
 .navbar.navbar-default{
@@ -241,15 +244,34 @@ li.nav-item{
 
   @media (max-width: 980px) {
     li.nav-item {
-    margin: 0 5px 0 0;
+      margin: 0;
+    }
+    .navbar-default.navbar-fixed-top ul.menu li.nav-item:last-child.active,
+    .navbar-default.navbar-fixed-top ul.menu li.nav-item:last-child:hover,
+    .navbar-default ul.menu li.nav-item:last-child:hover,
+    .navbar-nav > ul.menu li.nav-item:last-child {
+      border: none;
+      border-radius: 0;
     }
     .navbar-default .navbar-nav > li > a {
       text-align: center;
-      font-size: 0.9em;
-      font-weight: 400;
+      font-size: 0.8em;
+    }
+    .navbar-default .navbar-nav > li.lang  {
+      display: inline-block;
+      width: 47%;
     }
     .navbar-default .navbar-nav > li.lang > a {
-      padding: 10px 0px 10px 5px;
+      padding: 12px 0 10px 5px;
+    }
+    li.lang a {
+      float: right;
+    }
+    li.lang + li.lang a {
+      float: left;
+    }
+    .navbar-nav + .navbar-nav{
+       margin-left: 5px;
     }
   }
 
@@ -264,7 +286,6 @@ li.nav-item{
       padding: 10px 0px 10px 0px;
     }
     li.nav-item{
-
       margin: 0 10px;
     }
   }
@@ -440,15 +461,12 @@ li.nav-item{
 }
 
 /* Services Wrap */
-#service {
+#services {
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
-
-#service i {
-	color: #3b8bba;
-	font-size: 60px;
-	padding: 15px;
+#services div:first-child {
+  padding-top: 2em;
 }
 
 /* Portfolio Wrap */
@@ -640,6 +658,9 @@ section#developedby{
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
+}
+#blue h1{
+  font-size: 1.5em;
 }
 
 .carousel-inner > .item > img,
@@ -866,7 +887,7 @@ section.about {
 /* ======= Color Section ======= */
 
 .bg-dark {
-  padding: 4em 0 0;
+  padding: 7em 0 0;
   background: #384452;
 }
 .bg-dark .title {
@@ -894,7 +915,7 @@ section.about {
 /* ======= Features Section ======= */
 
 .features {
-  padding: 4em 0;
+  padding: 6em 0;
 }
   @media (max-width: 600px) {
     .features {
@@ -1160,11 +1181,50 @@ section#how-works .panel-title a{
     display: none !important;
 }
 
-/** Creative **/
+/** Contact **/
 
-section#contact .contact {
-    padding: 4em 0;
+section#contact {
+    padding: 7em 0;
 }
+section#demo {
+}
+
+/** Contact comercial **/
+
+section#contact-comercial .dmbutton.bg-light {
+  margin: 1em;
+}
+section#contact-comercial .panel-default > .panel-heading:hover {
+    border-color: #ddd;
+    padding: 1em;
+    background-color: #384452;
+}
+
+section#contact-comercial .panel-default > .panel-heading:hover h4,
+section#contact-comercial .panel-default > .panel-heading:hover a:hover,
+section#contact-comercial .panel-default > .panel-heading:hover .text-secondary {
+    color: #fff;
+}
+section#contact-comercial .panel-default > .panel-heading:hover .fa-inverse {
+    color: #384452;
+}
+
+
+/** Map Case study **/
+#map-wrapper {
+    position: relative;
+}
+#map {
+  position: absolute;
+  top:0; bottom:0; right:0; left:0;
+  border-top: 1px solid #e5eaee;
+  height: 500px;
+  width: 100%;
+  position: relative;
+  left: 0;
+  right: 0;
+}
+
 
 /** headings **/
 
@@ -1284,9 +1344,12 @@ div#headerwrap div.bg + div.container{
   position: relative;
   height: 110vh;
 }
+div.mt.biddings h2{
+  font-size: 1.3em;
+}
 div#carousel-biddings{
    text-align: right;
-   /* background: rgba(0, 0, 0, 0.2); */
+   background: rgba(0, 0, 0, 0.2);
    position: absolute;
    bottom: 0;
 }
@@ -1329,15 +1392,32 @@ div#carousel-biddings span{
 
 /* responsive */
 
+@media (max-width: 768px) {
+   div#carousel-biddings h3{
+    font-size: 1.3em;
+    padding: 1em 0 0;
+    margin: 0;
+   }
+   div#carousel-biddings ul.list-unstyled{
+    margin-bottom: 3em;
+   }
+   div#carousel-biddings .carousel-indicators {
+    top: 4em;
+    }
+}
+
 @media (min-width: 280px) and (max-width: 600px) {
 
   div#carousel-biddings{
-    padding-bottom: 30px;
-    padding-top: 20px;
+    padding-bottom: 5em;
+    padding-top: 0.5em;
   }
   div#carousel-biddings h3{
       font-size: 1.1em;
       padding-top: 0;
+  }
+  div#carousel-biddings .carousel-indicators {
+    top: 7em;
   }
 }
 
@@ -1345,15 +1425,15 @@ div#carousel-biddings span{
 
   div#carousel-biddings{
      right: 3em;
-     padding-bottom: 10em;
+     padding-bottom: 7em;
   }
   div#carousel-biddings h3{
       font-size: 1.2em;
       padding-top: 2em;
   }
   div#carousel-biddings .carousel-indicators {
-    width: 80%;
-    margin-left: -40%;
+    width: 100%;
+    margin-left: -50%;
     bottom: -50px;
     top: inherit;
   }
@@ -1581,6 +1661,7 @@ a.scrollup:after{
       font-size: 14px;
       line-height: 1.4;
     }
+
 }
 
 
