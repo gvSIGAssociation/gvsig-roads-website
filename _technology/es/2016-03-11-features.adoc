@@ -13,7 +13,7 @@ lang: es
 <ul class="col-sm-5 feature-list list-unstyled">
   <li><i class="fa fa-check"></i>Aplicación web desarrollado con tecnología Java que cumple el estándar JEE 6.</li>
   <li><i class="fa fa-check"></i>Framework de desarrollo Spring Framework.</li>
-  <li><i class="fa fa-check"></i>Herramienta de desarrollo rápido gvNIX, addon de SpringRoo Suite.</li>
+  <li><i class="fa fa-check"></i>Herramienta de desarrollo rápido de aplicaciones web Java Spring Roo.</li>
   <li><i class="fa fa-check"></i>Compatible con las bases de datos Oracle 11g y PostgreSQL 9.</li>
   <li><i class="fa fa-check"></i>Software ORM para la base de datos: Hibernate.</li>
   <li><i class="fa fa-check"></i>Seguridad de la aplicación con Spring Security.</li>

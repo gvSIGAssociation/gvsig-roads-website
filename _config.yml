@@ -164,7 +164,7 @@ t:
           url: http://www.gvnix.com
           description: "Herramienta de desarrollo rápido de aplicaciones web Java"
     portfolio:
-      title: "CASOS DE ÉXITO"
+      title: "REFERENCIAS"
       description: "Proyectos y presentaciones de la solución gvSIG Roads"
       subtitle: "La experiencia nos avala"
     clients:
@@ -340,6 +340,9 @@ links:
     contact:
       title: Contact
       url: "http://www.gvsigroads.com/en/#contact"
+    demo:
+      title: Demo
+      url: "http://www.gvsigroads.com#demo"
   es:
     solutions:
       title: Cómo funciona
@@ -351,12 +354,15 @@ links:
       title: Tecnología
       url: "http://www.gvsigroads.com#features"
     blog:
-      title: Casos de éxito
+      title: Referencias
       url: "http://www.gvsigroads.com#portfoliowrap"
       external: true
     contact:
       title: Contacto
       url: "http://www.gvsigroads.com#contact"
+    demo:
+      title: Demo
+      url: "http://www.gvsigroads.com#demo"
 
 include: [".htaccess"]
 # ["_posts/en/features","_posts/es/features","_posts/es/about", "_posts/en/about", "_posts/es/how", "_posts/en/how", "_posts/es/services", "_posts/en/services",

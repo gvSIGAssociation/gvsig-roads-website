@@ -200,15 +200,18 @@ hr {
 li.nav-item{
   margin: 0 7px;
 }
-.navbar-nav > li.featured{
+.navbar-nav > li:last-child{
   border: 1px solid white;
   border-radius: 3px;
 }
-.navbar-default .nav-item.featured:hover{
+.navbar-nav > li.lang:last-child{
+  border: none;
+}
+.navbar-default .navbar-nav > ul.menu li.nav-item:last-child:hover{
   border: 1px solid {{ site.colors.yellow_gvsig }};
 }
-.navbar-default.navbar-fixed-top .nav-item.featured.active,
-.navbar-default.navbar-fixed-top .nav-item.featured:hover{
+.navbar-default.navbar-fixed-top ul.menu li.nav-item:last-child.active,
+.navbar-default.navbar-fixed-top ul.menu li.nav-item:last-child:hover{
   border: 1px solid {{ site.colors.yellow_gvsig }};
 }
 .navbar.navbar-default{
@@ -243,10 +246,10 @@ li.nav-item{
     li.nav-item {
       margin: 0;
     }
-    .navbar-default.navbar-fixed-top .nav-item.featured.active,
-    .navbar-default.navbar-fixed-top .nav-item.featured:hover,
-    .navbar-default .nav-item.featured:hover,
-    .navbar-nav > li.featured {
+    .navbar-default.navbar-fixed-top ul.menu li.nav-item:last-child.active,
+    .navbar-default.navbar-fixed-top ul.menu li.nav-item:last-child:hover,
+    .navbar-default ul.menu li.nav-item:last-child:hover,
+    .navbar-nav > ul.menu li.nav-item:last-child {
       border: none;
       border-radius: 0;
     }
@@ -458,15 +461,12 @@ li.nav-item{
 }
 
 /* Services Wrap */
-#service {
+#services {
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
-
-#service i {
-	color: {{ site.colors.primary }};
-	font-size: 60px;
-	padding: 15px;
+#services div:first-child {
+  padding-top: 2em;
 }
 
 /* Portfolio Wrap */
@@ -887,7 +887,7 @@ section.about {
 /* ======= Color Section ======= */
 
 .bg-dark {
-  padding: 4em 0 0;
+  padding: 7em 0 0;
   background: {{ site.colors.secondary }};
 }
 .bg-dark .title {
@@ -915,7 +915,7 @@ section.about {
 /* ======= Features Section ======= */
 
 .features {
-  padding: 4em 0;
+  padding: 6em 0;
 }
   @media (max-width: 600px) {
     .features {
@@ -1183,8 +1183,10 @@ section#how-works .panel-title a{
 
 /** Contact **/
 
-section#contact .contact {
-    padding: 4em 0;
+section#contact {
+    padding: 7em 0;
+}
+section#demo {
 }
 
 /** Contact comercial **/
