@@ -326,43 +326,41 @@ links:
   en:
     solutions:
       title: How works
-      url: "http://www.gvsigroads.com/en/#how-works"
+      url: "#how-works"
     projects:
       title: Features
-      url: "http://www.gvsigroads.com/en/#services"
+      url: "#services"
     technologies:
       title: Technology
-      url: "http://www.gvsigroads.com/en/#features"
+      url: "#features"
     blog:
       title: Case of study
-      url: "http://www.gvsigroads.com/en/#portfoliowrap"
-      external: true
+      url: "#portfoliowrap"
     contact:
       title: Contact
-      url: "http://www.gvsigroads.com/en/#contact"
+      url: "#contact"
     demo:
       title: Demo
-      url: "http://www.gvsigroads.com#demo"
+      url: "#demo"
   es:
     solutions:
       title: Cómo funciona
-      url: "http://www.gvsigroads.com#how-works"
+      url: "#how-works"
     projects:
       title: Características
-      url: "http://www.gvsigroads.com#services"
+      url: "#services"
     technologies:
       title: Tecnología
-      url: "http://www.gvsigroads.com#features"
+      url: "#features"
     blog:
       title: Referencias
-      url: "http://www.gvsigroads.com#portfoliowrap"
-      external: true
+      url: "#portfoliowrap"
     contact:
       title: Contacto
-      url: "http://www.gvsigroads.com#contact"
+      url: "#contact"
     demo:
       title: Demo
-      url: "http://www.gvsigroads.com#demo"
+      url: "#demo"
 
 include: [".htaccess"]
 # ["_posts/en/features","_posts/es/features","_posts/es/about", "_posts/en/about", "_posts/es/how", "_posts/en/how", "_posts/es/services", "_posts/en/services",

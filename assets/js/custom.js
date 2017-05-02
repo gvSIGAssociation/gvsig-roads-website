@@ -10,7 +10,7 @@
 
 
 	/* ======= Scrollspy ======= */
-    //$('body').scrollspy({ target: '.navbar', offset: 40});
+    $('body').scrollspy({ target: '.navbar', offset: 70});
 
     /* ======= Fixed header when scrolled ======= */
     $(window).bind('scroll', function() {
