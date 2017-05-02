@@ -1209,7 +1209,6 @@ section#contact-comercial .dmbutton.bg-light {
 }
 section#contact-comercial .panel-default > .panel-heading:hover {
     border-color: #ddd;
-    padding: 1em;
     background-color: #384452;
 }
 
@@ -1306,8 +1305,15 @@ section#contact-comercial .panel-default > .panel-heading:hover .fa-inverse {
   color: rgba( 255,255, 255, 0.3);
 }
 
+/***************************
+ ** Mailchimp **
+****************************/
+
 input#mc-embedded-subscribe {
     margin: 2em 0;
+}
+.text-center input#mc-embedded-subscribe {
+    margin: auto;
 }
 
 /** banner **/
