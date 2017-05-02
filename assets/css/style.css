@@ -479,7 +479,7 @@ li.nav-item{
 }
 @media (min-width: 992px) {
   #portfoliowrap {
-  padding-top: 8em;
+  padding: 8em 0;
   }
 }
 #portfoliowrap div.center {
@@ -706,7 +706,7 @@ csmall {
 }
 
 /* Contact Page */
-#contactwrap {
+/* #contactwrap {
 	background: url(../img/contact.jpg) no-repeat center top;
 	margin-top: -60px;
 	padding-top:0px;
@@ -726,7 +726,7 @@ csmall {
     -o-background-size: cover;
     background-size: cover;
 }
-
+ */
 /* Blog Page */
 .popular-posts {
 	margin: 0px;
@@ -1183,12 +1183,25 @@ section#how-works .panel-title a{
 
 /** Contact **/
 
-section#contact {
-    padding: 7em 0;
-}
-section#demo {
-}
+@media (min-width: 992px){
 
+  section#portfoliowrap {
+   margin-bottom: 14em;
+   }
+  section#contact {
+   padding: 8em 0;
+   margin-bottom: 12em;
+   }
+  section#contact p {
+    margin: 7em 0;
+    font-size: 1.1em;
+  }
+  section#contact i + p {
+      margin: 0;
+      font-size: 1em;
+  }
+
+}
 /** Contact comercial **/
 
 section#contact-comercial .dmbutton.bg-light {
