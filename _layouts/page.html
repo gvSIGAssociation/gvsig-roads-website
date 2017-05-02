@@ -1,19 +1,28 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+  {% include head.html %}
 
-{% include wrap.html %}
+  <body data-spy="scroll">
+    {% include nav-project.html %}
 
-<div class="container mtb">
-    <div class="row">
-        <! -- SINGLE POST -->
-        <div class="col-sm-10 col-sm-offset-1">
-            {{ content }}
-        </div>
-    </div><!--/row -->
-</div><!--/container -->
+    {% include wrap.html %}
 
-{% include contact.html %}
+    <div class="container mtb">
+        <div class="row">
+            <! -- SINGLE POST -->
+            <div class="col-sm-10 col-sm-offset-1">
+                {{ content }}
+            </div>
+        </div><!--/row -->
+    </div><!--/container -->
 
-{% include banner.html %}
+    {% include contact.html %}
+
+    {% include banner.html %}
+
+    {% include footer.html %}
+    {% include js.html %}
+    </body>
+</html>
+
 

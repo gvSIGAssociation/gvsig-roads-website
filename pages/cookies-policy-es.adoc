@@ -1,5 +1,6 @@
 ---
 layout: page
+ref: cookies-policy
 title: Política de cookies
 permalink: es/cookies-policy/
 category:

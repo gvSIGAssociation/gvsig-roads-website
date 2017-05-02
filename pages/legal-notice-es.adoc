@@ -1,5 +1,6 @@
 ---
 layout: page
+ref: legal-notice
 title: Aviso Legal
 description: Condiciones de uso de la información contenida en este portal
 permalink: es/legal-notice/

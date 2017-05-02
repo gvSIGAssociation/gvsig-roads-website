@@ -37,16 +37,19 @@
                   {% if link.external %}
                   <a href="{{ link.url }}">{{ link.title }}</a>
                   {% else %}
-                  <a href="{{ link[1].url }}">{{ link[1].title }}</a>
+                     {% if page.lang != "es" %}
+                        <a href="{{ site.url }}/{{ page.lang }}/{{ link[1].url }}">{{ link[1].title }}</a>
+                     {% else %}
+                        <a href="{{ site.url }}/{{ link[1].url }}">{{ link[1].title }}</a>
+                     {% endif %}
                   {% endif %}
                 </li>
           {% endfor %}
         {% endif %}
-        <li class="nav-item featured"><a href="{{ site.url }}{{ prepend: site.baseurl }}#demo">DEMO</a></li>
       </ul>
-      <!-- for posts languages -->
 
-       {% if page.layout == 'project' or page.layout == 'page' %}
+      <!-- for posts languages -->
+       {% if page.layout == 'project' or page.layout == 'page' or page.layout == 'bid' %}
         <ul class="nav navbar-nav">
         {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
         {% for post in posts %}

@@ -46,9 +46,16 @@
         {% endif %}
       </ul>
       <ul class="nav navbar-nav">
-      <!-- for home -->
-        <li class="lang"><a href="{{ site.url }}/en{{ page.url }}">EN</a></li>
-        <li class="lang"><a href="{{ site.url }}/" class="{{ page.lang }}">ES</a></li>
+        <!-- for home -->
+        {% if page.lang != "es" %}
+          <li class="lang"><a class="{{ page.lang }}" href="{{ "/"  {{| prepend: site.baseurl}}{{ page.lang }}/">EN</a></li>
+          <li class="lang"><a class="{{ page.lang }}" href="{{ "/"  {{| prepend: site.baseurl}}">ES</a></li>
+        {% else %}
+          <li class="lang"><a class="{{ page.lang }}" href="{{ "/en"  {{| prepend: site.baseurl}}/">EN</a></li>
+          <li class="lang"><a class="{{ page.lang }}" href="{{ "/"  {{| prepend: site.baseurl}}">ES</a></li>
+        {% endif %}
+
+
       </ul>
 
     </div><!--/.nav-collapse -->
