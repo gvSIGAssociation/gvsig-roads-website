@@ -207,13 +207,18 @@ t:
       close: "Cerrar"
     biddings:
       title: "Nuevas licitaciones"
-      description: "gvSIG Roads tu software de carreteras que acompaña a tu empresa en las licitaciones"
-      term: "Plazo"
+      description: "gvSIG Roads se adapta a los requerimientos de las siguientes licitaciones:"
+      date: "Fecha de publicación"
+      term: "Fin de plazo"
+      tipus: "Tipo de contrato"
       place: "Lugar"
-      document: "Pliego"
+      entity: "Entidad adjudicadora"
+      cost: "Importe"
+      document: "Pliegos"
     more: "Más info"
     details: "Detalles"
     goback: "Volver"
+    interested: "¡Me interesa!"
 
   en:
     title: "gvSIG Roads, free solution for the management of roads"
@@ -309,13 +314,19 @@ t:
       close: "Close"
     biddings:
       title: "New biddings"
-      description: "gvSIG Roads your roads software that help your company in biddings"
-      term: "Term"
+      description: "gvSIG Roads is adapted to the next biddings requirements:"
+      date: "Publication date"
+      term: "Expiry date"
+      tipus: "Type of contract"
       place: "Place"
-      document: "Document"
+      entity: "Awarding authority"
+      cost: "Cost"
+      document: "Biddings"
     more: "More info"
     details: "Details"
     goback: "Go Back"
+    interested: "I'm interested!"
+
 
 # To include variable in liquid: {{ site.t[page.lang].header.title }}
 # You can add translations group
