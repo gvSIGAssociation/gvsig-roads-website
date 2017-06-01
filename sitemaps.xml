@@ -240,10 +240,10 @@
   
     
       <url>
-        <loc>/404-en.html</loc>
+        <loc>/pages/404-en.html</loc>
         
         
-          <xhtml:link rel="alternate" hreflang="en" href="/404-en.html" />
+          <xhtml:link rel="alternate" hreflang="en" href="/pages/404-en.html" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/404.html" />
         
@@ -256,7 +256,7 @@
         <loc>/404.html</loc>
         
         
-          <xhtml:link rel="alternate" hreflang="en" href="/404-en.html" />
+          <xhtml:link rel="alternate" hreflang="en" href="/pages/404-en.html" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/404.html" />
         

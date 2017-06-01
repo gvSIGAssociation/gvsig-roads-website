@@ -1214,6 +1214,13 @@ section#how-works .panel-title a{
 section#contact-comercial .dmbutton.bg-light {
   margin: 1em;
 }
+section#contact-comercial .panel-default > .panel-heading a{
+    color: #333;
+}
+section#contact-comercial .panel-default > .panel-heading:hover a,
+section#contact-comercial .panel-default > .panel-heading a:hover{
+    color: #fff;
+}
 section#contact-comercial .panel-default > .panel-heading:hover {
     border-color: #ddd;
     background-color: #384452;
@@ -1228,6 +1235,11 @@ section#contact-comercial .panel-default > .panel-heading:hover .fa-inverse {
     color: #384452;
 }
 
+section#contact-comercial .panel-default .btn{
+    font-size: 1em;
+    padding: 1em;
+    margin: 0;
+}
 
 /** Map Case study **/
 #map-wrapper {
