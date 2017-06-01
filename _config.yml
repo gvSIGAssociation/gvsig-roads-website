@@ -173,20 +173,20 @@ t:
     banner:
       title: "gvSIG Roads"
       description: "Plataforma integral de gestión de carreteras"
-      call-to-action: "¡Quiero recibir más información!"
+      call-to-action: "¡Me gustaría recibir más información!"
     contact:
       title: "¿Quieres utilizar gvSIG Roads en tus proyectos?"
       description:
       - lines:
         - "¡Genial, buena elección!"
         - "Llámanos o envía un email, como prefieras, y nos pondremos en contacto contigo lo antes posible."
-      company: Soy una empresa
-      council: Soy un ayuntamiento
+      company: Empresa
+      council: Administración
     suscribe:
       title: "¿Quieres ver una demo de gvSIG Roads?"
       email: "Tu email *"
       email-message: "Por favor, escribe tu dirección de correo electrónico."
-      button: "¡Quiero tener acceso a la demo!"
+      button: "¡Me gustaría tener acceso a la demo!"
       description:
       - lines:
         - "Recibe en tu correo tu acceso personal a la aplicación de forma gratuita."
@@ -280,20 +280,20 @@ t:
     banner:
       title: "gvSIG Roads"
       description: "Full solution for the comprehensive management of roads"
-      call-to-action: "I want to receive more information!"
+      call-to-action: "I'd like to receive more information!"
     contact:
-      title: "Do you want to use gvSIG Roads in your projects?"
+      title: "Would you like to use gvSIG Roads in your projects?"
       description:
       - lines:
         - "Great, good choice!"
         - "Just call or send us an email, as you wish, and we will get in touch with you as soon as possible."
-      company: I'm a company
-      council: I'm a council
+      company: Company
+      council: Administration
     suscribe:
-      title: "Do you want to see an gvSIG Roads demo?"
+      title: "Would you like to see gvSIG Roads demo?"
       email: "Your email *"
       email-message: "Please, enter your email address."
-      button: " I want to access to the demo!"
+      button: "I'd like to access to the demo!"
       description:
       - lines:
         - "Subscribe and get your personal access to the application for free."
