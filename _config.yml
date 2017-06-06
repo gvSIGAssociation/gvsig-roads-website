@@ -347,6 +347,9 @@ links:
     blog:
       title: Case of study
       url: "#portfoliowrap"
+#    services:
+#      title: Services
+#      url: "/services"
     contact:
       title: Contact
       url: "#contact"
@@ -366,6 +369,10 @@ links:
     blog:
       title: Referencias
       url: "#portfoliowrap"
+#    services:
+#      title: Servicios
+#      url: "/servicios"
+#      external: true
     contact:
       title: Contacto
       url: "#contact"

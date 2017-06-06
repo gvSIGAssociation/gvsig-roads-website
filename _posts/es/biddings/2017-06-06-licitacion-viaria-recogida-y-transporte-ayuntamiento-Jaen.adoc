@@ -5,23 +5,21 @@ categories:
   - es
   - biddings
 # Custom
-published: false
+published: true
 ref: Ayu-Jaen
-title: LIMPIEZA VIARIA, RECOGIDA Y TRANSPORTE DE RSU Y SERVICIOS COMPLEMENTARIOS DE LA CIUDAD DE JAÉN.
+title: LIMPIEZA VIARIA, RECOGIDA Y TRANSPORTE DE RSU Y SERVICIOS COMPLEMENTARIOS DE LA CIUDAD DE JAÉN
 date: 2017-06-02
 term: 2017-07-17
 tipus: Servicios
 place: Jaén
 entity: Ayuntamiento de Jaén
 cost: 240.672.888 EUR
-document:
 documentPDF:
   - ppt_jaen.pdf
   - ppadm_jaen.pdf
-
 sections:
 - ¿Qué te ofrece gvSIG Roads?
-- El Ayuntamiento requiere de una gestión informatizada del servicio con cierto grado de especialización, por lo que necesitamos una aplicación que se pueda adaptar a los diferentes requerimientos. Nuestro desarrollo basados sobre la plataforma de gestión de activos gvSIG Roads cumpliría escrupulosamente con todas las necesidades propuestas por la dirección facultativa del contrato.
+- El Ayuntamiento requiere de una gestión informatizada del servicio con cierto grado de especialización, por lo que necesitamos una aplicación que se pueda adaptar a los diferentes requerimientos. Nuestro desarrollo basado sobre la plataforma de gestión de activos gvSIG Roads cumpliría escrupulosamente con todas las necesidades propuestas por la dirección facultativa del contrato.
 
 - Gestión, programación, ejecución, valoración, consultas y georeferenciación son algunas de las acciones necesarias sobre las cuales la aplicación nos dará un control exacto de las tareas requeridas. 
 ---

@@ -1411,6 +1411,10 @@ div#headerwrap div.bg + div.container{
 div.mt.biddings h2{
   font-size: 1.3em;
 }
+div.mt.biddings div.paragraph p{
+  font-size: 1em;
+  text-align: justify;
+}
 div#carousel-biddings{
    text-align: right;
    background: rgba(0, 0, 0, 0.2);
@@ -1452,6 +1456,7 @@ div#carousel-biddings a{
 }
 div#carousel-biddings span{
   display: block;
+  color: #b88f27;
 }
 
 /* responsive */

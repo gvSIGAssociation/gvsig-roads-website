@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang }}">
-  {% include head.html %}
+{% include head.html %}
 
-  <body data-spy="scroll">
-    {% include nav-project.html %}
-
-    {% include wrap.html %}
+<body data-spy="scroll">
+    {% include nav-project.html %} {% include wrap.html %}
 
     <div class="container mt biddings">
 
-       <div class="row-fluid">
+        <div class="row-fluid">
             <div class="col-sm-5 col-sm-offset-1">
                 <div class="spacing"></div>
                 <h2>{{ page.title }}</h2>
@@ -19,59 +17,64 @@
             </div>
 
             <div class="col-sm-5">
-              <div class="row-fluid">
-                <div class="spacing"></div>
-                <a href="{{ site.url }}" class="pull-right"><i class="fa fa-chevron-left"></i> {{ site.t[page.lang].goback }}</a>
-                <h4>{{ site.t[page.lang].details }}</h4>
-                <div class="hline"></div>
+                <div class="row-fluid">
+                    <div class="spacing"></div>
+                    <a href="{{ site.url }}" class="pull-right"><i class="fa fa-chevron-left"></i> {{ site.t[page.lang].goback }}</a>
+                    <h4>{{ site.t[page.lang].details }}</h4>
+                    <div class="hline"></div>
 
-                <div class="col-sm-6">
-                {% if page.date != null %}<p><b>{{ site.t[page.lang].biddings.date }}:</b><br> {{ page.date | date: "%-d %b, %Y" }}</p>{% endif %}
-                {% if page.tipus != null %}<p><b>{{ site.t[page.lang].biddings.tipus }}:</b><br> {{ page.tipus }}</p>{% endif %}
-                {% if page.entity != null %}<p><b>{{ site.t[page.lang].biddings.entity }}:</b> {{ page.entity }}</p>{% endif %}
-                {% if page.cost != null %}<p><b>{{ site.t[page.lang].biddings.cost }}:</b> {{ page.cost }}</p>{% endif %}
-                </div>
-                <div class="col-sm-6">
-                   {% if page.term != null %}<p><b>{{ site.t[page.lang].biddings.term }}:</b><br> {{ page.term }}</p>{% endif %}
-                    {% if page.place != null %}<p><b>{{ site.t[page.lang].biddings.place }}:</b><br> {{ page.place }}</p>{% endif %}
-                </div>
-                <div class="clearfix col-sm-12">
-                  {% if page.document != null %}<p>
-                  <b>{{ site.t[page.lang].biddings.document }}:</b><br>
-                  {% for item in page.document %}
-                  <a href="{{ item }}" target="_blank"><i class="fa fa-external-link"></i> {{item}}</a><br>
-                  {% endfor %}
-                  {% for item in page.documentPDF %}
-                  <a href="{{ site.url }}/docs/{{ item }}" target="_blank"><i class="fa fa-file-pdf-o"></i></a>
-                  {% endfor %}
-                  </p>
-                {% endif %}
-                </div>
+                    <div class="col-sm-6">
+                        {% if page.date != null %}
+                        <p><b>{{ site.t[page.lang].biddings.date }}:</b><br> {{ page.date | date: "%-d %b, %Y" }}</p>{% endif %} {% if page.tipus != null %}
+                        <p><b>{{ site.t[page.lang].biddings.tipus }}:</b><br> {{ page.tipus }}</p>{% endif %} {% if page.entity != null %}
+                        <p><b>{{ site.t[page.lang].biddings.entity }}:</b> {{ page.entity }}</p>{% endif %} {% if page.cost != null %}
+                        <p><b>{{ site.t[page.lang].biddings.cost }}:</b> {{ page.cost }}</p>{% endif %}
+                    </div>
+                    <div class="col-sm-6">
+                        {% if page.term != null %}
+                        <p><b>{{ site.t[page.lang].biddings.term }}:</b><br> {{ page.term | date: "%-d %b, %Y" }}</p>{% endif %} {% if page.place != null %}
+                        <p><b>{{ site.t[page.lang].biddings.place }}:</b><br> {{ page.place }}</p>{% endif %}
+                    </div>
+                    <div class="clearfix col-sm-12">
+                        {% if page.document != null or page.documentPDF != null %}
+                        <p>
+                            <b>{{ site.t[page.lang].biddings.document }}:</b><br>
+                            {% for item in page.document %}
+                            <a href="{{ item }}" target="_blank"><i class="fa fa-external-link"></i> {{item}}</a><br>
+                            {% endfor %}
+                            {% for item in page.documentPDF %}
+                                <a href="{{ site.url }}/docs/{{ item }}" target="_blank"> {{item}} <i class="fa fa-file-pdf-o"></i></a><br>
+                            {% endfor %}
+                            </p>
+                            {% endif %}
 
-              </div>
+                    </div>
+
+                </div>
             </div>
-        </div><!--/row -->
+        </div>
+        <!--/row -->
 
         <div class="spacing"></div>
 
         <div class="row">
-          <div class="col-sm-10 col-sm-offset-1">
-            <h3 class="text-center">{{ page.sections[0] }}</h3>
-            <hr class="primary">
-            <p>{{ page.sections[1] }}</p>
-            <p>{{ page.sections[2] }}</p>
-            <p>{{ page.sections[3] }}</p>
-            <p>{{ page.sections[4] }}</p>
-            <p>{{ page.sections[5] }}</p>
-          </div>
+            <div class="col-sm-10 col-sm-offset-1">
+                <h3 class="text-center">{{ page.sections[0] }}</h3>
+                <hr class="primary">
+                <p>{{ page.sections[1] }}</p>
+                <p>{{ page.sections[2] }}</p>
+                <p>{{ page.sections[3] }}</p>
+                <p>{{ page.sections[4] }}</p>
+                <p>{{ page.sections[5] }}</p>
+            </div>
         </div>
         <div class="spacing"></div>
 
-    </div><!--/container -->
+    </div>
+    <!--/container -->
 
     <!-- include contact-interested.html -->
-    {% include banner-contact-form.html %}
-    {% include footer.html %}
-    {% include js.html %}
-    </body>
+    {% include banner-contact-form.html %} {% include footer.html %} {% include js.html %}
+</body>
+
 </html>
