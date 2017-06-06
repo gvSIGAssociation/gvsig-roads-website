@@ -3,6 +3,18 @@
   
     
       <url>
+        <loc>/es/biddings/licitacion-viaria-recogida-y-transporte-ayuntamiento-Jaen</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/es/biddings/licitacion-viaria-recogida-y-transporte-ayuntamiento-Jaen" />
+        
+        <lastmod>2017-06-02T00:00:00+02:00</lastmod>
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
         <loc>/es/project/video-gvsig-roads-gestion-inventario</loc>
         
         
@@ -429,6 +441,32 @@
           <xhtml:link rel="alternate" hreflang="es" href="/es/legal-notice/" />
         
           <xhtml:link rel="alternate" hreflang="en" href="/en/legal-notice/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/servicios/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/servicios/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/services/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/services/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/servicios/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/services/" />
         
         <changefreq>weekly</changefreq>
       </url>
