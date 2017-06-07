@@ -18,14 +18,19 @@ documentPDF:
   - ppt_jaen.pdf
   - ppadm_jaen.pdf
 sections:
-- ¿Qué te ofrece gvSIG Roads?
-- El Ayuntamiento requiere de una gestión informatizada del servicio con cierto grado de especialización, por lo que necesitamos una aplicación que se pueda adaptar a los diferentes requerimientos. Nuestro desarrollo basado sobre la plataforma de gestión de activos gvSIG Roads cumpliría escrupulosamente con todas las necesidades propuestas por la dirección facultativa del contrato.
-
-- Gestión, programación, ejecución, valoración, consultas y georeferenciación son algunas de las acciones necesarias sobre las cuales la aplicación nos dará un control exacto de las tareas requeridas. 
+- CONTRATO GESTIÓN INDIRECTA DE LOS SERVICIOS PÚBLICOS DE LIMPIEZA URBANA, RECOGIDA Y TRANSPORTE DE RESIDUOS SÓLIDOS URBANOS, Y SERVICIOS COMPLEMENTARIOS DE DESRATIZACIÓN, DESINFECCIÓN Y DESINSECTACIÓN, Y GESTIÓN DE ANIMALES ABANDONADOS O SUS CADÁVERES, ASÍ COMO EL MANTENIMIENTO DE JARDINES Y ZONAS VERDES DE LA CIUDAD DE JAÉN.
 ---
 
-CONTRATO GESTIÓN INDIRECTA DE LOS SERVICIOS PÚBLICOS DE LIMPIEZA URBANA, RECOGIDA Y TRANSPORTE DE RESIDUOS SÓLIDOS URBANOS, Y SERVICIOS COMPLEMENTARIOS DE DESRATIZACIÓN, DESINFECCIÓN Y DESINSECTACIÓN, Y GESTIÓN DE ANIMALES ABANDONADOS O SUS CADÁVERES, ASÍ COMO EL MANTENIMIENTO DE
-JARDINES Y ZONAS VERDES DE LA CIUDAD DE JAÉN.
+## ¿Qué te ofrece gvSIG Roads?
++++
+<hr class="primary">
++++
+
+El Ayuntamiento requiere de una gestión informatizada del servicio con cierto grado de especialización, por lo que necesitamos una aplicación que se pueda adaptar a los diferentes requerimientos. Nuestro desarrollo basado sobre la plataforma de gestión de activos gvSIG Roads cumpliría escrupulosamente con todas las necesidades propuestas por la dirección facultativa del contrato.
+
+Gestión, programación, ejecución, valoración, consultas y georeferenciación son algunas de las acciones necesarias sobre las cuales la aplicación nos dará un control exacto de las tareas requeridas.
+
+
 
 
 

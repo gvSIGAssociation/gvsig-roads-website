@@ -1409,9 +1409,16 @@ div#headerwrap div.bg + div.container{
   height: 110vh;
 }
 div.mt.biddings h2{
-  font-size: 1.3em;
+  text-align: center;
 }
-div.mt.biddings div.paragraph p{
+div.mt.biddings .intro h2{
+  font-size: 1.3em;
+text-align: justify;
+}
+div.mt.biddings h3{
+  font-size: 1.1em;
+}
+div.mt.biddings p {
   font-size: 1em;
   text-align: justify;
 }

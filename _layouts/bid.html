@@ -8,11 +8,20 @@
     <div class="container mt biddings">
 
         <div class="row-fluid">
-            <div class="col-sm-5 col-sm-offset-1">
+            <div class="col-sm-5 col-sm-offset-1 intro">
                 <div class="spacing"></div>
                 <h2>{{ page.title }}</h2>
-
-                {{ content }}
+                <p>{{ page.sections[0] }}</p>
+                <p>{{ page.sections[1] }}</p>
+                <p>{{ page.sections[2] }}</p>
+                <p>{{ page.sections[3] }}</p>
+                <p>{{ page.sections[4] }}</p>
+                <p>{{ page.sections[5] }}</p>
+                <p>{{ page.sections[6] }}</p>
+                <p>{{ page.sections[7] }}</p>
+                <p>{{ page.sections[8] }}</p>
+                <p>{{ page.sections[9] }}</p>
+                <p>{{ page.sections[10] }}</p>
 
             </div>
 
@@ -59,13 +68,8 @@
 
         <div class="row">
             <div class="col-sm-10 col-sm-offset-1">
-                <h3 class="text-center">{{ page.sections[0] }}</h3>
-                <hr class="primary">
-                <p>{{ page.sections[1] }}</p>
-                <p>{{ page.sections[2] }}</p>
-                <p>{{ page.sections[3] }}</p>
-                <p>{{ page.sections[4] }}</p>
-                <p>{{ page.sections[5] }}</p>
+                {{ content }}
+
             </div>
         </div>
         <div class="spacing"></div>

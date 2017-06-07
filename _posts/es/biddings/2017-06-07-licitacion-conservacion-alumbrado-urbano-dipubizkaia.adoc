@@ -5,7 +5,6 @@ categories:
   - es
   - biddings
 # Custom
-published: true
 ref: Dipu-Bizkaia
 title: ASISTENCIA TÉCNICA PARA LA CONSERVACIÓN INTEGRAL DE INSTALACIONES DE ALUMBRADO PÚBLICO DE CARRETERAS Y ESTACIONES DE BOMBEO
 date: 2017-06-03
@@ -18,22 +17,25 @@ documentPDF:
   - Ppt_bizkaia.pdf
   - Padm_bizkaia.pdf
 sections:
-- ¿Qué te ofrece gvSIG Roads?
-- La Diputación requiere de una gestión informatizada del servicio con una parte importante de personalización, por ello lo que necesitamos es una aplicación que se pueda adaptar a los diferentes requerimientos. La plataforma de gestión de activos gvSIG Roads está diseñada para poder desarrollar sobre ella y atendiendo a los requerimientos de la dirección acultativa del contrato cualquier condición descrita en el pliego.
-
-- El flujo de trabajo que dispone para el mantenimiento del inventario vial es práctimente igual. Agenda de estado, incidencias, inventario pormenorizado, nos permitirá archivar, consultar, seleccionar y tratar los datos para su utilización, tanto para la programación y ordenación de trabajos, como para obtener y facilitar la información que se requiera-
-- Módulos como los de inventario, agenda, informes y otros ya están disponibles en la aplicación que sin coste de licencias ni número de usuarios permite a la administración eliminar coste para el ciudadano.
-
-- Como lo valoran
--     CRITERIOS NO CUANTIFICABLES AUTOMATICAMENTE 
--       "Presentación de las aplicaciones informáticas de gestión, control de producción etc. que se compromete a utilizar en el contrato en el caso de adjudicación favorable y aceptación por la Diputación Foral de Bizcaia
+- CONTRATO DE ASISTENCIA TÉCNICA PARA LA CONSERVACIÓN INTEGRAL DE INSTALACIONES DE ALUMBRADO PÚBLICO DE CARRETERAS Y ESTACIONES DE BOMBEO.
 ---
 
-CONTRATO DE ASISTENCIA TÉCNICA PARA LA CONSERVACIÓN
-INTEGRAL DE INSTALACIONES DE ALUMBRADO PÚBLICO DE
-CARRETERAS Y ESTACIONES DE BOMBEO.
+## ¿Qué te ofrece gvSIG Roads?
++++
+<hr class="primary">
++++
 
+La Diputación requiere de una gestión informatizada del servicio con una parte importante de personalización, por ello lo que necesitamos es una aplicación que se pueda adaptar a los diferentes requerimientos. La plataforma de gestión de activos gvSIG Roads está diseñada para poder desarrollar sobre ella y atendiendo a los requerimientos de la dirección acultativa del contrato cualquier condición descrita en el pliego.
 
+El flujo de trabajo que dispone para el mantenimiento del inventario vial es práctimente igual. Agenda de estado, incidencias, inventario pormenorizado, nos permitirá archivar, consultar, seleccionar y tratar los datos para su utilización, tanto para la programación y ordenación de trabajos, como para obtener y facilitar la información que se requiera
 
+Módulos como los de inventario, agenda, informes y otros ya están disponibles en la aplicación que sin coste de licencias ni número de usuarios permite a la administración eliminar coste para el ciudadano.
 
+## Como lo valoran
++++
+<hr class="primary">
++++
 
+### Criterios no cuantificables automáticamente:
+
+Presentación de las aplicaciones informáticas de gestión, control de producción etc. que se compromete a utilizar en el contrato en el caso de adjudicación favorable y aceptación por la Diputación Foral de Bizcaia.
