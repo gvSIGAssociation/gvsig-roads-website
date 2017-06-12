@@ -1,0 +1,34 @@
+---
+layout: bid
+lang: es
+categories:
+  - es
+  - biddings
+# Custom
+ref: Ayto-Granada
+title: CONTRATO DE SERVICIOS DE CONSERVACIÓN DE LOS ESPACIOS VERDES Y ARBOLADO URBANO DEL MUNICIPIO DE GRANADA ( ZONA A)
+date: 2017-06-01
+term: 2017-06-19
+tipus: Servicios
+place: Granada
+entity: Ayuntamiento de Granada
+cost: 3.605.125,00 €
+documentPDF:
+  - ppt-zonasverdes-ayto-granada.pdf
+  - ppadm-zonasverdes-ayto-granada.pdf
+sections:
+- Contrato de servicios de conservación de los espacios verdes y arbolado urbano del municipio de granada (zona a), a adjudicar por procedimiento abierto
+---
+
+## ¿Qué te ofrece gvSIG Roads?
++++
+<hr class="primary">
++++
+
+El Ayuntamiento requiere de una gestión informatizada del servicio con una parte importante de personalización. El contratista deberá proponer o facilitar opciones de perfiles y programas que deberán ser aceptados por la Dirección Facultativa.
+
+En el presupuesto se ha previsto una partida para la realización y gestión informática del inventario, que se pondrá en marcha según las directrices de la D.F. de este contrato.
+
+DISID Corporation dispone del personal técnico necesario para el desarrollo de este tipo de aplicaciones open source que sobre la base de la plataforma gvSIG Roads realizará una adaptación personalizada a lo que dicte la D.F. para este contrato.
+
+
