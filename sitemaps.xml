@@ -3,6 +3,18 @@
   
     
       <url>
+        <loc>/es/biddings/licitacion-seg-vial-valencia</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/es/biddings/licitacion-seg-vial-valencia" />
+        
+        <lastmod>2017-06-19T00:00:00+02:00</lastmod>
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
         <loc>/es/biddings/licitacion-conservacion-alumbrado-urbano-dipubizkaia</loc>
         
         
@@ -21,18 +33,6 @@
           <xhtml:link rel="alternate" hreflang="es" href="/es/biddings/licitacion-viaria-recogida-y-transporte-ayuntamiento-Jaen" />
         
         <lastmod>2017-06-02T00:00:00+02:00</lastmod>
-        <changefreq>weekly</changefreq>
-      </url>
-    
-  
-    
-      <url>
-        <loc>/es/biddings/licitacion-conservacion-zonas-verdes-aytogranada</loc>
-        
-        
-          <xhtml:link rel="alternate" hreflang="es" href="/es/biddings/licitacion-conservacion-zonas-verdes-aytogranada" />
-        
-        <lastmod>2017-06-01T00:00:00+02:00</lastmod>
         <changefreq>weekly</changefreq>
       </url>
     

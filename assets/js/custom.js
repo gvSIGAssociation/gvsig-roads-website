@@ -112,3 +112,8 @@ function openBanner() {
   banner.find('a.close-banner').removeClass('hidden');
   banner.find('p').removeClass('hidden');
 }
+
+//Carousel biddings
+
+
+
