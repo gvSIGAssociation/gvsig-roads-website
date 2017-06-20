@@ -1,0 +1,54 @@
+---
+layout: bid
+lang: es
+categories:
+  - es
+  - biddings
+# Custom
+published: true
+ref: Dip-Valencia
+title: APOYO TÉCNICO PARA LA ELABORACIÓN Y DESARROLLO DE LOS PROGRAMAS DE SEGURIDAD VIAL 2017-2019 DEL ÁREA DE CARRETERAS E INFRAESTRUCTURAS DE LA DIPUTACIÓN DE VALENCIA
+date: 2017-06-19
+term: 2017-09-04
+tipus: Servicios
+place: Valencia
+entity: Diputación de Valencia
+cost: 291.800,00  Euros
+documentPDF:
+  - ppt-seguridad-vial.pdf
+  - ppa-seguridad-vial.pdf
+sections:
+- “Apoyo técnico para la elaboración y desarrollo de los Programas de Seguridad Vial 2017-2019 del Área de Carreteras e Infraestructuras de la Diputación de Valencia” (T-768)
+---
+
+## ¿Qué te ofrece gvSIG Roads?
++++
+<hr class="primary">
++++
+
+Artículo 7.- DESCRIPCIÓN DE LOS TRABAJOS A DESARROLLAR POR EL CONSULTOR
+
+d) Establecimiento de un procedimiento y desarrollo de una aplicación para la detección de puntos con accidentalidad anormalmente elevada en el año en curso, de forma trimestral, o cualquier otra consulta que le indique el Responsable del Contrato.
+
+j) Apoyo informático en la gestión de la base de datos de accidentes de las carreteras de la Diputación de Valencia, proporcionados por la Dirección General de Tráfico, a través de la aplicación informática CIAT (Concentrador de Información de Accidentes). El consultor preparará los datos en el formato que determine el Director del Contrato para su trasvase a la aplicación del Área de Carreteras gvsig Roads
+
+8.1. Plantilla de personal.
+Colaboradores: Un Informático, para realizar el apoyo de la gestión de la base datos de accidentes del Servicio de Seguridad Vial y Supervisión.
+
+Como empresa que mantiene la aplicación que utiliza la Diputación, gvSIG Roads, podemos aportar el desarrllo para la detección de los puntos con accidentalidad anormal y a su vez que se integre dentro de la propia aplicación, así como una herramienta de importación para el trasvase de datos provenientes de la CIAT. Personal con perfiles adecuados para cumplir con el solicitado.
+
+
+## Como lo valoran
++++
+<hr class="primary">
++++
+
+A. Metodología (de 0 a 40 puntos).
+---c. Propuesta metodológica para la obtención de los tramos de concentración de accidentes y propuesta para la detección de puntos con accidentalidad anormalmente elevada en el año en curso.(de 0 a 7 puntos)
+
+
+
+
+
+
+
