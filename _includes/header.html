@@ -2,9 +2,9 @@
 <section id="promo" class="promo">
 <div id="headerwrap">
     <div class="bg"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6">
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="col-sm-6 col-sm-offset-3">
                 <h1 class="title">{{ site.t[page.lang].header.title }}<span class="highlight">{{ site.t[page.lang].header.title-highlight }}</span></h1>
 
                 <h2 class="intro">
@@ -12,19 +12,23 @@
                         {{ line }} <br>
                  {% endfor %}
                 </h2>
-                <p><a href="#about" class="btn dmbutton wow pulse">{{ site.t[page.lang].more }}</a></p>
+                <p class="text-center">
+                  <a class="wow pulse" href="#about" data-toggle="tooltip" title="{{ site.t[page.lang].more }}">
+                  <span class="fa fa-chevron-down 2x"></span></a></p>
             </div>
+        </div><!-- /row -->
 
+        <div class="row">
             {% assign collection=site.posts | where:"lang", page.lang %}
             {% for post in collection limit: 1 %}
             {% if post.categories contains 'biddings' %}
-            <div class="col-sm-5 col-sm-offset-1" id="carousel-biddings">
+            <div class="col-sm-12" id="carousel-biddings">
                {% include carousel-biddings.html %}
             </div>
             {% endif %}
             {% endfor %}
 
-        </div><!-- /row -->
+        </div>
     </div> <!-- /container -->
 </div><!-- /headerwrap -->
 </section>

@@ -10,7 +10,8 @@
   {% endfor %}
 
   <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-
+    <div class="carousel-inner">
+    {% comment %}
     <div class="carousel-inner">
           {% for post in collection limit: 5 %}
             <div class="item {% if forloop.first %}active{% endif %}">
@@ -40,5 +41,48 @@
         {% endfor %}
     </ol>
 
-  </div> <!--/Carousel -->
+   {% endcomment %}
+
+
+  {% for post in collection %}
+  {% if post.categories contains 'biddings' %}
+
+    {% assign loopindex = forloop.index | modulo: 2 %}
+    {% if loopindex == 1 %}
+      <div class="item {% if forloop.first %}active{% endif %}">
+        <div class="col-sm-6">
+          <h4>{{ post.title }}</h4>
+          <ul class="list-unstyled">
+            <li>{% if post.place != null %}<b>{{ site.t[page.lang].biddings.place }}:</b> {{ post.place }}{% endif %}</li>
+           <li>{% if post.term != null %}<b>{{ site.t[page.lang].biddings.term }}:</b> {{ post.term | date: "%-d %b, %Y" }}{% endif %}</li>
+          </ul>
+          <a href="{{  post.url {{| prepend: site.baseurl }}" class="btn dmbutton pull-right" title="{{ site.t[page.lang].more }}" data-toggle="tooltip">
+            {{ site.t[page.lang].more }}
+          </a>
+        </div>
+    {% else %}
+        <div class="col-sm-6">
+          <h4>{{ post.title }}</h4>
+          <ul class="list-unstyled">
+            <li>{% if post.place != null %}<b>{{ site.t[page.lang].biddings.place }}:</b> {{ post.place }}{% endif %}</li>
+           <li>{% if post.term != null %}<b>{{ site.t[page.lang].biddings.term }}:</b> {{ post.term | date: "%-d %b, %Y" }}{% endif %}</li>
+          </ul>
+          <a href="{{  post.url {{| prepend: site.baseurl }}" class="btn dmbutton pull-right" title="{{ site.t[page.lang].more }}" data-toggle="tooltip">
+            {{ site.t[page.lang].more }}
+          </a>
+        </div>
+      </div>
+    {% endif %}
+
+
+  {% endif %}
+  {% endfor %}
+
+
+
+
+
+
+  </div>
+ </div> <!--/Carousel -->
 
