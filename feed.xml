@@ -5,9 +5,77 @@
     <description></description>
     <link>http://www.gvsigroads.com/</link>
     <atom:link href="http://www.gvsigroads.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 20 Jun 2017 15:26:30 +0200</pubDate>
-    <lastBuildDate>Tue, 20 Jun 2017 15:26:30 +0200</lastBuildDate>
+    <pubDate>Wed, 28 Jun 2017 15:17:11 +0200</pubDate>
+    <lastBuildDate>Wed, 28 Jun 2017 15:17:11 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Es: 41/1/2017 - CONTRATO COEX LOTES 1, 2, 3 Y 4</title>
+        <description>&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;qué_te_ofrece_gvsig_roads&quot;&gt;¿Qué te ofrece gvSIG Roads?&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;
+&lt;hr class=&quot;primary&quot;&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Proporcionar a la Diputación una herramienta de software libre sin coste de licencias ni límite de usuarios y que cumple sobradamente con los requerimientos que piden en los pliegos. A continuación transcribimos algunos fragmentos:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&amp;#8230;&amp;#8203;&quot;así como tareas de gestión viaria con redacción de informes, seguimiento de estado, estudios, informatización de datos, inventariado&amp;#8230;&amp;#8203;&quot;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;La memoria deberá incluir los siguientes aspectos:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;5 -Aportación que propone en aspectos tecnológicos, su implantación y desarrollo, para la mejora de la gestión viaria, incluso aporte de aplicaciones informáticas específicas, exponiendo metodología, procedimientos&amp;#8230;&amp;#8203;
+(Inventario de la red, explotación, registro histórico de datos, actualizaciones&amp;#8230;&amp;#8203;).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Aplicaciones tecnológicas para la mejora de gestión de la red: inventario, explotación, histórico de datos y resultados (según las condiciones previstas en el PPTP)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;em&gt;Hasta 5 puntos&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;como_lo_valoran&quot;&gt;Como lo valoran&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;
+&lt;hr class=&quot;primary&quot;&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;CRITERIOS PARA LA VALORACIÓN DE OFERTAS&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Cláusula 13. Enumeración de los criterios no evaluables mediante fórmulas&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Por cada lote de actuación, los criterios no evaluables mediante fórmulas se valorarán con hasta un máximo de 100 puntos. La valoración final de los aspectos técnicos de la oferta (PT) se obtendrá mediante la fórmula establecida en el presente pliego.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Aplicaciones tecnológicas para la mejora de gestión de la red:
+Aportación que propone en aspectos tecnológicos para la gestión de la red de carreteras de la Zona, implantación y amplitud, características y desarrollo, datos viarios y seguimiento de las operaciones, tratamiento y control de las tareas de explotación (en su caso, definición, exposición detallada y justificación coherente de las mejoras a que se compromete respecto a los requerimientos mínimos de partida)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;em&gt;Hasta 5 puntos&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+        <pubDate>Wed, 21 Jun 2017 00:00:00 +0200</pubDate>
+        <link>http://www.gvsigroads.com/es/biddings/licitacion-dip-caceres</link>
+        <guid isPermaLink="true">http://www.gvsigroads.com/es/biddings/licitacion-dip-caceres</guid>
+        
+        
+        <category>es</category>
+        
+        <category>biddings</category>
+        
+      </item>
     
       <item>
         <title>Es: APOYO TÉCNICO PARA LA ELABORACIÓN Y DESARROLLO DE LOS PROGRAMAS DE SEGURIDAD VIAL 2017-2019 DEL ÁREA DE CARRETERAS E INFRAESTRUCTURAS DE LA DIPUTACIÓN DE VALENCIA</title>
@@ -267,39 +335,6 @@ conservation on gvSIG Roads.&lt;/p&gt;
         
         
         <category>en</category>
-        
-        <category>project</category>
-        
-      </item>
-    
-      <item>
-        <title>Es: Video gvSIG Roads: plugin actualización de los ejes de carretera</title>
-        <description>&lt;div class=&quot;sect1&quot;&gt;
-&lt;h2 id=&quot;plugin_gvsig_roads_actualización_de_ejes_de_la_cartografía&quot;&gt;Plugin gvSIG Roads: actualización de ejes de la cartografía&lt;/h2&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Herramientas de alta y baja de ejes de carreteras con gvSIG Roads sobre
-gvSIG Desktop.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Al ser una solución integral se dispone de un potente
-Sistema de Información Geográfica de escritorio para las tareas
-cartográficas avanzadas.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Permite dar de alta un nuevo eje de carreteras o dar de baja uno existente.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Incluye Vistas 3D.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
-        <pubDate>Wed, 16 Dec 2015 17:54:46 +0100</pubDate>
-        <link>http://www.gvsigroads.com/es/project/plugin-gvsig-roads-actualizacion-de-los-ejes-de-carretera</link>
-        <guid isPermaLink="true">http://www.gvsigroads.com/es/project/plugin-gvsig-roads-actualizacion-de-los-ejes-de-carretera</guid>
-        
-        
-        <category>es</category>
         
         <category>project</category>
         

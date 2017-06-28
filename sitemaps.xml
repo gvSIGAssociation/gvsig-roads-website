@@ -3,6 +3,18 @@
   
     
       <url>
+        <loc>/es/biddings/licitacion-dip-caceres</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/es/biddings/licitacion-dip-caceres" />
+        
+        <lastmod>2017-06-21T00:00:00+02:00</lastmod>
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
         <loc>/es/biddings/licitacion-seg-vial-valencia</loc>
         
         
@@ -359,6 +371,8 @@
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
         
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
         <changefreq>weekly</changefreq>
       </url>
     
@@ -409,6 +423,8 @@
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
         
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
         <changefreq>weekly</changefreq>
       </url>
     
@@ -427,6 +443,8 @@
           <xhtml:link rel="alternate" hreflang="es" href="/sitemaps.xml" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/assets/css/style.css" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
         
@@ -535,6 +553,8 @@
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
         
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
         <changefreq>weekly</changefreq>
       </url>
     
@@ -553,6 +573,8 @@
           <xhtml:link rel="alternate" hreflang="es" href="/sitemaps.xml" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/assets/css/style.css" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
         
@@ -622,41 +644,6 @@
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
         
-        <changefreq>weekly</changefreq>
-      </url>
-    
-  
-    
-      <url>
-        <loc>/</loc>
-        
-        
-          <xhtml:link rel="alternate" hreflang="es" href="/feed.xml" />
-        
-          <xhtml:link rel="alternate" hreflang="en" href="/en/" />
-        
-          <xhtml:link rel="alternate" hreflang="es" href="/" />
-        
-          <xhtml:link rel="alternate" hreflang="es" href="/sitemaps.xml" />
-        
-          <xhtml:link rel="alternate" hreflang="es" href="/assets/css/style.css" />
-        
-          <xhtml:link rel="alternate" hreflang="es" href="/" />
-        
-          <xhtml:link rel="alternate" hreflang="es" href="/" />
-        
-          <xhtml:link rel="alternate" hreflang="es" href="/" />
-        
-          <xhtml:link rel="alternate" hreflang="es" href="/" />
-        
-          <xhtml:link rel="alternate" hreflang="es" href="/" />
-        
-          <xhtml:link rel="alternate" hreflang="es" href="/" />
-        
-          <xhtml:link rel="alternate" hreflang="es" href="/" />
-        
-          <xhtml:link rel="alternate" hreflang="es" href="/" />
-        
           <xhtml:link rel="alternate" hreflang="es" href="/" />
         
         <changefreq>weekly</changefreq>
@@ -679,41 +666,6 @@
           <xhtml:link rel="alternate" hreflang="es" href="/assets/css/style.css" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
-        
-          <xhtml:link rel="alternate" hreflang="es" href="/" />
-        
-          <xhtml:link rel="alternate" hreflang="es" href="/" />
-        
-          <xhtml:link rel="alternate" hreflang="es" href="/" />
-        
-          <xhtml:link rel="alternate" hreflang="es" href="/" />
-        
-          <xhtml:link rel="alternate" hreflang="es" href="/" />
-        
-          <xhtml:link rel="alternate" hreflang="es" href="/" />
-        
-          <xhtml:link rel="alternate" hreflang="es" href="/" />
-        
-          <xhtml:link rel="alternate" hreflang="es" href="/" />
-        
-        <changefreq>weekly</changefreq>
-      </url>
-    
-  
-    
-      <url>
-        <loc>/</loc>
-        
-        
-          <xhtml:link rel="alternate" hreflang="es" href="/feed.xml" />
-        
-          <xhtml:link rel="alternate" hreflang="en" href="/en/" />
-        
-          <xhtml:link rel="alternate" hreflang="es" href="/" />
-        
-          <xhtml:link rel="alternate" hreflang="es" href="/sitemaps.xml" />
-        
-          <xhtml:link rel="alternate" hreflang="es" href="/assets/css/style.css" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
         
@@ -770,41 +722,6 @@
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
         
-        <changefreq>weekly</changefreq>
-      </url>
-    
-  
-    
-      <url>
-        <loc>/</loc>
-        
-        
-          <xhtml:link rel="alternate" hreflang="es" href="/feed.xml" />
-        
-          <xhtml:link rel="alternate" hreflang="en" href="/en/" />
-        
-          <xhtml:link rel="alternate" hreflang="es" href="/" />
-        
-          <xhtml:link rel="alternate" hreflang="es" href="/sitemaps.xml" />
-        
-          <xhtml:link rel="alternate" hreflang="es" href="/assets/css/style.css" />
-        
-          <xhtml:link rel="alternate" hreflang="es" href="/" />
-        
-          <xhtml:link rel="alternate" hreflang="es" href="/" />
-        
-          <xhtml:link rel="alternate" hreflang="es" href="/" />
-        
-          <xhtml:link rel="alternate" hreflang="es" href="/" />
-        
-          <xhtml:link rel="alternate" hreflang="es" href="/" />
-        
-          <xhtml:link rel="alternate" hreflang="es" href="/" />
-        
-          <xhtml:link rel="alternate" hreflang="es" href="/" />
-        
-          <xhtml:link rel="alternate" hreflang="es" href="/" />
-        
           <xhtml:link rel="alternate" hreflang="es" href="/" />
         
         <changefreq>weekly</changefreq>
@@ -844,6 +761,47 @@
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
         
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/feed.xml" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/en/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/sitemaps.xml" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/assets/css/style.css" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
         <changefreq>weekly</changefreq>
       </url>
     
@@ -881,6 +839,8 @@
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
         
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
         <changefreq>weekly</changefreq>
       </url>
     
@@ -899,6 +859,125 @@
           <xhtml:link rel="alternate" hreflang="es" href="/sitemaps.xml" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/assets/css/style.css" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/feed.xml" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/en/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/sitemaps.xml" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/assets/css/style.css" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/feed.xml" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/en/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/sitemaps.xml" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/assets/css/style.css" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/feed.xml" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/en/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/sitemaps.xml" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/assets/css/style.css" />
+        
+          <xhtml:link rel="alternate" hreflang="es" href="/" />
         
           <xhtml:link rel="alternate" hreflang="es" href="/" />
         
