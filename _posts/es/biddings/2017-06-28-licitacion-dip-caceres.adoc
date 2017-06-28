@@ -1,0 +1,61 @@
+---
+layout: bid
+lang: es
+categories:
+  - es
+  - biddings
+# Custom
+published: true
+ref: Dip-Cáceres
+title: 41/1/2017 - CONTRATO COEX LOTES 1, 2, 3 Y 4
+date: 2017-06-21
+term: 2017-07-17
+tipus: Servicios
+place: Cáceres
+entity: Diputación de Cáceres
+cost: 14.214.876 EUR
+documentPDF:
+  - ppt-dip-caceres.pdf
+  - padm-dip-caceres.pdf
+sections:
+- Ejecución de diversas operaciones de conservación y explotación en la red viaria de la Diputación Provincial de Cáceres.
+---
+
+## ¿Qué te ofrece gvSIG Roads?
++++
+<hr class="primary">
++++
+
+Proporcionar a la Diputación una herramienta de software libre sin coste de licencias ni límite de usuarios y que cumple sobradamente con los requerimientos que piden en los pliegos. A continuación transcribimos algunos fragmentos.
+
+..."así como tareas de gestión viaria con redacción de informes, seguimiento de estado, estudios, informatización de datos, inventariado..."
+
+La memoria deberá incluir los siguientes aspectos: 
+5 -Aportación que propone en aspectos tecnológicos, su implantación y desarrollo, para la mejora de la gestión viaria, incluso aporte de aplicaciones informáticas específicas, exponiendo metodología, procedimientos... (Inventario de la red, explotación, registro histórico de datos, actualizaciones...).
+
+Aplicaciones tecnológicas para la mejora de gestión de la red: inventario, explotación, histórico de datos y resultados (según las condiciones previstas en el PPTP)
+Hasta 5 hojas
+
+## Como lo valoran
++++
+<hr class="primary">
++++
+
+CRITERIOS PARA LA VALORACIÓN DE OFERTAS
+
+Cláusula 13. Enumeración de los criterios no evaluables mediante fórmulas
+
+Por cada lote de actuación, los criterios no evaluables mediante fórmulas se valorarán con hasta un máximo de 100 puntos. La valoración final de los aspectos técnicos de la oferta (PT) se obtendrá mediante la fórmula establecida en el presente pliego.
+
+Aplicaciones tecnológicas para la mejora de gestión de la red:
+Aportación que propone en aspectos tecnológicos para la gestión de la red de carreteras de la Zona, implantación y amplitud, características y desarrollo, datos viarios y seguimiento de las operaciones, tratamiento y control de las tareas de explotación (en su caso, definición, exposición detallada y justificación coherente de las mejoras a que se compromete respecto a los requerimientos mínimos de partida)
+
+Hasta 5 puntos
+
+
+
+
+
+
+
+
