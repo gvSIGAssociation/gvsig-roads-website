@@ -26,15 +26,18 @@ sections:
 <hr class="primary">
 +++
 
-Proporcionar a la Diputación una herramienta de software libre sin coste de licencias ni límite de usuarios y que cumple sobradamente con los requerimientos que piden en los pliegos. A continuación transcribimos algunos fragmentos.
+Proporcionar a la Diputación una herramienta de software libre sin coste de licencias ni límite de usuarios y que cumple sobradamente con los requerimientos que piden en los pliegos. A continuación transcribimos algunos fragmentos:
 
 ..."así como tareas de gestión viaria con redacción de informes, seguimiento de estado, estudios, informatización de datos, inventariado..."
 
-La memoria deberá incluir los siguientes aspectos: 
-5 -Aportación que propone en aspectos tecnológicos, su implantación y desarrollo, para la mejora de la gestión viaria, incluso aporte de aplicaciones informáticas específicas, exponiendo metodología, procedimientos... (Inventario de la red, explotación, registro histórico de datos, actualizaciones...).
+La memoria deberá incluir los siguientes aspectos:
+
+5 -Aportación que propone en aspectos tecnológicos, su implantación y desarrollo, para la mejora de la gestión viaria, incluso aporte de aplicaciones informáticas específicas, exponiendo metodología, procedimientos...
+(Inventario de la red, explotación, registro histórico de datos, actualizaciones...).
 
 Aplicaciones tecnológicas para la mejora de gestión de la red: inventario, explotación, histórico de datos y resultados (según las condiciones previstas en el PPTP)
-Hasta 5 hojas
+
+_Hasta 5 puntos_
 
 ## Como lo valoran
 +++
@@ -50,7 +53,7 @@ Por cada lote de actuación, los criterios no evaluables mediante fórmulas se v
 Aplicaciones tecnológicas para la mejora de gestión de la red:
 Aportación que propone en aspectos tecnológicos para la gestión de la red de carreteras de la Zona, implantación y amplitud, características y desarrollo, datos viarios y seguimiento de las operaciones, tratamiento y control de las tareas de explotación (en su caso, definición, exposición detallada y justificación coherente de las mejoras a que se compromete respecto a los requerimientos mínimos de partida)
 
-Hasta 5 puntos
+_Hasta 5 puntos_
 
 
 

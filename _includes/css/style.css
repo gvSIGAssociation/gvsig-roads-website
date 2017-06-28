@@ -171,7 +171,7 @@ hr {
   content: "";
 }
 .navbar-default .navbar-nav > li > a:hover {
-	color: {{ site.colors.yellow_gvsig }};;
+	color: {{ site.colors.yellow_gvsig }};
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	color: white;
@@ -452,7 +452,7 @@ li.nav-item{
 
 @media (min-width: 1020px) {
     .promo .title {
-      font-size: 5.5em;
+      font-size: 4em;
       margin-top: 2em;
     }
     .promo .intro {
@@ -1569,7 +1569,7 @@ div#carousel-biddings span{
 @media (min-width: 1200px) {
 
   div#carousel-biddings{
-     height: 350px;
+     height: 290px;
   }
   div#carousel-biddings h3{
       font-size: 1.2em;
