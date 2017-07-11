@@ -1,0 +1,47 @@
+---
+layout: bid
+lang: es
+categories:
+  - es
+  - biddings
+# Custom
+published: true
+ref: Ayu-Parla
+title: SERVICIO DE LIMPIEZA VIARIA
+date: 2017-07-04
+term: 2017-08-14
+tipus: Servicios
+place: Parla
+entity: Ayuntamiento de Parla
+cost: 47.388.000 EUR
+documentPDF:
+  - ppt_ayto_parla.pdf
+  - padm_ayto_parla.pdf
+sections:
+- SERVICIO DE LIMPIEZA VIARIA
+
+El Ayuntamiento requiere que la empresa adjudicataria presente un plan de gestión informática del servicio y de comunicación con el Ayuntamiento. Se dispondrá plataforma digital o de cualquier otra aplicación que permita controlar los servicios ofertados, garantizar la trazabilidad, gestionar la transmisión de los trabajos realizados o pendientes de realizar y la comunicación de avisos.
+---
+
+## ¿Qué te ofrece gvSIG Roads?
++++
+<hr class="primary">
++++
+
+Además de cumplir con las necesiades que piden aportar según el pliego dispondrán de una herramienta para la gestión de incidencias y contrl de los trabajos así como las certificaciones que tendrá  la capacidad de ser adaptada a las necesidades del Ayuntamiento. GVSIG ROADS permite un alto grado de personalización según exigencias de la dirección facultativa del contrato.
+
+## ¿Cómo lo valoran?
++++
+<hr class="primary">
++++
+
+CRITERIOS CUANTIFICABLES SEGÚN JUICIO DE VALOR
+
+ORGANIZACIÓN TÉCNICA DEL SERVICIO: 30 PUNTOS
+
+Sistema de aplicación o plataforma para la gestión informática del servicio y dotación de tablets o pda's para el personal de inspección. Esta aplicación o plataforma será complementaria a lo disiesto en el apartado 5, "Control de prestación de los servicios" del PPT . 5 PUNTOS
+
+
+
+
+
