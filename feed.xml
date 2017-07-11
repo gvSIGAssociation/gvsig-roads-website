@@ -5,9 +5,59 @@
     <description></description>
     <link>http://www.gvsigroads.com/</link>
     <atom:link href="http://www.gvsigroads.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 28 Jun 2017 15:17:11 +0200</pubDate>
-    <lastBuildDate>Wed, 28 Jun 2017 15:17:11 +0200</lastBuildDate>
+    <pubDate>Tue, 11 Jul 2017 12:23:51 +0200</pubDate>
+    <lastBuildDate>Tue, 11 Jul 2017 12:23:51 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Es: SERVICIO DE LIMPIEZA VIARIA</title>
+        <description>&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;qué_te_ofrece_gvsig_roads&quot;&gt;¿Qué te ofrece gvSIG Roads?&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;
+&lt;hr class=&quot;primary&quot;&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Además de cumplir con las necesidades que piden aportar según el pliego, dispondrán de una herramienta para la gestión de incidencias y control de los trabajos así como las certificaciones que tendrá la capacidad de ser adaptada a las necesidades del Ayuntamiento.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;strong&gt;GVSIG ROADS&lt;/strong&gt; permite un alto grado de personalización según exigencias de la dirección facultativa del contrato.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;cómo_lo_valoran&quot;&gt;¿Cómo lo valoran?&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;
+&lt;hr class=&quot;primary&quot;&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;CRITERIOS CUANTIFICABLES SEGÚN JUICIO DE VALOR&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;ORGANIZACIÓN TÉCNICA DEL SERVICIO: &lt;em&gt;30 PUNTOS&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Sistema de aplicación o plataforma para la gestión informática del servicio y dotación de tablets o pda&amp;#8217;s para el personal de inspección.
+Esta aplicación o plataforma será complementaria a lo disiesto en el apartado 5 &quot;Control de prestación de los servicios&quot; del PPT.
+&lt;em&gt;5 PUNTOS&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+        <pubDate>Tue, 04 Jul 2017 00:00:00 +0200</pubDate>
+        <link>http://www.gvsigroads.com/es/biddings/licitacion-limpieza-viaria-ayuntamiento-Parla</link>
+        <guid isPermaLink="true">http://www.gvsigroads.com/es/biddings/licitacion-limpieza-viaria-ayuntamiento-Parla</guid>
+        
+        
+        <category>es</category>
+        
+        <category>biddings</category>
+        
+      </item>
     
       <item>
         <title>Es: 41/1/2017 - CONTRATO COEX LOTES 1, 2, 3 Y 4</title>
@@ -314,27 +364,6 @@ conservation on gvSIG Roads.&lt;/p&gt;
         
         
         <category>es</category>
-        
-        <category>project</category>
-        
-      </item>
-    
-      <item>
-        <title>En: gvSIG Roads video: creation of inventory</title>
-        <description>&lt;div class=&quot;sect1&quot;&gt;
-&lt;h2 id=&quot;gvsig_roads_application&quot;&gt;gvSIG Roads Application&lt;/h2&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Demo video of the application that shows the inventory creation on gvSIG Roads.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
-        <pubDate>Mon, 01 Feb 2016 00:00:00 +0100</pubDate>
-        <link>http://www.gvsigroads.com/en/project/gvsig-roads-video-inventory-managament</link>
-        <guid isPermaLink="true">http://www.gvsigroads.com/en/project/gvsig-roads-video-inventory-managament</guid>
-        
-        
-        <category>en</category>
         
         <category>project</category>
         

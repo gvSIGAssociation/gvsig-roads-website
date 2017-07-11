@@ -1435,6 +1435,9 @@ div.mt.biddings .intro h2{
   font-size: 1.3em;
 text-align: justify;
 }
+div.mt.biddings .info p{
+  text-align: left;
+}
 div.mt.biddings h3{
   font-size: 1.1em;
 }
