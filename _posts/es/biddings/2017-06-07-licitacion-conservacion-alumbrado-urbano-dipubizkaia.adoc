@@ -8,7 +8,7 @@ categories:
 ref: Dipu-Bizkaia
 title: ASISTENCIA TÉCNICA PARA LA CONSERVACIÓN INTEGRAL DE INSTALACIONES DE ALUMBRADO PÚBLICO DE CARRETERAS Y ESTACIONES DE BOMBEO
 date: 2017-06-03
-term: 2017-07-12
+term: 2017-08-07
 tipus: Servicios
 place: Bizkaia
 entity: Diputación Foral de Bizkaia
