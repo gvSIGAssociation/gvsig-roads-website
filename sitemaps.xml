@@ -3,24 +3,24 @@
   
     
       <url>
-        <loc>/es/biddings/licitacion-limpieza-viaria-ayuntamiento-Parla</loc>
+        <loc>/es/biddings/carril-bici-sevilla</loc>
         
         
-          <xhtml:link rel="alternate" hreflang="es" href="/es/biddings/licitacion-limpieza-viaria-ayuntamiento-Parla" />
+          <xhtml:link rel="alternate" hreflang="es" href="/es/biddings/carril-bici-sevilla" />
         
-        <lastmod>2017-07-04T00:00:00+02:00</lastmod>
+        <lastmod>2017-07-20T00:00:00+02:00</lastmod>
         <changefreq>weekly</changefreq>
       </url>
     
   
     
       <url>
-        <loc>/es/biddings/licitacion-dip-caceres</loc>
+        <loc>/es/biddings/licitacion-limpieza-viaria-ayuntamiento-Parla</loc>
         
         
-          <xhtml:link rel="alternate" hreflang="es" href="/es/biddings/licitacion-dip-caceres" />
+          <xhtml:link rel="alternate" hreflang="es" href="/es/biddings/licitacion-limpieza-viaria-ayuntamiento-Parla" />
         
-        <lastmod>2017-06-21T00:00:00+02:00</lastmod>
+        <lastmod>2017-07-04T00:00:00+02:00</lastmod>
         <changefreq>weekly</changefreq>
       </url>
     
@@ -45,18 +45,6 @@
           <xhtml:link rel="alternate" hreflang="es" href="/es/biddings/licitacion-conservacion-alumbrado-urbano-dipubizkaia" />
         
         <lastmod>2017-06-03T00:00:00+02:00</lastmod>
-        <changefreq>weekly</changefreq>
-      </url>
-    
-  
-    
-      <url>
-        <loc>/es/biddings/licitacion-viaria-recogida-y-transporte-ayuntamiento-Jaen</loc>
-        
-        
-          <xhtml:link rel="alternate" hreflang="es" href="/es/biddings/licitacion-viaria-recogida-y-transporte-ayuntamiento-Jaen" />
-        
-        <lastmod>2017-06-02T00:00:00+02:00</lastmod>
         <changefreq>weekly</changefreq>
       </url>
     
