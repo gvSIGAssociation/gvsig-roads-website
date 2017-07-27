@@ -5,7 +5,7 @@ categories:
   - es
   - biddings
 # Custom
-published: true
+published: false
 ref: Ayu-Jaen
 title: LIMPIEZA VIARIA, RECOGIDA Y TRANSPORTE DE RSU Y SERVICIOS COMPLEMENTARIOS DE LA CIUDAD DE JAÉN
 date: 2017-06-02

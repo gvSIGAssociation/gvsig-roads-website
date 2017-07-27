@@ -19,12 +19,9 @@ documentPDF:
   - padm-ayto-sevilla-bici.pdf
 sections:
 - RED DE CARRILES BICI
-
-El Ayuntamiento requiere que la empresa adjudicataria instale una solución tecnológica para la gestión de la conservación de los carriles bici basa da en SOFTWARE LIBRE bajo la Licencia GNU affero/GPL
-
-El licitador presentará, una Memoria técnica, descriptiva y justificativa de la solución tecnológica I+D+i, de la Implantación, integración y puesta en marcha de una aplicación Web basada en software libre, para la gestión y control de la conservación de la Red Ciclista, que incluya el componente espacial o localización de las actuaciones.
-
-Esta aplicación, como medio auxiliar del contrato, tendrá que estar disponible, con los requisitos mínimos descritos anteriormente, con carácter previo a la adjudicación del contrato de adjudicación, siendo informada previamente por los Servicios proponentes de esta licitación, al objeto de verificar la idoneidad técnica de la aplicación propuesta.
+- El Ayuntamiento requiere que la empresa adjudicataria instale una solución tecnológica para la gestión de la conservación de los carriles bici basa da en SOFTWARE LIBRE bajo la Licencia GNU affero/GPL
+- El licitador presentará, una Memoria técnica, descriptiva y justificativa de la solución tecnológica I+D+i, de la Implantación, integración y puesta en marcha de una aplicación Web basada en software libre, para la gestión y control de la conservación de la Red Ciclista, que incluya el componente espacial o localización de las actuaciones.
+- Esta aplicación, como medio auxiliar del contrato, tendrá que estar disponible, con los requisitos mínimos descritos anteriormente, con carácter previo a la adjudicación del contrato de adjudicación, siendo informada previamente por los Servicios proponentes de esta licitación, al objeto de verificar la idoneidad técnica de la aplicación propuesta.
 ---
 
 ## ¿Qué te ofrece gvSIG Roads?
@@ -32,13 +29,11 @@ Esta aplicación, como medio auxiliar del contrato, tendrá que estar disponible
 <hr class="primary">
 +++
 
-Además de cumplir con las necesiades que piden aportar según el pliego podemos proporcionar lo siguiente:
+Además de cumplir con las necesidades que piden aportar según el pliego, podemos proporcionar lo siguiente:
 
-Aplicación demo para mostrar con carácter previo a la adjuducación al objeto que la Gerencia de Urbanismo verifique su idoneidad técnica.
-
-Memoria técnica completa sobre las funcionalidades de la aplicación donde se especifique el completo cumplimiento con los requisitos solicitados
-
-Poner en funcionamiento la herramienta en el plazo de un mes como se requiere en el Artículo 5 apartado J
+* Aplicación demo para mostrar con carácter previo a la adjuducación al objeto que la Gerencia de Urbanismo verifique su idoneidad técnica.
+* Memoria técnica completa sobre las funcionalidades de la aplicación donde se especifique el completo cumplimiento con los requisitos solicitados.
+* Poner en funcionamiento la herramienta en el plazo de un mes como se requiere en el Artículo 5 apartado J.
 
 
 

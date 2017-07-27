@@ -5,7 +5,7 @@ categories:
   - es
   - biddings
 # Custom
-published: true
+published: false
 ref: Dip-Cáceres
 title: 41/1/2017 - CONTRATO COEX LOTES 1, 2, 3 Y 4
 date: 2017-06-21
