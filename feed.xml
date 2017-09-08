@@ -5,8 +5,8 @@
     <description></description>
     <link>http://www.gvsigroads.com/</link>
     <atom:link href="http://www.gvsigroads.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 27 Jul 2017 08:56:57 +0200</pubDate>
-    <lastBuildDate>Thu, 27 Jul 2017 08:56:57 +0200</lastBuildDate>
+    <pubDate>Fri, 08 Sep 2017 14:14:52 +0200</pubDate>
+    <lastBuildDate>Fri, 08 Sep 2017 14:14:52 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -158,54 +158,6 @@ Colaboradores: Un Informático, para realizar el apoyo de la gestión de la base
       </item>
     
       <item>
-        <title>Es: ASISTENCIA TÉCNICA PARA LA CONSERVACIÓN INTEGRAL DE INSTALACIONES DE ALUMBRADO PÚBLICO DE CARRETERAS Y ESTACIONES DE BOMBEO</title>
-        <description>&lt;div class=&quot;sect1&quot;&gt;
-&lt;h2 id=&quot;qué_te_ofrece_gvsig_roads&quot;&gt;¿Qué te ofrece gvSIG Roads?&lt;/h2&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;
-&lt;hr class=&quot;primary&quot;&gt;
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;La Diputación requiere de una gestión informatizada del servicio con una parte importante de personalización, por ello lo que necesitamos es una aplicación que se pueda adaptar a los diferentes requerimientos. La plataforma de gestión de activos gvSIG Roads está diseñada para poder desarrollar sobre ella y atendiendo a los requerimientos de la dirección facultativa del contrato cualquier condición descrita en el pliego.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;El flujo de trabajo que dispone para el mantenimiento del inventario vial es práctimente igual. Agenda de estado, incidencias, inventario pormenorizado, nos permitirá archivar, consultar, seleccionar y tratar los datos para su utilización, tanto para la programación y ordenación de trabajos, como para obtener y facilitar la información que se requiera&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Módulos como los de inventario, agenda, informes y otros ya están disponibles en la aplicación que sin coste de licencias ni número de usuarios permite a la administración eliminar coste para el ciudadano.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect1&quot;&gt;
-&lt;h2 id=&quot;como_lo_valoran&quot;&gt;Como lo valoran&lt;/h2&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;
-&lt;hr class=&quot;primary&quot;&gt;
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;criterios_no_cuantificables_automáticamente&quot;&gt;Criterios no cuantificables automáticamente:&lt;/h3&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Presentación de las aplicaciones informáticas de gestión, control de producción etc. que se compromete a utilizar en el contrato en el caso de adjudicación favorable y aceptación por la Diputación Foral de Bizcaia.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
-        <pubDate>Sat, 03 Jun 2017 00:00:00 +0200</pubDate>
-        <link>http://www.gvsigroads.com/es/biddings/licitacion-conservacion-alumbrado-urbano-dipubizkaia</link>
-        <guid isPermaLink="true">http://www.gvsigroads.com/es/biddings/licitacion-conservacion-alumbrado-urbano-dipubizkaia</guid>
-        
-        
-        <category>es</category>
-        
-        <category>biddings</category>
-        
-      </item>
-    
-      <item>
         <title>Es: Video gvSIG Roads: creación de inventario</title>
         <description>&lt;div class=&quot;sect1&quot;&gt;
 &lt;h2 id=&quot;aplicación_gvsig_roads&quot;&gt;Aplicación gvSIG Roads&lt;/h2&gt;
@@ -327,6 +279,39 @@ conservation on gvSIG Roads.&lt;/p&gt;
         
         
         <category>en</category>
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>Es: Video gvSIG Roads: plugin actualización de los ejes de carretera</title>
+        <description>&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;plugin_gvsig_roads_actualización_de_ejes_de_la_cartografía&quot;&gt;Plugin gvSIG Roads: actualización de ejes de la cartografía&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Herramientas de alta y baja de ejes de carreteras con gvSIG Roads sobre
+gvSIG Desktop.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Al ser una solución integral se dispone de un potente
+Sistema de Información Geográfica de escritorio para las tareas
+cartográficas avanzadas.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Permite dar de alta un nuevo eje de carreteras o dar de baja uno existente.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Incluye Vistas 3D.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+        <pubDate>Wed, 16 Dec 2015 17:54:46 +0100</pubDate>
+        <link>http://www.gvsigroads.com/es/project/plugin-gvsig-roads-actualizacion-de-los-ejes-de-carretera</link>
+        <guid isPermaLink="true">http://www.gvsigroads.com/es/project/plugin-gvsig-roads-actualizacion-de-los-ejes-de-carretera</guid>
+        
+        
+        <category>es</category>
         
         <category>project</category>
         
