@@ -461,6 +461,12 @@ li.nav-item{
     }
 }
 
+@media (min-width: 1300px) {
+    .promo .title {
+      margin-top: 6em;
+    }
+}
+
 @media (min-width: 280px) and (max-width: 600px) {
     .promo .title {
      margin-top: 3em;

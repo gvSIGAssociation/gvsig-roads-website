@@ -5,6 +5,7 @@ categories:
   - es
   - biddings
 # Custom
+published: false
 ref: Dipu-Bizkaia
 title: ASISTENCIA TÉCNICA PARA LA CONSERVACIÓN INTEGRAL DE INSTALACIONES DE ALUMBRADO PÚBLICO DE CARRETERAS Y ESTACIONES DE BOMBEO
 date: 2017-06-03
