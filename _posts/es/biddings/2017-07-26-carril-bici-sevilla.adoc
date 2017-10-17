@@ -5,7 +5,7 @@ categories:
   - es
   - biddings
 # Custom
-published: true
+published: false
 ref: Ayu-Sevilla
 title: Servicio de Inspección, mantenimiento, reparación y mejora de infraestructuras e instalaciones de la red de carriles bici
 date: 2017-07-20

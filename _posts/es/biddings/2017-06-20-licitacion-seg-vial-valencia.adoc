@@ -5,7 +5,7 @@ categories:
   - es
   - biddings
 # Custom
-published: true
+published: false
 ref: Dip-Valencia
 title: APOYO TÉCNICO PARA LA ELABORACIÓN Y DESARROLLO DE LOS PROGRAMAS DE SEGURIDAD VIAL 2017-2019 DEL ÁREA DE CARRETERAS E INFRAESTRUCTURAS DE LA DIPUTACIÓN DE VALENCIA
 date: 2017-06-19
