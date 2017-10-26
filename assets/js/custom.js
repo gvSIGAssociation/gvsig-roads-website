@@ -25,10 +25,11 @@
     /* ======= ScrollTo ======= */
     $('a.scrollto').on('click', function(e){
 
+        debugger;
 	    //store hash
 	    var target = this.hash;
 
-	    e.preventDefault();
+	    //e.preventDefault();
 
 		$('body').scrollTo(target, 800, {offset: -40, 'axis':'y', easing:'easeOutQuad'});
 		        //Collapse mobile menu after clicking
